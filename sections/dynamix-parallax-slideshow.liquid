@@ -1,0 +1,265 @@
+<section
+  data-section-id="{{ section.id }}"
+  data-section-type="dynamic-parallax-slideshow"
+  class="slideshow parallax-slideshow hidden"
+  style="
+    --desktop-height: {{ section.settings.desktop_height }}vh;
+    --mobile-height: {{ section.settings.mobile_height }}vh;
+  "
+>
+  <ul class="js-slideshow">
+  {%- for block in section.blocks -%}
+
+    {%- liquid
+      assign link_text = block.settings.link_text
+      assign link_url = block.settings.link
+      assign title = block.settings.title
+      assign subheading = block.settings.subheading
+      assign text_color = block.settings.text_color
+      assign desktop_image = block.settings.image
+      assign mobile_image = block.settings.mobile_image
+    -%}
+
+    <li class="slideshow__slide{% if mobile_image != blank %} slideshow__slide--has-mobile-image{% endif %}" {{ block.shopify_attributes }} data-index="{{ forloop.index0 }}">
+      {%- if link_text == blank and link_url != blank -%}
+        <a class="slideshow__slide-link" href="{{ link_url }}">
+      {%- endif -%}
+
+        {%- if desktop_image == blank -%}
+          {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+          <div class="slideshow__placeholder">{{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}</div>
+        {%- endif -%}
+
+        <div
+          class="slideshow__overlay o-{{ block.settings.overlay_opacity }}"
+          style="background-color: {{ block.settings.overlay_color }};">
+        </div>
+
+        <div class="slideshow__content-wrap slideshow__content-wrap--{{ block.settings.vertical_text_position }}">
+          <div class="slideshow__content">
+            <div class="slideshow__content-inner slideshow__content-inner--{{ block.settings.horizontal_text_position }}">
+              {%- if title != blank -%}
+                <h2
+                  class="slideshow__heading type-heading-display"
+                  style="color: {{ text_color }}; max-width: {{ block.settings.heading_max_width }}em;"
+                >
+                  {{ title }}
+                </h2>
+              {%- endif -%}
+              {%- if subheading != blank -%}
+                <p
+                  class="slideshow__subheading type-body-regular"
+                  style="color: {{ text_color }}; max-width: {{ block.settings.text_max_width }}em;"
+                >
+                  {{ subheading }}
+                </p>
+              {%- endif -%}
+
+              {%- if link_url != blank and link_text != blank -%}
+                {%- if block.settings.link_style == 'button' -%}
+                  <a href="{{ link_url }}" class="slideshow__link bttn {{ horizontal_position }}">{{ link_text }}</a>
+                {%- else -%}
+                  <a href="{{ link_url }}" class="slideshow__link accent-link {{ horizontal_position }}">{{ link_text }} &rarr;</a>
+                {%- endif -%}
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+
+        {%- if desktop_image != blank -%}
+          {% render 'responsive-image-fill' with
+            image: desktop_image,
+            wrapper_class: 'slideshow__image slideshow__image--desktop',
+            max_width: 3000,
+            max_height: 4000
+          %}
+        {%- endif -%}
+
+        {%- if mobile_image != blank and desktop_image != blank -%}
+          {% render 'responsive-image-fill' with
+            image: mobile_image,
+            wrapper_class: 'slideshow__image slideshow__image--mobile',
+            max_width: 3000,
+            max_height: 4000
+          %}
+        {%- endif -%}
+
+      {%- if link_text == blank and link_url != blank -%}
+        </a>
+      {%- endif -%}
+    </li>
+
+
+  {%- endfor -%}
+  </ul>
+</section>
+
+{% schema %}
+  {
+    "name": "Parallax slideshow",
+    "settings": [
+      {
+        "type": "range",
+        "id": "desktop_height",
+        "label": "Height",
+        "unit": "%",
+        "min": 50,
+        "max": 100,
+        "step": 5,
+        "default": 100
+      },
+      {
+        "type": "range",
+        "id": "mobile_height",
+        "label": "Mobile height",
+        "unit": "%",
+        "min": 50,
+        "max": 100,
+        "step": 5,
+        "default": 100
+      }
+    ],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image",
+            "info": "Landscape orientation (3:2 w:h). 1440 x 960px minimum recommended."
+          },
+          {
+            "id": "mobile_image",
+            "type": "image_picker",
+            "label": "Mobile image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading"
+          },
+          {
+            "type": "textarea",
+            "id": "subheading",
+            "label": "Subheading"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "link_text",
+            "label": "Link text",
+            "info": "The entire slide will become a link if this setting is left blank."
+          },
+          {
+            "type": "select",
+            "id": "link_style",
+            "label": "Link style",
+            "options": [
+              { "value": "button", "label": "Button" },
+              { "value": "arrow_link", "label": "Link with arrow" }
+            ],
+            "default": "button"
+          },
+          {
+            "type": "header",
+            "content": "Style"
+          },
+          {
+            "type": "range",
+            "id": "overlay_opacity",
+            "label": "Overlay opacity",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 60,
+            "unit": "%"
+          },
+          {
+            "type": "color",
+            "id": "overlay_color",
+            "label": "Overlay color",
+            "default": "#707070"
+          },
+          {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color",
+            "default": "#ffffff"
+          },
+          {
+            "type": "range",
+            "id": "heading_max_width",
+            "label": "Max width of heading",
+            "min": 8,
+            "max": 30,
+            "step": 1,
+            "default": 16
+          },
+          {
+            "type": "range",
+            "id": "text_max_width",
+            "label": "Max width of text",
+            "min": 16,
+            "max": 38,
+            "step": 1,
+            "default": 24
+          },
+          {
+            "type": "select",
+            "id": "horizontal_text_position",
+            "label": "Horizontal text position",
+            "options": [
+              { "value": "left", "label": "Left" },
+              { "value": "center", "label": "Center" },
+              { "value": "right", "label": "Right" }
+            ],
+            "default": "left"
+          },
+          {
+            "type": "select",
+            "id": "vertical_text_position",
+            "label": "Vertical text position",
+            "options": [
+              { "value": "top", "label": "Top" },
+              { "value": "middle", "label": "Middle" },
+              { "value": "bottom", "label": "Bottom" }
+            ],
+            "default": "middle"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Parallax slideshow",
+        "category": "Image",
+        "blocks": [
+          {
+            "type": "slide",
+            "settings": {
+              "title": "This is your slideshow",
+              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          },
+          {
+            "type": "slide",
+            "settings": {
+              "title": "This is your slideshow",
+              "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,93 @@
+{% comment %} {% paginate blog.articles by 6 %}
+{% endpaginate %} {% endcomment %}
+  <div class="blog__heading">
+    {%- assign blog_title = blog.title -%}
+
+    {% if current_tags %}
+      {% capture blog_title %}{{ blog.title | link_to: blog.url }} &mdash; {{ current_tags.first }}{% endcapture %}
+    {% endif %}
+
+    <div class="flex-ns justify-between-ns items-center-ns mt4 mb4 mb3-ns tc tl-ns">
+      <h2 class="dn-ns page-header__crumbs type-heading-meta mb2"><a href="{{ routes.root_url }}" class="color-inherit">{{ 'general.meta.home' | t }}</a> / {{ blog.title }}</h2>
+      <h1 class="ma0 type-heading-1">{{ blog_title }}</h1>
+      {% comment %} <a href="/blogs/{{ blog.handle }}.atom" class="blog__rss underline dn di-ns">{{ 'general.meta.rss' | t }}</a> {% endcomment %}
+    </div>
+
+  </div>
+
+  <div class="blog__container">
+    {% comment %}
+
+    Article Previews
+    ====================
+    {% endcomment %}
+
+    <section class="blog__articles">
+      {% for article in blog.articles %}
+      <div class="pa1 w-100 pa2-ns w-50-m w-third-l">
+        <article class="blog__article">
+          {% if article.image %}
+            <a href="{{ article.url }}" class="{% render 'aspect-ratio-modifier' with aspect_ratio: section.settings.aspect_ratio %}">
+              {% render 'responsive-image' with
+                image: article.image,
+                max_width: 520,
+                max_height: 750
+              %}
+            </a>
+          {% endif %}
+
+          <div class="blog__article-content">
+
+            <div>
+              <h3 class="blog__article-heading type-heading-2">
+                <a href="{{ article.url }}">{{ article.title }}</a>
+              </h3>
+
+              <div class="blog__article-excerpt type-body-small">{{ article.excerpt_or_content | strip_html | truncate: 200 }}</div>
+            </div>
+
+            {% comment %} {% capture date %}{{ article.published_at | time_tag: format: 'month_day_year' }}{% endcapture %}
+            <div class="type-heading-meta meta">{{ date }}</div> {% endcomment %}
+          </div>
+
+        </article>
+      </div>
+      {% endfor %}
+    </section>
+
+    {% comment %} <div class="blog__pagination">
+      {% if paginate.pages > 1 %}
+        {% render 'pagination' with
+          type: 'general.pagination.blog_posts',
+          paginate: paginate
+        %}
+      {% else %}
+        {% render 'pagination' with
+          type: 'general.pagination.blog_posts',
+          display_paginate_item_count_only: true,
+          paginate: paginate
+        %}
+      {% endif %}
+    </div> {% endcomment %}
+
+  </div>
+
+{% schema %}
+  {
+    "name": "Blog pages",
+    "settings": [
+      {
+        "id": "aspect_ratio",
+        "type": "select",
+        "label": "Image aspect ratio",
+        "options": [
+          { "label": "Natural", "value": "natural" },
+          { "label": "Square (1:1)", "value": "square" },
+          { "label": "Landscape (3:2)", "value": "landscape" },
+          { "label": "Portrait (2:3)", "value": "portrait" }
+        ],
+        "default": "square"
+      }
+    ]
+  }
+{% endschema %}

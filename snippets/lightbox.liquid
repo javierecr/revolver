@@ -1,0 +1,63 @@
+<div class="lightboxx" data-lightboxx>
+  {% if images.size > 1 %}
+    <div class="lightboxx__image-nav">
+      <div class="lightboxx__image-nav-inner">
+        {%- for image in images -%}
+          <button
+            type="button"
+            class="lightboxx__image-nav-image lazyload"
+            data-nav-item data-index="{{ forloop.index0 }}"
+            style="background-size: cover; background-position: center;"
+            data-bgset="{% render 'responsive-bg-image', image: image %}"
+            role="img"
+            aria-label="{{ image.alt }}"
+          >
+          </button>
+        {%- endfor -%}
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="lightboxx__nav">
+    <button
+      type="button"
+      class="lightboxx__button lightboxx__button-previous"
+      aria-label="{{ 'general.accessibility.carousel_previous' | t }}"
+      data-prev
+    >
+      {% render 'icon', with icon: 'chevron-left' %}
+    </button>
+    <button
+      class="lightboxx__button lightboxx__button-close"
+      data-close
+      aria-label="{{ 'general.accessibility.close_modal' | t }}"
+    >
+      {% render 'icon' with icon: 'close' %}
+    </button>
+    <button
+      type="button"
+      class="lightboxx__button lightboxx__button-next"
+      aria-label="{{ 'general.accessibility.carousel_next' | t }}"
+      data-next
+    >
+      {% render 'icon', with icon: 'chevron-right' %}
+    </button>
+  </div>
+  <div class="lightboxx__images-wrapper">
+    <div class="lightboxx__images" data-slider data-scroll-lock-ignore>
+      {%- for image in images -%}
+        <div
+          class="lightboxx__image"
+          data-id="{{ image.id }}"
+          data-slide
+          data-slide-index="{{ forloop.index0 }}"
+        >
+          {% render 'responsive-image' with
+            image: image,
+            max_width: 3000
+          %}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>

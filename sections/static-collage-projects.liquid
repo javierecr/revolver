@@ -1,0 +1,58 @@
+<section
+  data-section-id="{{ section.id }}"
+  data-section-type="dynamic-collage"
+  class="section collage-section"
+  style="padding-right: 0; padding-left: 0;"
+>
+  <div class="js-mg-{{ section.id }} collage cf">
+
+  {% assign blogHandle = blog.title | handleize | append: '-' %}
+  {% assign projectHandle = article.title | handleize | append: '-' %}
+
+    {% for i in (0..100) %}
+      {% assign fotoNumber = forloop.index0 %}
+      {% if i < 10  %}
+        {% assign fotoNumber = i | prepend: '0' %}
+      {% endif %}
+  
+  	  {% assign finalName = blogHandle | append: projectHandle | append: fotoNumber | append: '.jpg' %}
+  	  {% assign finalFile = images[finalName]  %}
+      
+      {% liquid
+        assign video_link_verified = false
+
+        if block.settings.video_url contains '.mp4'
+          assign video_link_verified = true
+        endif
+      %}
+
+
+      {% if finalFile.width != blank  %}
+        <div class="collage__item">
+          <a href="{{ finalName | file_img_url: 'master' }}" data-lightbox="{{article.id}}" data-title="{{artlicle.title}}">
+          <div
+            data-bgset="{% render 'responsive-bg-image' with image: finalFile %}"
+            role="img"
+            aria-label="{{ finalFile.alt }}"
+            class="collage__item-inner 
+            {% if finalFile.height > finalFile.width %}collage__item-inner--large{% endif %} lazyload"
+          >
+  
+            {% comment %} {% if finalName == blank and video_link_verified == false %}
+              <div class="collage__placeholder">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+            {% endif %} {% endcomment %}
+          </div>
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Image Gallery",
+    "blocks": []
+  }
+{% endschema %}
