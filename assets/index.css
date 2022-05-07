@@ -11960,6 +11960,15 @@ div[data-media-type='external_video'] iframe {
   margin-top: var(--spacing-medium);
 }
 
+@media (min-width: 38em) {
+  .featured-product__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+}
+
 @media (min-width: 60em) {
   .featured-product__details {
     width: 50%;
