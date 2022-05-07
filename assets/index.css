@@ -12508,6 +12508,15 @@ div[data-media-type='external_video'] iframe {
 }
 
 @media (min-width: 38em) {
+  .text-columns__middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (min-width: 38em) {
   .text-columns__feature--1,
   .text-columns__feature--2 {
     width: 50%;
