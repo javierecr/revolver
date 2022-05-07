@@ -605,7 +605,7 @@
             "type": "column",
             "settings": {
               "image_max_width": 100,
-              "title": "Some header here",
+              "title": "Conoce a Fernanda Bonserio",
               "subheading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eaque, ad earum corrupti voluptate accusamus amet voluptatem possimus totam, autem similique ipsa! Pariatur iste placeat ea voluptate nemo error incidunt!",
               "link": "",
               "link_text": ""
@@ -737,6 +737,41 @@
         "settings": {
           "large_text": false
         }
+      },
+      "165195300589c844c8": {
+        "type": "dynamic-text-columns-with-images",
+        "blocks": {
+          "165195300589c844c8-0": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/two-dark-cups-coffee-with-milk-caramel-latte-art-texture-isolated-bright-marble-background-overhead-view-copy-space-advertising-cafe-menu-coffee-shop-menu-vertical-photo_120962-2211.webp",
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "",
+              "link": "",
+              "link_text": ""
+            }
+          },
+          "165195300589c844c8-1": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "El mejor café en shootings",
+              "subheading": "Get into your process a bit. The quality of handiwork, proprietary knowledge, or materials that you use that make your products better.",
+              "link": "",
+              "link_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "165195300589c844c8-0",
+          "165195300589c844c8-1"
+        ],
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "outline": false
+        }
       }
     },
     "content_for_index": [
@@ -745,7 +780,8 @@
       "16519523292a55db6b",
       "165195246341c1e129",
       "1651952618cef176b5",
-      "1651952738bbee495a"
+      "1651952738bbee495a",
+      "165195300589c844c8"
     ]
   },
   "presets": {
