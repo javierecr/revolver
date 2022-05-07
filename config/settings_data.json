@@ -28,10 +28,10 @@
     "color_drawer_meta_text": "#c3c3c3",
     "color_drawer_bg": "#212121",
     "color_drawer_border": "#434343",
-    "color_footer_text": "#363636",
-    "color_footer_meta_text": "#737373",
-    "color_footer_bg": "#f9f9f9",
-    "color_footer_border": "#e2e2e2",
+    "color_footer_text": "#ffffff",
+    "color_footer_meta_text": "#ffffff",
+    "color_footer_bg": "#050505",
+    "color_footer_border": "#050505",
     "color_footer_input": "#ffffff",
     "color_footer_input_text": "#757575",
     "font_heading": "archivo_n7",
@@ -84,21 +84,6 @@
       "static-footer": {
         "type": "static-footer",
         "blocks": {
-          "static-footer-0": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "title": "About the shop",
-              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
-            }
-          },
-          "static-footer-1": {
-            "type": "link_list",
-            "disabled": true,
-            "settings": {
-              "menu": "main-menu"
-            }
-          },
           "static-footer-2": {
             "type": "link_list",
             "settings": {
@@ -107,13 +92,11 @@
           }
         },
         "block_order": [
-          "static-footer-0",
-          "static-footer-1",
           "static-footer-2"
         ],
         "settings": {
           "show_newsletter_signup": true,
-          "show_payment_icons": false,
+          "show_payment_icons": true,
           "show_locale_selector": false,
           "show_currency_selector": false
         }
@@ -575,18 +558,6 @@
           "outline": false
         }
       },
-      "163512551780e65bd9": {
-        "type": "dynamic-video",
-        "settings": {
-          "title": "",
-          "subheading": "",
-          "meta": "",
-          "video_url": "https:\/\/youtu.be\/rC5s_Lkd9wU",
-          "overlay_opacity": 0,
-          "overlay_color": "",
-          "text_color": ""
-        }
-      },
       "16519523292a55db6b": {
         "type": "dynamic-text-columns-with-images",
         "blocks": {
@@ -657,7 +628,7 @@
               "image": "shopify:\/\/shop_images\/man-running-at-the-track.jpg",
               "size": "small",
               "video_url": "",
-              "overlay_opacity": 50,
+              "overlay_opacity": 0,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "heading": "",
@@ -676,7 +647,7 @@
               "image": "shopify:\/\/shop_images\/cross-fit-rope-workout.jpg",
               "size": "large",
               "video_url": "",
-              "overlay_opacity": 50,
+              "overlay_opacity": 0,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "heading": "",
@@ -695,7 +666,7 @@
               "image": "shopify:\/\/shop_images\/woman-jumping-workout.jpg",
               "size": "large",
               "video_url": "",
-              "overlay_opacity": 50,
+              "overlay_opacity": 0,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "heading": "",
@@ -714,7 +685,7 @@
               "image": "shopify:\/\/shop_images\/exercise-balance.jpg",
               "size": "small",
               "video_url": "",
-              "overlay_opacity": 50,
+              "overlay_opacity": 0,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "heading": "",
@@ -841,7 +812,6 @@
     },
     "content_for_index": [
       "dynamic-slideshow0",
-      "163512551780e65bd9",
       "16519523292a55db6b",
       "165195246341c1e129",
       "1651952618cef176b5",
