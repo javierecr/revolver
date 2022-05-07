@@ -12123,11 +12123,11 @@ div[data-media-type='external_video'] iframe {
   padding-left: var(--spacing-small);
 }
 
-@media (min-width: 38em) {
+/* @media (min-width: 38em) {
   .images-with-text__item {
     width: 50%;
   }
-}
+} */
 
 /* .images-with-text__item-inner {
   background-color: var(--color-contrast-bg);
