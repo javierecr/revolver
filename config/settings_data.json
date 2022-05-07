@@ -84,21 +84,6 @@
       "static-footer": {
         "type": "static-footer",
         "blocks": {
-          "static-footer-0": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "title": "About the shop",
-              "text": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
-            }
-          },
-          "static-footer-1": {
-            "type": "link_list",
-            "disabled": true,
-            "settings": {
-              "menu": "main-menu"
-            }
-          },
           "static-footer-2": {
             "type": "link_list",
             "settings": {
@@ -107,8 +92,6 @@
           }
         },
         "block_order": [
-          "static-footer-0",
-          "static-footer-1",
           "static-footer-2"
         ],
         "settings": {
