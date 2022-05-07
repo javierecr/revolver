@@ -647,6 +647,96 @@
           "enable_video_looping": true,
           "outline": false
         }
+      },
+      "1651952738bbee495a": {
+        "type": "dynamic-collage",
+        "blocks": {
+          "1651952738bbee495a-0": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/man-running-at-the-track.jpg",
+              "size": "small",
+              "video_url": "",
+              "overlay_opacity": 50,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "text_max_width": 20,
+              "link": "",
+              "link_text": "",
+              "link_style": "button",
+              "horizontal_text_position": "left",
+              "vertical_text_position": "top"
+            }
+          },
+          "1651952738bbee495a-1": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cross-fit-rope-workout.jpg",
+              "size": "large",
+              "video_url": "",
+              "overlay_opacity": 50,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "text_max_width": 19,
+              "link": "",
+              "link_text": "",
+              "link_style": "button",
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          },
+          "1651952738bbee495a-2": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/woman-jumping-workout.jpg",
+              "size": "large",
+              "video_url": "",
+              "overlay_opacity": 50,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "text_max_width": 19,
+              "link": "",
+              "link_text": "",
+              "link_style": "button",
+              "horizontal_text_position": "left",
+              "vertical_text_position": "middle"
+            }
+          },
+          "1651952738bbee495a-3": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/exercise-balance.jpg",
+              "size": "small",
+              "video_url": "",
+              "overlay_opacity": 50,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "text_max_width": 19,
+              "link": "",
+              "link_text": "Don't forget to add a link or two",
+              "link_style": "arrow_link",
+              "horizontal_text_position": "right",
+              "vertical_text_position": "bottom"
+            }
+          }
+        },
+        "block_order": [
+          "1651952738bbee495a-0",
+          "1651952738bbee495a-1",
+          "1651952738bbee495a-2",
+          "1651952738bbee495a-3"
+        ],
+        "settings": {
+          "large_text": false
+        }
       }
     },
     "content_for_index": [
@@ -654,7 +744,8 @@
       "163512551780e65bd9",
       "16519523292a55db6b",
       "165195246341c1e129",
-      "1651952618cef176b5"
+      "1651952618cef176b5",
+      "1651952738bbee495a"
     ]
   },
   "presets": {
