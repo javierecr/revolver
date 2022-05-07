@@ -828,21 +828,11 @@
               "subheading": "",
               "link": ""
             }
-          },
-          "c42c5848-d27e-44c0-9c38-c82bd3905f21": {
-            "type": "block",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/exercise-balance.jpg",
-              "title": "",
-              "subheading": "",
-              "link": ""
-            }
           }
         },
         "block_order": [
           "1651953186ec9874ad-0",
-          "1651953186ec9874ad-1",
-          "c42c5848-d27e-44c0-9c38-c82bd3905f21"
+          "1651953186ec9874ad-1"
         ],
         "settings": {
           "aspect_ratio": "natural"
