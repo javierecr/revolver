@@ -10498,6 +10498,7 @@ div[data-media-type='external_video'] iframe {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
+  border: 1px solid var(--color-text);
 }
 
 .responsive-image__wrapper--align-right {
