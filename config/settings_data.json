@@ -808,54 +808,6 @@
           "outline": false
         }
       },
-      "1651953135745f0a5a": {
-        "type": "dynamic-collage",
-        "blocks": {
-          "1651953135745f0a5a-0": {
-            "type": "grid_item",
-            "settings": {
-              "size": "small",
-              "video_url": "",
-              "overlay_opacity": 50,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "This is the Collage.",
-              "subheading": "Mix and match between large portrait blocks and small landscape blocks.",
-              "text_max_width": 20,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "top"
-            }
-          },
-          "1651953135745f0a5a-1": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 50,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "This is a large portrait block.",
-              "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
-              "text_max_width": 19,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          }
-        },
-        "block_order": [
-          "1651953135745f0a5a-0",
-          "1651953135745f0a5a-1"
-        ],
-        "settings": {
-          "large_text": false
-        }
-      },
       "1651953186ec9874ad": {
         "type": "dynamic-images-with-text",
         "blocks": {
@@ -896,7 +848,6 @@
       "1651952738bbee495a",
       "165195300589c844c8",
       "1651953132816e0ca0",
-      "1651953135745f0a5a",
       "1651953186ec9874ad"
     ]
   },
