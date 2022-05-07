@@ -664,7 +664,7 @@
             "type": "grid_item",
             "settings": {
               "image": "shopify:\/\/shop_images\/woman-jumping-workout.jpg",
-              "size": "large",
+              "size": "small",
               "video_url": "",
               "overlay_opacity": 0,
               "overlay_color": "#000000",
@@ -697,13 +697,33 @@
               "horizontal_text_position": "right",
               "vertical_text_position": "bottom"
             }
+          },
+          "babaa865-f29b-4db2-88b5-6a68d3040951": {
+            "type": "grid_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/party-balloons-in-front-of-faces.jpg",
+              "size": "small",
+              "video_url": "",
+              "overlay_opacity": 50,
+              "overlay_color": "#000000",
+              "text_color": "#ffffff",
+              "heading": "",
+              "subheading": "",
+              "text_max_width": 25,
+              "link": "",
+              "link_text": "",
+              "link_style": "button",
+              "horizontal_text_position": "left",
+              "vertical_text_position": "top"
+            }
           }
         },
         "block_order": [
           "1651952738bbee495a-0",
           "1651952738bbee495a-1",
           "1651952738bbee495a-2",
-          "1651952738bbee495a-3"
+          "1651952738bbee495a-3",
+          "babaa865-f29b-4db2-88b5-6a68d3040951"
         ],
         "settings": {
           "large_text": false
