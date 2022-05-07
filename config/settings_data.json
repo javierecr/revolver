@@ -772,6 +772,41 @@
           "subheading": "",
           "outline": false
         }
+      },
+      "1651953132816e0ca0": {
+        "type": "dynamic-text-columns-with-images",
+        "blocks": {
+          "1651953132816e0ca0-0": {
+            "type": "column",
+            "settings": {
+              "image_max_width": 100,
+              "title": "PAU SOMMERZ",
+              "subheading": "Start here. Introduce your vision, or explain why what you do or sell is superior to your competitors.",
+              "link": "",
+              "link_text": ""
+            }
+          },
+          "1651953132816e0ca0-1": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/portrait-of-a-woman-wearing-business-attire.jpg",
+              "image_max_width": 100,
+              "title": "",
+              "subheading": "",
+              "link": "",
+              "link_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1651953132816e0ca0-0",
+          "1651953132816e0ca0-1"
+        ],
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "outline": false
+        }
       }
     },
     "content_for_index": [
@@ -781,7 +816,8 @@
       "165195246341c1e129",
       "1651952618cef176b5",
       "1651952738bbee495a",
-      "165195300589c844c8"
+      "165195300589c844c8",
+      "1651953132816e0ca0"
     ]
   },
   "presets": {
