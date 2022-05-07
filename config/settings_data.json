@@ -443,24 +443,6 @@
           "outline": false
         }
       },
-      "dynamic-full-width-image-2": {
-        "type": "dynamic-full-width-image",
-        "settings": {
-          "video_url": "",
-          "aspect_ratio": "3_2",
-          "overlay_opacity": 0,
-          "overlay_color": "#ffffff",
-          "text_color": "#121212",
-          "title": "",
-          "subheading": "",
-          "text_max_width": 16,
-          "link": "",
-          "link_text": "",
-          "link_style": "arrow_link",
-          "horizontal_text_position": "center",
-          "vertical_text_position": "bottom"
-        }
-      },
       "dynamic-blog-posts": {
         "type": "dynamic-blog-posts",
         "disabled": true,
@@ -593,158 +575,6 @@
           "outline": false
         }
       },
-      "1635123923caef0114": {
-        "type": "dynamic-full-width-image",
-        "settings": {
-          "video_url": "",
-          "aspect_ratio": "3_2",
-          "overlay_opacity": 0,
-          "overlay_color": "#707070",
-          "text_color": "#ffffff",
-          "title": "",
-          "subheading": "",
-          "text_max_width": 31,
-          "link": "",
-          "link_text": "",
-          "link_style": "button",
-          "horizontal_text_position": "left",
-          "vertical_text_position": "middle"
-        }
-      },
-      "163512427876e0bbc6": {
-        "type": "dynamic-collage",
-        "blocks": {
-          "163512427876e0bbc6-1": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          },
-          "54ce6ec2-ddb6-472d-9685-581a18800ec9": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 25,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "top"
-            }
-          },
-          "163512427876e0bbc6-2": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 50,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "",
-              "link_text": "",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "center",
-              "vertical_text_position": "bottom"
-            }
-          },
-          "dc4c74e5-1437-47e3-a0a2-99cfc764b7f4": {
-            "type": "grid_item",
-            "disabled": true,
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "top"
-            }
-          }
-        },
-        "block_order": [
-          "163512427876e0bbc6-1",
-          "54ce6ec2-ddb6-472d-9685-581a18800ec9",
-          "163512427876e0bbc6-2",
-          "dc4c74e5-1437-47e3-a0a2-99cfc764b7f4"
-        ],
-        "settings": {
-          "large_text": false
-        }
-      },
-      "163512521451b220c4": {
-        "type": "dynamic-rich-text",
-        "settings": {
-          "title": "\"Moncler Grenoble has to be practical and useful, but also playful without being bratty. I like to have an approach that is both amused and amusing\" Sandro Mandrino",
-          "text": "",
-          "link": "shopify:\/\/blogs\/blog",
-          "link_text": "Read more"
-        }
-      },
-      "16351252275ee0b26d": {
-        "type": "dynamic-images-with-text",
-        "disabled": true,
-        "blocks": {
-          "16351252275ee0b26d-1": {
-            "type": "block",
-            "settings": {
-              "title": "Yasmina",
-              "subheading": "View all",
-              "link": "shopify:\/\/blogs\/by-me\/yasmina"
-            }
-          },
-          "f7112c2c-d210-409c-adc4-21e4b75e3dd4": {
-            "type": "block",
-            "settings": {
-              "title": "Naya",
-              "subheading": "View all",
-              "link": "shopify:\/\/blogs\/by-me\/naya"
-            }
-          },
-          "5951bdcb-853f-4889-88aa-fdddd41571d3": {
-            "type": "block",
-            "settings": {
-              "title": "Alexa Maithe",
-              "subheading": "View all",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "16351252275ee0b26d-1",
-          "f7112c2c-d210-409c-adc4-21e4b75e3dd4",
-          "5951bdcb-853f-4889-88aa-fdddd41571d3"
-        ],
-        "settings": {
-          "aspect_ratio": "natural"
-        }
-      },
       "163512551780e65bd9": {
         "type": "dynamic-video",
         "settings": {
@@ -757,329 +587,46 @@
           "text_color": ""
         }
       },
-      "163512552370875713": {
-        "type": "dynamic-collage",
+      "16519523292a55db6b": {
+        "type": "dynamic-text-columns-with-images",
         "blocks": {
-          "163512552370875713-1": {
-            "type": "grid_item",
+          "16519523292a55db6b-0": {
+            "type": "column",
             "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
+              "image": "shopify:\/\/shop_images\/625733.jpg",
+              "image_max_width": 100,
+              "title": "",
               "subheading": "",
-              "text_max_width": 16,
               "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "center",
-              "vertical_text_position": "bottom"
+              "link_text": ""
             }
           },
-          "163512552370875713-2": {
-            "type": "grid_item",
+          "f9b16976-65a9-42f8-8259-70008237f95f": {
+            "type": "column",
             "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "PIA",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "shopify:\/\/blogs\/by-me\/pia-watson",
-              "link_text": "View all",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "center",
-              "vertical_text_position": "bottom"
-            }
-          },
-          "163512552370875713-0": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 16,
+              "image_max_width": 100,
+              "title": "Some header here",
+              "subheading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eaque, ad earum corrupti voluptate accusamus amet voluptatem possimus totam, autem similique ipsa! Pariatur iste placeat ea voluptate nemo error incidunt!",
               "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "top"
-            }
-          },
-          "163512552370875713-3": {
-            "type": "grid_item",
-            "disabled": true,
-            "settings": {
-              "size": "small",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "",
-              "link_text": "",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "right",
-              "vertical_text_position": "bottom"
-            }
-          },
-          "adb2ed5c-4321-44fb-952c-c079cc7f6279": {
-            "type": "grid_item",
-            "disabled": true,
-            "settings": {
-              "size": "small",
-              "video_url": "",
-              "overlay_opacity": 50,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 25,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "top"
+              "link_text": ""
             }
           }
         },
         "block_order": [
-          "163512552370875713-1",
-          "163512552370875713-2",
-          "163512552370875713-0",
-          "163512552370875713-3",
-          "adb2ed5c-4321-44fb-952c-c079cc7f6279"
+          "16519523292a55db6b-0",
+          "f9b16976-65a9-42f8-8259-70008237f95f"
         ],
         "settings": {
-          "large_text": false
-        }
-      },
-      "1635126275c8a88308": {
-        "type": "dynamic-collage",
-        "blocks": {
-          "1635126275c8a88308-0": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "top"
-            }
-          },
-          "1635126275c8a88308-1": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 19,
-              "link": "shopify:\/\/blogs\/blog",
-              "link_text": "Read more",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "center",
-              "vertical_text_position": "bottom"
-            }
-          },
-          "1635126275c8a88308-2": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 19,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "middle"
-            }
-          },
-          "1635126275c8a88308-3": {
-            "type": "grid_item",
-            "disabled": true,
-            "settings": {
-              "size": "small",
-              "video_url": "",
-              "overlay_opacity": 50,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "Have control over your content",
-              "subheading": "Each block has text placement and max width options so you can fine tune your message and balance it with your imagery.",
-              "text_max_width": 19,
-              "link": "",
-              "link_text": "Don't forget to add a link or two",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "right",
-              "vertical_text_position": "bottom"
-            }
-          }
-        },
-        "block_order": [
-          "1635126275c8a88308-0",
-          "1635126275c8a88308-1",
-          "1635126275c8a88308-2",
-          "1635126275c8a88308-3"
-        ],
-        "settings": {
-          "large_text": false
-        }
-      },
-      "163512708989353605": {
-        "type": "dynamic-rich-text",
-        "settings": {
-          "title": "BY ME",
-          "text": "",
-          "link": "",
-          "link_text": ""
-        }
-      },
-      "1635127094d6eac1a4": {
-        "type": "dynamic-featured-product",
-        "settings": {
-          "product": "book",
-          "show_vendor": true,
-          "show_swatches": false,
-          "show_share_buttons": false,
-          "show_quantity_input": true,
-          "enable_payment_button": true,
-          "enable_video_looping": true,
+          "title": "",
+          "subheading": "",
           "outline": false
-        }
-      },
-      "1635197208fb1aaa62": {
-        "type": "dynamic-collage",
-        "blocks": {
-          "1635197208fb1aaa62-2": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "",
-              "link_text": "",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "center",
-              "vertical_text_position": "middle"
-            }
-          },
-          "1635197208fb1aaa62-1": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "MARIANO OSORIO",
-              "subheading": "",
-              "text_max_width": 16,
-              "link": "shopify:\/\/blogs\/projects\/la-otra-cara-de-mexico",
-              "link_text": "View all",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "center",
-              "vertical_text_position": "bottom"
-            }
-          },
-          "1635197208fb1aaa62-0": {
-            "type": "grid_item",
-            "settings": {
-              "size": "large",
-              "video_url": "",
-              "overlay_opacity": 0,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "",
-              "subheading": "",
-              "text_max_width": 20,
-              "link": "",
-              "link_text": "",
-              "link_style": "button",
-              "horizontal_text_position": "left",
-              "vertical_text_position": "top"
-            }
-          },
-          "1635197208fb1aaa62-3": {
-            "type": "grid_item",
-            "disabled": true,
-            "settings": {
-              "size": "small",
-              "video_url": "",
-              "overlay_opacity": 50,
-              "overlay_color": "#000000",
-              "text_color": "#ffffff",
-              "heading": "Have control over your content",
-              "subheading": "Each block has text placement and max width options so you can fine tune your message and balance it with your imagery.",
-              "text_max_width": 19,
-              "link": "",
-              "link_text": "Don't forget to add a link or two",
-              "link_style": "arrow_link",
-              "horizontal_text_position": "right",
-              "vertical_text_position": "bottom"
-            }
-          }
-        },
-        "block_order": [
-          "1635197208fb1aaa62-2",
-          "1635197208fb1aaa62-1",
-          "1635197208fb1aaa62-0",
-          "1635197208fb1aaa62-3"
-        ],
-        "settings": {
-          "large_text": false
         }
       }
     },
     "content_for_index": [
       "dynamic-slideshow0",
-      "dynamic-rich-text",
-      "163512552370875713",
-      "1635123923caef0114",
-      "163512427876e0bbc6",
-      "1635127094d6eac1a4",
-      "1635126275c8a88308",
-      "dynamic-featured-collection",
-      "163512708989353605",
-      "16351252275ee0b26d",
-      "dynamic-collage",
       "163512551780e65bd9",
-      "1635197208fb1aaa62",
-      "dynamic-full-width-image-2",
-      "163512521451b220c4",
-      "dynamic-full-width-image",
-      "dynamic-testimonials",
-      "dynamic-blog-posts"
+      "16519523292a55db6b"
     ]
   },
   "presets": {
