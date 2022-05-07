@@ -639,7 +639,7 @@
         "type": "dynamic-featured-product",
         "settings": {
           "product": "dipped-vase",
-          "show_vendor": true,
+          "show_vendor": false,
           "show_swatches": false,
           "show_share_buttons": false,
           "show_quantity_input": true,
