@@ -113,7 +113,7 @@
         ],
         "settings": {
           "show_newsletter_signup": true,
-          "show_payment_icons": false,
+          "show_payment_icons": true,
           "show_locale_selector": false,
           "show_currency_selector": false
         }
