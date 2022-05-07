@@ -12092,6 +12092,10 @@ div[data-media-type='external_video'] iframe {
 .images-with-text {
   overflow: hidden;
   color: var(--color-contrast-text);
+  display: grid;
+  gap: var(--spacing-small);
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
 }
 
 .images-with-text__container {
