@@ -30077,17 +30077,17 @@
         this.slider.destroy();
       },
     };
-    f('dynamic-featured-collection', pr),
-      f('dynamic-images-with-text', {
-        onLoad: function () {
-          ur()({
-            container: '#js-iwt',
-            trueOrder: !1,
-            columns: 3,
-            breakAt: { 608: 1 },
-          });
-        },
-      });
+    // f('dynamic-featured-collection', pr),
+    //   f('dynamic-images-with-text', {
+    //     onLoad: function () {
+    //       ur()({
+    //         container: '#js-iwt',
+    //         trueOrder: !1,
+    //         columns: 3,
+    //         breakAt: { 608: 1 },
+    //       });
+    //     },
+    //   });
     class mr {
       constructor({
         apiKey: t,
