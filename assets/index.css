@@ -12092,20 +12092,18 @@ div[data-media-type='external_video'] iframe {
 .images-with-text {
   overflow: hidden;
   color: var(--color-contrast-text);
-  display: grid;
-  gap: var(--spacing-small);
-  grid-template-columns: 100%;
-  grid-template-rows: auto;
 }
 
 .images-with-text__container {
-  display: flex;
-  flex-wrap: wrap;
   margin: 0 calc(10px * -1);
   margin: 0 calc(var(--spacing-small) * -1);
   margin-top: 0;
   margin-bottom: calc(20px * -1);
   margin-bottom: calc(var(--spacing-medium) * -1);
+  display: grid;
+  gap: var(--spacing-small);
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
 }
 
 @media (min-width: 38em) {
