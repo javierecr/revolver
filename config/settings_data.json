@@ -621,12 +621,40 @@
           "subheading": "",
           "outline": false
         }
+      },
+      "165195246341c1e129": {
+        "type": "dynamic-video",
+        "settings": {
+          "title": "",
+          "subheading": "",
+          "meta": "",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "image": "shopify:\/\/shop_images\/several-different-fruits-lay-on-a-pink-background.jpg",
+          "overlay_opacity": 20,
+          "overlay_color": "",
+          "text_color": ""
+        }
+      },
+      "1651952618cef176b5": {
+        "type": "dynamic-featured-product",
+        "settings": {
+          "product": "",
+          "show_vendor": true,
+          "show_swatches": false,
+          "show_share_buttons": false,
+          "show_quantity_input": true,
+          "enable_payment_button": true,
+          "enable_video_looping": true,
+          "outline": false
+        }
       }
     },
     "content_for_index": [
       "dynamic-slideshow0",
       "163512551780e65bd9",
-      "16519523292a55db6b"
+      "16519523292a55db6b",
+      "165195246341c1e129",
+      "1651952618cef176b5"
     ]
   },
   "presets": {
