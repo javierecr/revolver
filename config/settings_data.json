@@ -583,7 +583,9 @@
               "link": "",
               "link_text": "",
               "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/file_example_MP4_1920_18MG.mp4?v=1652111616",
-              "video_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/sample-mp4-file.mp4?v=1652111962"
+              "video_image_url": "shopify:\/\/shop_images\/exercise-balance.jpg",
+              "video_url_2": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/sample-mp4-file.mp4?v=1652111962",
+              "video_image_url_2": "shopify:\/\/shop_images\/woman-jumping-workout.jpg"
             }
           }
         },
