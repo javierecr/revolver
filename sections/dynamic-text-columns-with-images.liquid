@@ -18,8 +18,9 @@
 
     <div class="text-columns__content">
       {% for block in section.blocks %}
-        <div class="text-columns__feature text-columns__feature--{{ section.blocks.size }} {% if block.settings.image == blank%}text-columns__middle{% endif %}">
-          {%- if block.settings.image != blank -%}
+        <div class="text-columns__feature text-columns__feature--{{ section.blocks.size }} {% if block.settings.image == blank%}text-columns__middle{% endif %}
+        {% if block.settings.image != blank and block.settings.title == blank and block.settings.subheading == blank and block.settings.link == blank and block.settings.video_url == blank and block.settings.video_url_2 == blank %} first-mobile{% endif%}"
+        >
             <div class="mb3" style="max-width: {{ block.settings.image_max_width }}%;">
               <div style="max-width: {{ block.settings.image.width | divided_by: 2 }}px">
                 {% render 'responsive-image' with image: block.settings.image, max_width: 600 %}
