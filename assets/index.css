@@ -15307,6 +15307,7 @@ div[data-media-type='external_video'] iframe {
   max-width: 100%;
 }
 
+.collage__item-inner .play-button,
 .video-preview .play-button {
   width: 50px;
   height: 50px;
@@ -15316,8 +15317,16 @@ div[data-media-type='external_video'] iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.video-preview .play-button {
   top: calc(50% - 25px);
   left: calc(50% - 25px);
+}
+
+.collage__item-inner .play-button {
+  bottom: 8px;
+  right: 8px;
 }
 
 .body-blackout {

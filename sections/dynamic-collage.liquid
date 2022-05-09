@@ -29,7 +29,11 @@
           {% render 'content-overlay' with s: block.settings, heading: block.settings.heading, large: section.settings.large_text %}
 
           {% if video_link_verified %}
-            <video class="collage__video" autoplay playsinline loop muted src="{{ block.settings.video_url }}" />
+            <div class="play-button popup-trigger" data-popup-trigger="{{block.id}}">
+              {% render 'icon-play' %}
+            </div>
+            {% render 'video-modal', popup_modal: block.id, video_url: block.settings.video_url, video_img: block.settings.image %}
+            {% comment %} <video class="collage__video" autoplay playsinline loop muted src="{{ block.settings.video_url }}" /> {% endcomment %}
           {% endif %}
         </div>
       </div>
