@@ -37,6 +37,16 @@ modalTriggers.forEach((trigger) => {
   });
 });
 
-function doSomething(videoUrl) {
-  console.log('videourl', videoUrl);
+function openVideoModal(videoUrl, modalId) {
+  const videoPlayer = document.getElementById(
+    'modal-video-player-{{popup_modal}}'
+  );
+  const videoSource = document.getElementById(
+    'modal-video-source-{{popup_modal}}'
+  );
+  const popupModal = document.querySelector(`[data-popup-modal="${modalId}"]`);
+
+  videoSource.setAttribute('src', videoUrl);
+
+  popupModal.classList.add('is--visible');
 }
