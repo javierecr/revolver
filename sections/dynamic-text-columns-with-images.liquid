@@ -41,7 +41,9 @@
                 {% assign popupId = block.id | append: '-1' %}
                 <div class="video-preview">
                   <img class="video-poster" src="{{block.settings.video_image_url | img_url: 'master' }}"/>
-                  {% render 'icon-play' %}
+                  <div class="play-button">
+                    {% render 'icon-play' %}
+                  </div>
                 </div>
                 {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url%}
               {%- endif -%}
@@ -51,7 +53,9 @@
                 {% assign popupId = block.id | append: '-2' %}
                 <div class="video-preview">
                   <img class="video-poster" src="{{block.settings.video_image_url_2 | img_url: 'master' }}"/>
-                  {% render 'icon-play' %}
+                  <div class="play-button">
+                    {% render 'icon-play' %}
+                  </div>
                 </div>
                 {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url_2%}
               {%- endif -%}
