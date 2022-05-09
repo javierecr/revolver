@@ -40,7 +40,7 @@
               {%- if block.settings.video_url != blank -%}
                 {% assign popupId = block.id | append: '-1' %}
                 <div class="video-preview">
-                  <img class="video-poster" src="{{block.settings.video_image_url}} | img_url"/>
+                  <img class="video-poster" src="{{block.settings.video_image_url | file_img_url: 'master' }}"/>
                   {% render 'icon-play' %}
                 </div>
                 {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url%}
@@ -50,7 +50,7 @@
               {%- if block.settings.video_url_2 != blank -%}
                 {% assign popupId = block.id | append: '-2' %}
                 <div class="video-preview">
-                  <img class="video-poster" src="{{block.settings.video_image_url_2 | img_url}}"/>
+                  <img class="video-poster" src="{{block.settings.video_image_url_2 | file_img_url: 'master' }}"/>
                   {% render 'icon-play' %}
                 </div>
                 {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url_2%}
