@@ -36,3 +36,7 @@ modalTriggers.forEach((trigger) => {
     });
   });
 });
+
+function doSomething(videoUrl) {
+  console.log('videourl', videoUrl);
+}
