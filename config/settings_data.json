@@ -842,11 +842,46 @@
         "settings": {
           "aspect_ratio": "natural"
         }
+      },
+      "165211979895a389a9": {
+        "type": "dynamic-native-video",
+        "blocks": {
+          "c80e52bd-1548-454a-96b8-9fe2cb316c73": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/file_example_MP4_1920_18MG.mp4?v=1652111616",
+              "video_image_url": "shopify:\/\/shop_images\/exercise-balance.jpg"
+            }
+          },
+          "cd99b1a9-d0e8-4ab0-9d7a-9f72f7d05dc0": {
+            "type": "video",
+            "settings": {
+              "video_url": ""
+            }
+          },
+          "90c904e7-daa3-4d10-86c4-99c8af1463a1": {
+            "type": "video",
+            "settings": {
+              "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/sample-mp4-file.mp4?v=1652111962",
+              "video_image_url": "shopify:\/\/shop_images\/several-different-fruits-lay-on-a-pink-background.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "c80e52bd-1548-454a-96b8-9fe2cb316c73",
+          "cd99b1a9-d0e8-4ab0-9d7a-9f72f7d05dc0",
+          "90c904e7-daa3-4d10-86c4-99c8af1463a1"
+        ],
+        "settings": {
+          "title": "Native mp4 video",
+          "custom_html": "<p>Write or paste your HTML code here<\/p>"
+        }
       }
     },
     "content_for_index": [
       "dynamic-slideshow0",
       "16519523292a55db6b",
+      "165211979895a389a9",
       "165195246341c1e129",
       "1651952618cef176b5",
       "1651952738bbee495a",
