@@ -36,12 +36,12 @@
             <a href="{{ block.settings.link }}" class="type-body-regular accent-link db mt3">{{ block.settings.link_text }} &rarr;</a>
           {%- endif -%}
           {%- if block.settings.video_url != blank -%}
-            <button type="button" class="popup-trigger" data-popup-trigger="{{block.id}}">open video modal</button>
-            {% render 'video-modal', popup_modal: block.id, video_url: block.settings.video_url %}
+            <button type="button" class="popup-trigger" data-popup-trigger="{{block.id}}-1">open video modal</button>
+            {% render 'video-modal', popup_modal: block.id, video_url: echo block.settings.video_url_2 | append: '-1' %}
           {%- endif -%}
           {%- if block.settings.video_url_2 != blank -%}
-            <button type="button" class="popup-trigger" data-popup-trigger="{{block.id}}">open video modal 2</button>
-            {% render 'video-modal', popup_modal: block.id, video_url: block.settings.video_url_2 %}
+            <button type="button" class="popup-trigger" data-popup-trigger="{{block.id}}-2">open video modal 2</button>
+            {% render 'video-modal', popup_modal: block.id, video_url: echo block.settings.video_url_2 | append: '-2'%}
           {%- endif -%}
         </div>
       {% endfor %}
