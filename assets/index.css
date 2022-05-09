@@ -15283,6 +15283,18 @@ div[data-media-type='external_video'] iframe {
   transition: right 250ms ease-in-out;
 }
 
+/* custom css */
+
+.video-triggers-container {
+  display: grid;
+  gap: 16px;
+  margin: 16px;
+  grid-template-columns: auto;
+  grid-template-rows: 1;
+}
+
+.video-triggers-container .video-trigger-item {
+}
 
 /* video-popup login */
 
