@@ -20,7 +20,7 @@ modalTriggers.forEach((trigger) => {
       .querySelector('.popup-modal__close')
       .addEventListener('click', () => {
         console.log('close modal');
-        videoSource.pause();
+        videoPlayer.pause();
         videoSource.removeAttribute('src'); // empty source
         videoSource.load();
         popupModal.classList.remove('is--visible');
