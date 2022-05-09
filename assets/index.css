@@ -15370,3 +15370,7 @@ div[data-media-type='external_video'] iframe {
   top: 16px;
   cursor: pointer;
 }
+
+.popup-modal__close .icon {
+  fill: white;
+}
