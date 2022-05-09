@@ -1,6 +1,8 @@
 <div class="body-blackout"></div>
 <div class="popup-modal shadow" data-popup-modal="{{popup_modal}}">
-  <div class="popup-modal__close">X</div>
+  <div class="popup-modal__close">
+    {% render 'icon-close' %}
+  </div>
   <video width="100%" poster="{{ video_img | img_url: 'master'}}" controls>
     <source src="{{video_url}}" type="video/mp4" />
     Your browser does not support HTML video.
