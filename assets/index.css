@@ -15288,7 +15288,7 @@ div[data-media-type='external_video'] iframe {
 .video-triggers-container {
   display: grid;
   gap: 16px;
-  margin: 16px;
+  margin: 32px 0;
   grid-auto-flow: column;
   width: 100%;
 }
@@ -15309,15 +15309,15 @@ div[data-media-type='external_video'] iframe {
 
 .video-preview .play-button {
   width: 50px;
-    height: 50px;
-    background: rgba(255,255,255,0.9);
-    border-radius: 50%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: calc(50% - 25px);
-    left: calc(50% - 25px);
+  height: 50px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
 }
 
 .body-blackout {
