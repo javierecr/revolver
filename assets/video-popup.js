@@ -19,10 +19,11 @@ modalTriggers.forEach((trigger) => {
       .querySelector('.popup-modal__close')
       .addEventListener('click', () => {
         console.log('close modal');
-        popupModal.classList.remove('is--visible');
+        console.log(videoElement);
         videoElement.pause();
         videoElement.removeAttribute('src'); // empty source
         videoElement.load();
+        popupModal.classList.remove('is--visible');
         bodyBlackout.classList.remove('is-blacked-out');
       });
 
