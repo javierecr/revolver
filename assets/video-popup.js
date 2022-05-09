@@ -40,7 +40,7 @@ modalTriggers.forEach((trigger) => {
 function openVideoModal(videoUrl, modalId) {
   const videoPlayer = document.getElementById(`modal-video-player-${modalId}`);
   const videoSource = document.getElementById(`modal-video-source-${modalId}`);
-  const popupModal = document.querySelector(`[data-popup-modal="${modalId}"]`);
+  const popupModal = document.getElementById(modalId);
 
   popupModal.classList.add('is--visible');
 }
@@ -48,7 +48,7 @@ function openVideoModal(videoUrl, modalId) {
 function closeVideoModal(modalId) {
   const videoPlayer = document.getElementById(`modal-video-player-${modalId}`);
   const videoSource = document.getElementById(`modal-video-source-${modalId}`);
-  const popupModal = document.querySelector(`[data-popup-modal="${modalId}"]`);
+  const popupModal = document.getElementById(modalId);
 
   popupModal.classList.remove('is--visible');
   videoPlayer.pause();
