@@ -15289,14 +15289,30 @@ div[data-media-type='external_video'] iframe {
   display: grid;
   gap: 16px;
   margin: 16px;
-  grid-template-columns: auto;
-  grid-template-rows: 1;
+  grid-auto-flow: column;
+  width: 100%;
 }
 
 .video-triggers-container .video-trigger-item {
 }
 
-/* video-popup login */
+/* video-popup  */
+
+.video-preview {
+  cursor: pointer;
+  position: relative;
+}
+
+.video-preview .video-poster {
+  max-width: 100%;
+}
+
+.video-preview .icon-play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 
 .body-blackout {
   position: absolute;
