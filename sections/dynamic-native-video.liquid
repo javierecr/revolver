@@ -1,0 +1,71 @@
+<section class="section">
+
+  {%- unless section.settings.title == blank -%}
+    <h2 class="type-heading-1">{{ section.settings.title | escape }}</h2>
+  {%- endunless -%}
+
+  <div class="video-triggers-container">
+  {% for block in section.blocks %}
+    <div class="video-trigger-item">
+      <div class="video-preview">
+        <img class="video-poster" src="{{block.settings.video_image_url | img_url: 'master' }}"/>
+        <div class="play-button popup-trigger" data-popup-trigger="{{block.id}}">
+          {% render 'icon-play' %}
+        </div>
+      </div>
+      {% render 'video-modal', popup_modal: block.id, video_url: block.settings.video_url, video_img: block.settings.video_image_url %}
+    </div>
+  {% endfor %}
+  </div>
+
+</section>
+
+{% schema %}
+  {
+    "name": "Video - Native mp4",
+    "max_blocks": 6,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "html",
+        "id": "custom_html",
+        "label": "Custom HTML",
+        "default": "<p>Write or paste your HTML code here</p>"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "video",
+        "name": "Video",
+      },
+      "settings": [
+         {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "video_image_url",
+          "label": "Preview image"
+        }
+      ]
+    ],
+    "presets": [{
+        "name": "Video - Native mp4",
+        "category": "Video",
+        "settings": {
+          "title": "Native mp4 video"
+        }
+    }]
+  }
+{% endschema %}
