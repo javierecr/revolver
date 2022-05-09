@@ -13,16 +13,17 @@ modalTriggers.forEach((trigger) => {
     popupModal.classList.add('is--visible');
     bodyBlackout.classList.add('is-blacked-out');
 
-    var videoElement = document.querySelector('#video-modal-media');
+    var videoPlayer = document.querySelector('#modal-video-player');
+    var videoSource = document.querySelector('#modal-video-source');
 
     popupModal
       .querySelector('.popup-modal__close')
       .addEventListener('click', () => {
         console.log('close modal');
         console.log(videoElement);
-        videoElement.pause();
-        videoElement.removeAttribute('src'); // empty source
-        videoElement.load();
+        videoSource.pause();
+        videoSource.removeAttribute('src'); // empty source
+        videoSource.load();
         popupModal.classList.remove('is--visible');
         bodyBlackout.classList.remove('is-blacked-out');
       });
