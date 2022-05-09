@@ -25,7 +25,7 @@ modalTriggers.forEach((trigger) => {
       .addEventListener('click', () => {
         videoPlayer.pause();
         videoSource.removeAttribute('src'); // empty source
-        videoSource.load();
+        videoPlayer.load();
         popupModal.classList.remove('is--visible');
         bodyBlackout.classList.remove('is-blacked-out');
       });
