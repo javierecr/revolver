@@ -38,12 +38,8 @@ modalTriggers.forEach((trigger) => {
 });
 
 function openVideoModal(videoUrl, modalId) {
-  const videoPlayer = document.getElementById(
-    'modal-video-player-{{popup_modal}}'
-  );
-  const videoSource = document.getElementById(
-    'modal-video-source-{{popup_modal}}'
-  );
+  const videoPlayer = document.getElementById(`modal-video-player-${modalId}`);
+  const videoSource = document.getElementById(`modal-video-source-${modalId}`);
   const popupModal = document.querySelector(`[data-popup-modal="${modalId}"]`);
 
   videoSource.setAttribute('src', videoUrl);
