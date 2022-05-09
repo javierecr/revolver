@@ -15349,6 +15349,13 @@ div[data-media-type='external_video'] iframe {
   z-index: 1011;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-modal video {
+  max-height: 100%;
 }
 
 .popup-modal.is--visible {
