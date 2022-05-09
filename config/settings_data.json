@@ -848,6 +848,13 @@
           "title": "Native mp4 video",
           "custom_html": "<p>Write or paste your HTML code here<\/p>"
         }
+      },
+      "165212025317f212db": {
+        "type": "dynamic-native-video",
+        "settings": {
+          "title": "Native mp4 video",
+          "custom_html": "<p>Write or paste your HTML code here<\/p>"
+        }
       }
     },
     "content_for_index": [
@@ -858,7 +865,8 @@
       "1651952738bbee495a",
       "165195300589c844c8",
       "1651953132816e0ca0",
-      "1651953186ec9874ad"
+      "1651953186ec9874ad",
+      "165212025317f212db"
     ]
   },
   "presets": {
