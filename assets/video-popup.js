@@ -43,6 +43,7 @@ function openVideoModal(videoUrl, modalId) {
   const popupModal = document.querySelector(`[data-popup-modal="${modalId}"]`);
 
   videoSource.setAttribute('src', videoUrl);
+  videoPlayer.load();
 
   popupModal.classList.add('is--visible');
 }
