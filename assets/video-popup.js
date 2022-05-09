@@ -48,7 +48,9 @@ function openVideoModal(videoUrl, modalId) {
 function closeVideoModal(modalId) {
   const videoPlayer = document.getElementById(`modal-video-player-${modalId}`);
   const videoSource = document.getElementById(`modal-video-source-${modalId}`);
+  console.log('modalId', modalId);
   const popupModal = document.getElementById(modalId);
+  console.log('popupModal', popupModal);
 
   popupModal.classList.remove('is--visible');
   videoPlayer.pause();
