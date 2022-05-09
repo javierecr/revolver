@@ -4,9 +4,9 @@
     width="100%"
     poster="{{ video_img | img_url: 'master' }}"
     controls
-    id="modal-video-player"
+    id="modal-video-player-{{popup_modal}}"
   >
-    <source src="{{ video_url }}" type="video/mp4" id="modal-video-source" />
+    <source src="{{ video_url }}" type="video/mp4" id="modal-video-source-{{popup_modal}}" />
     Your browser does not support HTML video.
   </video>
   <div class="popup-modal__close">{% render 'icon-close' %}</div>

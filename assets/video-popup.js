@@ -13,8 +13,12 @@ modalTriggers.forEach((trigger) => {
     popupModal.classList.add('is--visible');
     bodyBlackout.classList.add('is-blacked-out');
 
-    var videoPlayer = document.getElementById('modal-video-player');
-    var videoSource = document.getElementById('modal-video-source');
+    var videoPlayer = document.getElementById(
+      `modal-video-player-${popupTrigger}`
+    );
+    var videoSource = document.getElementById(
+      `modal-video-source-${popupTrigger}`
+    );
 
     popupModal
       .querySelector('.popup-modal__close')
