@@ -45,7 +45,7 @@
                     {% render 'icon-play' %}
                   </div>
                 </div>
-                {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url%}
+                {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url, video_img: block.settings.video_image_url %}
               {%- endif -%}
             </div>
             <div class="video-trigger-item">
@@ -57,7 +57,7 @@
                     {% render 'icon-play' %}
                   </div>
                 </div>
-                {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url_2%}
+                {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url_2, video_img: block.settings.video_image_url_2 %}
               {%- endif -%}
             </div>
           </div>
