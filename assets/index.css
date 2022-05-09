@@ -15317,6 +15317,7 @@ div[data-media-type='external_video'] iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 4;
 }
 
 .video-preview .play-button {
