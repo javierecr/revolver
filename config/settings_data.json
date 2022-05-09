@@ -709,8 +709,8 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/party-balloons-in-front-of-faces.jpg",
               "size": "small",
-              "video_url": "",
-              "overlay_opacity": 50,
+              "video_url": "https:\/\/www.youtube.com\/watch?v=ZJSCl6XEdP8",
+              "overlay_opacity": 0,
               "overlay_color": "#000000",
               "text_color": "#ffffff",
               "heading": "",
