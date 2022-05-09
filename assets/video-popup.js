@@ -1,3 +1,5 @@
+const modalTriggers = document.querySelectorAll('.popup-trigger');
+const modalCloseTrigger = document.querySelector('.popup-modal__close');
 const bodyBlackout = document.querySelector('.body-blackout');
 
 function openVideoModal(modalId) {

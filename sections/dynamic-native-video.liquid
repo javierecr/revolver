@@ -9,7 +9,7 @@
     <div class="video-trigger-item">
       <div class="video-preview">
         <img class="video-poster" src="{{block.settings.video_image_url | img_url: 'master' }}"/>
-        <div class="play-button" onclick="openVideoModal('{{block.settings.video_url}}', '{{block.id}}')">
+        <div class="play-button" onclick="openVideoModal('{{block.id}}')">
           {% render 'icon-play' %}
         </div>
       </div>

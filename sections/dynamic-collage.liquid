@@ -29,7 +29,7 @@
           {% render 'content-overlay' with s: block.settings, heading: block.settings.heading, large: section.settings.large_text %}
 
           {% if video_link_verified %}
-            <div class="play-button" onclick="openVideoModal('{{block.settings.video_url}}', '{{block.id}}')">
+            <div class="play-button" onclick="openVideoModal('{{block.id}}')">
               {% render 'icon-play' %}
             </div>
             {% render 'video-modal', popup_modal: block.id, video_url: block.settings.video_url, video_img: block.settings.image %}
