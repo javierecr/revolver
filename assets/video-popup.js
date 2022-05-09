@@ -42,8 +42,14 @@ function openVideoModal(videoUrl, modalId) {
   const videoSource = document.getElementById(`modal-video-source-${modalId}`);
   const popupModal = document.querySelector(`[data-popup-modal="${modalId}"]`);
 
-  videoSource.setAttribute('src', videoUrl);
-  videoPlayer.load();
-
   popupModal.classList.add('is--visible');
+}
+
+function closeVideoModal(modalId) {
+  const videoPlayer = document.getElementById(`modal-video-player-${modalId}`);
+  const videoSource = document.getElementById(`modal-video-source-${modalId}`);
+  const popupModal = document.querySelector(`[data-popup-modal="${modalId}"]`);
+
+  popupModal.classList.remove('is--visible');
+  videoPlayer.pause();
 }
