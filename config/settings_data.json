@@ -853,12 +853,6 @@
               "video_image_url": "shopify:\/\/shop_images\/exercise-balance.jpg"
             }
           },
-          "cd99b1a9-d0e8-4ab0-9d7a-9f72f7d05dc0": {
-            "type": "video",
-            "settings": {
-              "video_url": ""
-            }
-          },
           "90c904e7-daa3-4d10-86c4-99c8af1463a1": {
             "type": "video",
             "settings": {
@@ -869,7 +863,6 @@
         },
         "block_order": [
           "c80e52bd-1548-454a-96b8-9fe2cb316c73",
-          "cd99b1a9-d0e8-4ab0-9d7a-9f72f7d05dc0",
           "90c904e7-daa3-4d10-86c4-99c8af1463a1"
         ],
         "settings": {
