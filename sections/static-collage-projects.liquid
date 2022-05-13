@@ -9,10 +9,19 @@
   {% assign blogHandle = blog.title | handleize | append: '-' %}
   {% assign projectHandle = article.title | handleize %}
 
-{% assign finalVideoName = blogHandle | append: projectHandle %}
+{% assign finalVideoName = blogHandle | append: projectHandle | append: '.mp4' %}
 
-{% comment %} <video src="{{ 'notic' | file_url }}"></video> {% endcomment %}
-<img src="{{ 'noticias-some-test.jpg' | file_url }}">
+<video src="{{ finalVideoName | file_url }}"></video>
+  <video
+    width="100%"
+    controls
+  >
+    <source
+      src="{{ finalVideoName | file_url }}"
+      type="video/mp4"
+    />
+    Your browser does not support HTML video.
+  </video>
 
     {% for i in (0..100) %}
       {% assign fotoNumber = forloop.index0 %}
