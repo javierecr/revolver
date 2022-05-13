@@ -7,7 +7,7 @@
   <div class="js-mg-{{ section.id }} collage cf">
 
   {% assign blogHandle = blog.title | handleize | append: '-' %}
-  {% assign projectHandle = article.title | handleize | append: '-' %}
+  {% assign projectHandle = article.title | handleize %}
 
 {% assign finalVideoName = blogHandle | append: projectHandle | append: '.mp4' %}
 
