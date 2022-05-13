@@ -11,7 +11,8 @@
 
 {% assign finalVideoName = blogHandle | append: projectHandle %}
 
-<video src="{{ finalVideoName | file_url }}"></video>
+{% comment %} <video src="{{ 'notic' | file_url }}"></video> {% endcomment %}
+<img src="{{ 'noticias-some-test.jpg' | file_url }}">
 
     {% for i in (0..100) %}
       {% assign fotoNumber = forloop.index0 %}
