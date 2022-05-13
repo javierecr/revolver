@@ -9,7 +9,7 @@
   {% assign blogHandle = blog.title | handleize | append: '-' %}
   {% assign projectHandle = article.title | handleize %}
 
-{% assign finalVideoName = blogHandle | append: projectHandle | append: '.mp4' %}
+{% assign finalVideoName = blogHandle | append: projectHandle %}
 
 <video src="{{ finalVideoName | file_url }}"></video>
 
