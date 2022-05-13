@@ -10,13 +10,12 @@
   {% assign projectHandle = article.title | handleize %}
 
 {% assign finalVideoName = blogHandle | append: projectHandle | append: '.mp4' %}
-{% assign finalFIle = files[finalVideoName]%}
   <video
     width="100%"
     controls
   >
     <source
-      src="{{finalFIle | file_url }}"
+      src="{{finalVideoName | file_url }}"
       type="video/mp4"
     />
     Your browser does not support HTML video.
