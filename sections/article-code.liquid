@@ -4,6 +4,8 @@
       {{ article.content }}
       {% if section.settings.two_column_layout == true %}
         {% render '2-column-static-collage-projects' %}
+      {% else %}
+        {% render 'static-collage-projects' %}
       {% endif %}
 
       <div class="article__footer">
