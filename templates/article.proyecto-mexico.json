@@ -12,7 +12,8 @@
     "article-code": {
       "type": "article-code",
       "settings": {
-        "two_column_layout": false
+        "narrow_layout": false,
+        "two_column_layout": true
       }
     },
     "1652633911c45b8da2": {

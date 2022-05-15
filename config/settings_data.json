@@ -530,11 +530,6 @@
           "aspect_ratio": "portrait"
         }
       },
-      "static-collage-projects": {
-        "type": "static-collage-projects",
-        "settings": {
-        }
-      },
       "static-features": {
         "type": "static-features",
         "settings": {
