@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "settings": {
+      }
+    },
+    "features": {
+      "type": "static-features",
+      "settings": {
+      }
+    },
+    "product-images": {
+      "type": "static-product-images",
+      "settings": {
+      }
+    },
+    "full-width-features": {
+      "type": "static-full-width-features",
+      "settings": {
+      }
+    },
+    "testimonials": {
+      "type": "static-testimonials",
+      "settings": {
+      }
+    },
+    "blog-posts": {
+      "type": "static-blog-posts",
+      "settings": {
+      }
+    },
+    "newsletter": {
+      "type": "static-newsletter",
+      "settings": {
+      }
+    },
+    "social-icons": {
+      "type": "static-social-icons",
+      "settings": {
+      }
+    },
+    "featured-collection": {
+      "type": "static-featured-collection",
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "features",
+    "product-images",
+    "full-width-features",
+    "testimonials",
+    "blog-posts",
+    "newsletter",
+    "social-icons",
+    "featured-collection",
+    "product-recommendations",
+    "recently-viewed"
+  ]
+}
