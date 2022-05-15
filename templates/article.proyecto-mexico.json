@@ -15,6 +15,33 @@
         "two_column_layout": false
       }
     },
+    "1652633911c45b8da2": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "6c28a971-133b-4492-8d39-ef0a14fe2c35": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/woman-jumping-workout.jpg"
+          }
+        },
+        "db89920c-a72f-44c7-abd2-a1f1d86db984": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/exercise-balance.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "6c28a971-133b-4492-8d39-ef0a14fe2c35",
+        "db89920c-a72f-44c7-abd2-a1f1d86db984"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": ""
+      }
+    },
     "blog-posts": {
       "type": "static-blog-posts",
       "settings": {
@@ -86,6 +113,7 @@
     },
     "165263383853ed19ea": {
       "type": "dynamic-collage",
+      "disabled": true,
       "blocks": {
         "16526338388c3c0313-0": {
           "type": "grid_item",
@@ -175,6 +203,7 @@
   "order": [
     "article",
     "article-code",
+    "1652633911c45b8da2",
     "blog-posts",
     "testimonials",
     "newsletter",
