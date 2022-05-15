@@ -1,6 +1,6 @@
 <article role="article" data-component="article">
   <div class="mw-c center ph3 ph4-ns">
-    <div class="type-body-large rte {% unless section.settings.two_column_layout %}centered-content{% endunless %} mb6">
+    <div class="type-body-large rte {% if section.settings.narrow_layout %}centered-content{% endif %} mb6">
       {{ article.content }}
       {% if section.settings.two_column_layout == true %}
         {% render '2-column-static-collage-projects' %}
@@ -88,6 +88,21 @@
   {
     "name": "Article Code",
     "settings": [
+      {
+        "type": "header",
+        "label": "Article width"
+      },
+      {
+        "type": "checkbox",
+        "label": "Enable narrow layout",
+        "id": "narrow_layout",
+        "default": false
+      },
+      {
+        "type": "header",
+        "label": "Image Gallery Layout",
+        "id": "two_column_layout"
+      },
       {
         "type": "checkbox",
         "label": "Enable 2 column gallery",
