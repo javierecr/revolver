@@ -1,8 +1,8 @@
 <article role="article" data-component="article">
   <div class="mw-c center ph3 ph4-ns">
-    <div class="type-body-large rte {% unless template == 'article.2-column-blog-gallery-featured'%}centered-content{% endunless %} mb6">
+    <div class="type-body-large rte {% unless section.settings.two_column_layout %}centered-content{% endunless %} mb6">
       {{ article.content }}
-      {% if template == 'article.2-column-blog-gallery-featured'%}
+      {% if section.settings.two_column_layout == true %}
         {% render '2-column-static-collage-projects' %}
       {% endif %}
 
@@ -80,3 +80,17 @@
   }
 }
 </script>
+
+
+{% schema %}
+  {
+    "name": "Article Code",
+    "settings": [
+      {
+        "type": "checkbox",
+        "label": "Enable 2 column gallery",
+        "id": "two_column_layout"
+      }
+    ]
+  }
+{% endschema %}
