@@ -1,0 +1,51 @@
+{
+  "name": "Product",
+  "sections": {
+    "main": {
+      "type": "product"
+    },
+    "features": {
+      "type": "static-features"
+    },
+    "product-images": {
+      "type": "static-product-images"
+    },
+    "full-width-features": {
+      "type": "static-full-width-features"
+    },
+    "testimonials": {
+      "type": "static-testimonials"
+    },
+    "blog-posts": {
+      "type": "static-blog-posts"
+    },
+    "newsletter": {
+      "type": "static-newsletter"
+    },
+    "social-icons": {
+      "type": "static-social-icons"
+    },
+    "featured-collection": {
+      "type": "static-featured-collection"
+    },
+    "product-recommendations": {
+      "type": "static-product-recommendations"
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed"
+    }
+  },
+  "order": [
+    "main",
+    "features",
+    "product-images",
+    "full-width-features",
+    "testimonials",
+    "blog-posts",
+    "newsletter",
+    "social-icons",
+    "featured-collection",
+    "product-recommendations",
+    "recently-viewed"
+  ]
+}
