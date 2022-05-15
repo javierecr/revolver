@@ -1,12 +1,18 @@
 {
-  "name": "Blog",
   "sections": {
     "blog": {
-      "type": "static-blog"
+      "type": "static-blog",
+      "settings": {
+      }
     },
     "recently-viewed": {
-      "type": "static-recently-viewed"
+      "type": "static-recently-viewed",
+      "settings": {
+      }
     }
   },
-  "order": ["blog", "recently-viewed"]
+  "order": [
+    "blog",
+    "recently-viewed"
+  ]
 }

@@ -1,8 +1,12 @@
 {
   "sections": {
     "collage": {
-      "type": "dynamic-collage"
+      "type": "dynamic-collage",
+      "settings": {
+      }
     }
   },
-  "order": ["collage"]
+  "order": [
+    "collage"
+  ]
 }

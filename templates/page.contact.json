@@ -1,8 +1,12 @@
 {
   "sections": {
     "contact": {
-      "type": "static-contact"
+      "type": "static-contact",
+      "settings": {
+      }
     }
   },
-  "order": ["contact"]
+  "order": [
+    "contact"
+  ]
 }

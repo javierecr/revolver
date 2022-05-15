@@ -1,26 +1,39 @@
 {
-  "name": "Collection",
   "sections": {
     "collection": {
-      "type": "static-collection"
+      "type": "static-collection",
+      "settings": {
+      }
     },
     "blog-posts": {
-      "type": "static-blog-posts"
+      "type": "static-blog-posts",
+      "settings": {
+      }
     },
     "testimonials": {
-      "type": "static-testimonials"
+      "type": "static-testimonials",
+      "settings": {
+      }
     },
     "newsletter": {
-      "type": "static-newsletter"
+      "type": "static-newsletter",
+      "settings": {
+      }
     },
     "social-icons": {
-      "type": "static-social-icons"
+      "type": "static-social-icons",
+      "settings": {
+      }
     },
     "featured-collection": {
-      "type": "static-featured-collection"
+      "type": "static-featured-collection",
+      "settings": {
+      }
     },
     "recently-viewed": {
-      "type": "static-recently-viewed"
+      "type": "static-recently-viewed",
+      "settings": {
+      }
     }
   },
   "order": [

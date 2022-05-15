@@ -1,9 +1,12 @@
 {
-  "name": "Collections List",
   "sections": {
     "list-collections": {
-      "type": "static-list-collections"
+      "type": "static-list-collections",
+      "settings": {
+      }
     }
   },
-  "order": ["list-collections"]
+  "order": [
+    "list-collections"
+  ]
 }
