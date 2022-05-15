@@ -83,6 +83,93 @@
         "aspect_ratio": "square",
         "outline": false
       }
+    },
+    "165263383853ed19ea": {
+      "type": "dynamic-collage",
+      "blocks": {
+        "16526338388c3c0313-0": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-07_at_2.54.01_p.m..png",
+            "size": "small",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 20,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "16526338388c3c0313-1": {
+          "type": "grid_item",
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is a large portrait block.",
+            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16526338388c3c0313-2": {
+          "type": "grid_item",
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is a large portrait block.",
+            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16526338388c3c0313-3": {
+          "type": "grid_item",
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "Have control over your content",
+            "subheading": "Each block has text placement and max width options so you can fine tune your message and balance it with your imagery.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "Don't forget to add a link or two",
+            "link_style": "arrow_link",
+            "horizontal_text_position": "right",
+            "vertical_text_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "16526338388c3c0313-0",
+        "16526338388c3c0313-1",
+        "16526338388c3c0313-2",
+        "16526338388c3c0313-3"
+      ],
+      "settings": {
+        "large_text": false
+      }
     }
   },
   "order": [
@@ -93,6 +180,7 @@
     "newsletter",
     "social-icons",
     "featured-collection",
-    "recently-viewed"
+    "recently-viewed",
+    "165263383853ed19ea"
   ]
 }
