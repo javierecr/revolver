@@ -1,0 +1,35 @@
+{
+  "name": "Collection",
+  "sections": {
+    "collection": {
+      "type": "static-collection"
+    },
+    "blog-posts": {
+      "type": "static-blog-posts"
+    },
+    "testimonials": {
+      "type": "static-testimonials"
+    },
+    "newsletter": {
+      "type": "static-newsletter"
+    },
+    "social-icons": {
+      "type": "static-social-icons"
+    },
+    "featured-collection": {
+      "type": "static-featured-collection"
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed"
+    }
+  },
+  "order": [
+    "collection",
+    "blog-posts",
+    "testimonials",
+    "newsletter",
+    "social-icons",
+    "featured-collection",
+    "recently-viewed"
+  ]
+}

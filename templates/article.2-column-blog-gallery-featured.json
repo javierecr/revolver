@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "article": {
+      "type": "static-article"
+    },
+    "article-code": {
+      "type": "article-code"
+    },
+    "blog-posts": {
+      "type": "static-blog-posts"
+    },
+    "testimonials": {
+      "type": "static-testimonials"
+    },
+    "newsletter": {
+      "type": "static-newsletter"
+    },
+    "social-icons": {
+      "type": "static-social-icons"
+    },
+    "featured-collection": {
+      "type": "static-featured-collection"
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed"
+    }
+  },
+  "order": [
+    "article",
+    "article-code",
+    "blog-posts",
+    "testimonials",
+    "newsletter",
+    "social-icons",
+    "featured-collection",
+    "recently-viewed"
+  ]
+}

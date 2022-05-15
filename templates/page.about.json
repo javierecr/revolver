@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "about": {
+      "type": "static-about"
+    }
+  },
+  "order": ["about"]
+}

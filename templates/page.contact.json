@@ -1,0 +1,8 @@
+{
+  "sections": {
+    "contact": {
+      "type": "static-contact"
+    }
+  },
+  "order": ["contact"]
+}

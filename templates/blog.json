@@ -1,0 +1,12 @@
+{
+  "name": "Blog",
+  "sections": {
+    "blog": {
+      "type": "static-blog"
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed"
+    }
+  },
+  "order": ["blog", "recently-viewed"]
+}

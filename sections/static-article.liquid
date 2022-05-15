@@ -1,3 +1,11 @@
+{%- comment -%}
+  In order to avoid showing "success" message when we post comments
+  with invalid format (eg. blank fields), we added logic to make sure it doesn't show.
+
+  Comment help page:
+  http://docs.shopify.com/themes/liquid-variables/comment
+{%- endcomment -%}
+
 {% assign blogHandle = blog.title | handleize | append: '-' %}
 {% assign projectHandle = article.title | handleize | append: '-' %}
 {% assign finalName = blogHandle | append: projectHandle | append: 'cover.jpg'%}

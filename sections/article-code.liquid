@@ -1,20 +1,10 @@
-{%- comment -%}
-  In order to avoid showing "success" message when we post comments
-  with invalid format (eg. blank fields), we added logic to make sure it doesn't show.
-
-  Comment help page:
-  http://docs.shopify.com/themes/liquid-variables/comment
-{%- endcomment -%}
-
-{% section 'static-article' %}
-
-{% render 'shared-static-sections' %}
-
 <article role="article" data-component="article">
   <div class="mw-c center ph3 ph4-ns">
-    <div class="type-body-large rte mb6">
-      {% section 'static-collage-projects' %}
+    <div class="type-body-large rte {% unles template == 'article.2-column-blog-gallery-featured'%}centered-content{% endnless %} mb6">
       {{ article.content }}
+      {% if template == 'article.2-column-blog-gallery-featured'%}
+        {% render '2-column-static-collage-projects' %}
+      {% endif %}
 
       <div class="article__footer">
         {% comment %} <p><strong>{{ 'blogs.general.published' | t }}:</strong> {{ article.published_at | date: "%a, %b %d, %Y" }}</p> {% endcomment %}

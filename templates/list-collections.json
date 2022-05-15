@@ -1,0 +1,9 @@
+{
+  "name": "Collections List",
+  "sections": {
+    "list-collections": {
+      "type": "static-list-collections"
+    }
+  },
+  "order": ["list-collections"]
+}
