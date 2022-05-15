@@ -7,21 +7,10 @@
   <div class="js-mg-{{ section.id }} collage cf">
 
   {% assign blogHandle = blog.title | handleize | append: '-' %}
-  {% assign projectHandle = article.title | handleize %}
+  {% assign projectHandle = article.title | handleize | append: '-' %}
+
 
 {% assign finalVideoName = blogHandle | append: projectHandle | append: '.mp4' %}
-
-<img src="{{'portrait-of-a-woman-wearing-business-attire.jpg' | file_url }}">
-  <video
-    width="100%"
-    controls
-  >
-    <source
-      src="https://cdn.shopify.com/videos/c/o/v/d14cee963cd04062a7201325465434b1.mp4"
-      type="video/mp4"
-    />
-    Your browser does not support HTML video.
-  </video>
 
     {% for i in (0..100) %}
       {% assign fotoNumber = forloop.index0 %}
