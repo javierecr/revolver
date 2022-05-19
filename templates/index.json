@@ -351,6 +351,19 @@
         "title": "",
         "custom_html": "<p>Write or paste your HTML code here<\/p>"
       }
+    },
+    "1653003843def9a352": {
+      "type": "dynamic-featured-product",
+      "settings": {
+        "product": "",
+        "show_vendor": true,
+        "show_swatches": false,
+        "show_share_buttons": false,
+        "show_quantity_input": true,
+        "enable_payment_button": true,
+        "enable_video_looping": true,
+        "outline": false
+      }
     }
   },
   "order": [
@@ -359,6 +372,7 @@
     "1653003297e8ea651c",
     "1653002605bce9270d",
     "1653003050a914381b",
-    "1653003840e027f8fa"
+    "1653003840e027f8fa",
+    "1653003843def9a352"
   ]
 }
