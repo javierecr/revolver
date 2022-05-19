@@ -333,6 +333,24 @@
         "subheading": "This section is designed for steps or policies. Tell your brand's story, describe how a product is made, or outline shipping stages.",
         "outline": false
       }
+    },
+    "1653003840e027f8fa": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "997f7bc8-4371-4ff1-9a08-f01eaadd0359": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "997f7bc8-4371-4ff1-9a08-f01eaadd0359"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
     }
   },
   "order": [
@@ -340,6 +358,7 @@
     "collage",
     "1653003297e8ea651c",
     "1653002605bce9270d",
-    "1653003050a914381b"
+    "1653003050a914381b",
+    "1653003840e027f8fa"
   ]
 }
