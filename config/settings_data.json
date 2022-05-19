@@ -120,7 +120,8 @@
         "settings": {
           "header_style": "inline",
           "header_alignment": "left",
-          "logo_max_width": 350,
+          "logo": "shopify:\/\/shop_images\/1._Logotipo_Revolver.jpg",
+          "logo_max_width": 230,
           "menu": "main-menu",
           "transparent_index_header_enabled": false,
           "transparent_about_header_enabled": false,
