@@ -3,11 +3,19 @@
     "blog": {
       "type": "static-blog",
       "settings": {
+        "aspect_ratio": "portrait"
       }
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
+        "enabled": true,
+        "title": "Recently Viewed",
+        "alignment": "left",
+        "rows": 1,
+        "per_row": 3,
+        "aspect_ratio": "square",
+        "outline": false
       }
     }
   },
