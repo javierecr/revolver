@@ -364,6 +364,345 @@
         "enable_video_looping": false,
         "outline": false
       }
+    },
+    "1653004021e9383b2e": {
+      "type": "dynamic-collage",
+      "blocks": {
+        "16530040213d260d0b-0": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-19_075_1_copy.jpg",
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "16530040213d260d0b-1": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-21_033_1.jpg",
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16530040213d260d0b-2": {
+          "type": "grid_item",
+          "disabled": true,
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is a large portrait block.",
+            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "8f77ea49-f1f9-44f0-9fc6-b1d04f254183": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-24_009_1_1.jpg",
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "16530040213d260d0b-3": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHARLY-D1_LOOK-10_062.jpg",
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "Don't forget to add a link or two",
+            "link_style": "arrow_link",
+            "horizontal_text_position": "right",
+            "vertical_text_position": "bottom"
+          }
+        },
+        "f779968e-ab08-44f9-a658-c6534411a172": {
+          "type": "grid_item",
+          "disabled": true,
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 25,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        }
+      },
+      "block_order": [
+        "16530040213d260d0b-0",
+        "16530040213d260d0b-1",
+        "16530040213d260d0b-2",
+        "8f77ea49-f1f9-44f0-9fc6-b1d04f254183",
+        "16530040213d260d0b-3",
+        "f779968e-ab08-44f9-a658-c6534411a172"
+      ],
+      "settings": {
+        "large_text": false
+      }
+    },
+    "16530044549f72c30c": {
+      "type": "dynamic-text-columns-with-images",
+      "blocks": {
+        "165300445402609773-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3287_c674eb3a-617c-4005-b05a-a4cdf2edc00e.jpg",
+            "image_max_width": 100,
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "video_url": "",
+            "video_url_2": ""
+          }
+        },
+        "165300445402609773-1": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 100,
+            "title": "El mejor café en shootings",
+            "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici consentem et odis ex eatest\nevent aut doluptu sanducit officietur alitas est, nihit, ne dendusam\nremquis sandent, quid minvelest harc.",
+            "link": "",
+            "link_text": "",
+            "video_url": "",
+            "video_url_2": ""
+          }
+        },
+        "165300445402609773-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image_max_width": 100,
+            "title": "Column Three",
+            "subheading": "End it with an action item that the user can take advantage of. Link to a more in-depth page, or go straight to a collection. Your call.",
+            "link": "#",
+            "link_text": "Don't forget to add a link",
+            "video_url": "",
+            "video_url_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "165300445402609773-0",
+        "165300445402609773-1",
+        "165300445402609773-2"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "outline": false
+      }
+    },
+    "16530046199f26e11c": {
+      "type": "dynamic-text-columns-with-images",
+      "blocks": {
+        "1653004619bf259b45-0": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 100,
+            "title": "PAU SOMMERZ",
+            "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici\nconsentem et odis ex eatest event\naut doluptu sanducit officietur alitas est, nihit, ne dendusam remquis\nsandent, quid minvelest harc",
+            "link": "",
+            "link_text": "",
+            "video_url": "",
+            "video_url_2": ""
+          }
+        },
+        "1653004619bf259b45-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3284.jpg",
+            "image_max_width": 100,
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "video_url": "",
+            "video_url_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653004619bf259b45-0",
+        "1653004619bf259b45-1"
+      ],
+      "settings": {
+        "title": "",
+        "subheading": "",
+        "outline": false
+      }
+    },
+    "1653004622f8c94467": {
+      "type": "dynamix-parallax-slideshow",
+      "disabled": true,
+      "blocks": {
+        "16530046220c869027-0": {
+          "type": "slide",
+          "settings": {
+            "title": "This is your slideshow",
+            "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 60,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 16,
+            "text_max_width": 24,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16530046220c869027-1": {
+          "type": "slide",
+          "settings": {
+            "title": "This is your slideshow",
+            "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 60,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 16,
+            "text_max_width": 24,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "16530046220c869027-0",
+        "16530046220c869027-1"
+      ],
+      "settings": {
+        "desktop_height": 100,
+        "mobile_height": 100
+      }
+    },
+    "16530047576593b18a": {
+      "type": "dynamic-testimonials",
+      "disabled": true,
+      "blocks": {
+        "1653004757647dfa7e-0": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "Absolutely unparalleled products and service. I'm confident that this store will be the next big thing in its industry, and that its products will be timeless.",
+            "author": "Steve Jordans"
+          }
+        }
+      },
+      "block_order": [
+        "1653004757647dfa7e-0"
+      ],
+      "settings": {
+        "icon_width": 40,
+        "outline": false
+      }
+    },
+    "1653004762e3d2b0c1": {
+      "type": "dynamic-full-width-image",
+      "disabled": true,
+      "settings": {
+        "video_url": "",
+        "aspect_ratio": "3_2",
+        "overlay_opacity": 50,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "Full width image section",
+        "subheading": "This section can be used to organize the homepage into distinct areas, or mix and match it before or after items in the Collage grid to give it a magazine-like feel.",
+        "text_max_width": 30,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
+    "16530047897e4ec4ee": {
+      "type": "dynamic-images-with-text",
+      "blocks": {
+        "16530047898a5a290b-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MarcoColin1.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        },
+        "16530047898a5a290b-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MarcoColin2.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16530047898a5a290b-0",
+        "16530047898a5a290b-1"
+      ],
+      "settings": {
+        "aspect_ratio": "natural"
+      }
     }
   },
   "order": [
@@ -373,6 +712,13 @@
     "1653002605bce9270d",
     "1653003050a914381b",
     "1653003840e027f8fa",
-    "1653003843def9a352"
+    "1653003843def9a352",
+    "1653004021e9383b2e",
+    "16530044549f72c30c",
+    "16530046199f26e11c",
+    "1653004622f8c94467",
+    "16530047576593b18a",
+    "1653004762e3d2b0c1",
+    "16530047897e4ec4ee"
   ]
 }
