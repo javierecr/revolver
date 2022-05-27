@@ -340,7 +340,8 @@
         "997f7bc8-4371-4ff1-9a08-f01eaadd0359": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/PORTADA1.jpg"
           }
         }
       },
