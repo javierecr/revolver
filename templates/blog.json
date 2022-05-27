@@ -3,7 +3,7 @@
     "blog": {
       "type": "static-blog",
       "settings": {
-        "aspect_ratio": "landscape"
+        "aspect_ratio": "natural"
       }
     },
     "recently-viewed": {
