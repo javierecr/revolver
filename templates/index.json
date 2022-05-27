@@ -10,7 +10,7 @@
             "video_url": "",
             "title": "",
             "subheading": "",
-            "link": "",
+            "link": "shopify:\/\/blogs\/proyectos",
             "link_text": "",
             "link_style": "button",
             "overlay_opacity": 0,
@@ -246,8 +246,8 @@
       "settings": {
         "title": "CONOCE A FERNANDA BONSERIO",
         "text": "<p>Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.<\/p><p>Desde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.<\/p>",
-        "link": "",
-        "link_text": ""
+        "link": "shopify:\/\/blogs\/noticias-1",
+        "link_text": "Leer más"
       }
     },
     "1653002605bce9270d": {
@@ -399,11 +399,11 @@
             "heading": "",
             "subheading": "",
             "text_max_width": 16,
-            "link": "",
-            "link_text": "",
+            "link": "shopify:\/\/blogs\/proyectos",
+            "link_text": "Ver más",
             "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
+            "horizontal_text_position": "center",
+            "vertical_text_position": "bottom"
           }
         },
         "16530040213d260d0b-2": {
@@ -517,8 +517,8 @@
             "image_max_width": 100,
             "title": "El mejor café en shootings",
             "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici consentem et odis ex eatest\nevent aut doluptu sanducit officietur alitas est, nihit, ne dendusam\nremquis sandent, quid minvelest harc.",
-            "link": "",
-            "link_text": "",
+            "link": "shopify:\/\/blogs\/noticias-1",
+            "link_text": "Leer más",
             "video_url": "",
             "video_url_2": ""
           }
@@ -558,7 +558,7 @@
             "title": "PAU SOMMERZ",
             "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici\nconsentem et odis ex eatest event\naut doluptu sanducit officietur alitas est, nihit, ne dendusam remquis\nsandent, quid minvelest harc",
             "link": "",
-            "link_text": "",
+            "link_text": "Más aquí",
             "video_url": "",
             "video_url_2": ""
           }
