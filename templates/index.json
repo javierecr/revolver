@@ -374,7 +374,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-19_075_1_copy.jpg",
             "size": "small",
-            "video_url": "",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/70bbf934f48a45ac9e5ab29ca09b7d39.mov",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "text_color": "#ffffff",
@@ -393,7 +393,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-21_033_1.jpg",
             "size": "large",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/13e83806049d44c08a3ad7cfb26711d8.mov",
+            "video_url": "",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "text_color": "#ffffff",
