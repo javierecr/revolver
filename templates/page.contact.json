@@ -3,6 +3,8 @@
     "contact": {
       "type": "static-contact",
       "settings": {
+        "heading": "",
+        "subheading": "<p>Paula Sommerz<\/p><p>Directora de Producción<\/p><p><a href=\"mailto:produccion@revolvermexico.com\" target=\"_blank\">produccion@revolvermexico.com<\/a><\/p><p>Cel. 5543384765<\/p><p> <\/p><p>Lourdes Lagos<\/p><p>Administración y Finanzas<\/p><p><a href=\"mailto:finanzas@revolvermexico.com\" target=\"_blank\">finanzas@revolvermexico.com<\/a><\/p><p>5567250081<\/p>"
       }
     }
   },
