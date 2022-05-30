@@ -131,6 +131,15 @@
         "mobile_height": 100
       }
     },
+    "1653003297e8ea651c": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "CONOCE A FERNANDA BONSERIO",
+        "text": "<p>Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.<\/p><p>Desde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.<\/p>",
+        "link": "shopify:\/\/blogs\/noticias-1",
+        "link_text": "Leer más"
+      }
+    },
     "collage": {
       "type": "dynamic-collage",
       "blocks": {
@@ -239,15 +248,6 @@
       ],
       "settings": {
         "large_text": false
-      }
-    },
-    "1653003297e8ea651c": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "title": "CONOCE A FERNANDA BONSERIO",
-        "text": "<p>Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.<\/p><p>Desde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.<\/p>",
-        "link": "shopify:\/\/blogs\/noticias-1",
-        "link_text": "Leer más"
       }
     },
     "1653003840e027f8fa": {
@@ -708,8 +708,8 @@
   },
   "order": [
     "16530024512ab5fa1d",
-    "collage",
     "1653003297e8ea651c",
+    "collage",
     "1653003840e027f8fa",
     "1653002605bce9270d",
     "1653003050a914381b",
