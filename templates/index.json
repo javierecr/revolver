@@ -250,6 +250,25 @@
         "link_text": "Leer más"
       }
     },
+    "1653003840e027f8fa": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "997f7bc8-4371-4ff1-9a08-f01eaadd0359": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/PORTADA1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "997f7bc8-4371-4ff1-9a08-f01eaadd0359"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
     "1653002605bce9270d": {
       "type": "dynamic-images-with-text",
       "disabled": true,
@@ -332,25 +351,6 @@
         "title": "Text columns with images",
         "subheading": "This section is designed for steps or policies. Tell your brand's story, describe how a product is made, or outline shipping stages.",
         "outline": false
-      }
-    },
-    "1653003840e027f8fa": {
-      "type": "dynamic-native-video",
-      "blocks": {
-        "997f7bc8-4371-4ff1-9a08-f01eaadd0359": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
-            "video_image_url": "shopify:\/\/shop_images\/PORTADA1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "997f7bc8-4371-4ff1-9a08-f01eaadd0359"
-      ],
-      "settings": {
-        "title": "",
-        "custom_html": "<p>Write or paste your HTML code here<\/p>"
       }
     },
     "1653003843def9a352": {
@@ -682,7 +682,7 @@
           "type": "block",
           "settings": {
             "image": "shopify:\/\/shop_images\/MarcoColin1.jpg",
-            "title": "Dispara con Revolver",
+            "title": "",
             "subheading": "",
             "link": "shopify:\/\/blogs\/dispara"
           }
@@ -710,9 +710,9 @@
     "16530024512ab5fa1d",
     "collage",
     "1653003297e8ea651c",
+    "1653003840e027f8fa",
     "1653002605bce9270d",
     "1653003050a914381b",
-    "1653003840e027f8fa",
     "1653003843def9a352",
     "1653004021e9383b2e",
     "16530044549f72c30c",
