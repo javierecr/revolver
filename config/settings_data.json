@@ -457,7 +457,7 @@
           "static-announcement-bar-0"
         ],
         "settings": {
-          "announcement_bar_enabled": true,
+          "announcement_bar_enabled": false,
           "announcement_bar_timing": 5
         }
       },
