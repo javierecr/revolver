@@ -131,8 +131,158 @@
         "mobile_height": 100
       }
     },
+    "16544667769f849e1c": {
+      "type": "dynamic-collage",
+      "blocks": {
+        "16544667761d3e774c-1": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FER075_1.jpg",
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16544667761d3e774c-0": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/noticias-fernanda-bonserio-07.jpg",
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "16544667761d3e774c-2": {
+          "type": "grid_item",
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 100,
+            "overlay_color": "#ffffff",
+            "text_color": "#050505",
+            "heading": "CONOCE A FERNANDA BONSERIO",
+            "subheading": "Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.\n\nDesde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.",
+            "text_max_width": 29,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16544667761d3e774c-3": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Milanesasdeespinaca-Frizata2106Redes0499_web.jpg",
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "Don't forget to add a link or two",
+            "link_style": "arrow_link",
+            "horizontal_text_position": "right",
+            "vertical_text_position": "bottom"
+          }
+        },
+        "deb20917-cdcc-4c5a-99ff-9fe99362b34f": {
+          "type": "grid_item",
+          "disabled": true,
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 25,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "06a5d6f9-6157-47b7-8830-7f9ac20074fc": {
+          "type": "grid_item",
+          "disabled": true,
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 25,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "7851da9b-df6f-4555-a6fb-8d25361f7009": {
+          "type": "grid_item",
+          "disabled": true,
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 25,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        }
+      },
+      "block_order": [
+        "16544667761d3e774c-1",
+        "16544667761d3e774c-0",
+        "16544667761d3e774c-2",
+        "16544667761d3e774c-3",
+        "deb20917-cdcc-4c5a-99ff-9fe99362b34f",
+        "06a5d6f9-6157-47b7-8830-7f9ac20074fc",
+        "7851da9b-df6f-4555-a6fb-8d25361f7009"
+      ],
+      "settings": {
+        "large_text": false
+      }
+    },
     "1653003297e8ea651c": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "settings": {
         "title": "CONOCE A FERNANDA BONSERIO",
         "text": "<p>Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.<\/p><p>Desde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.<\/p>",
@@ -142,6 +292,7 @@
     },
     "collage": {
       "type": "dynamic-collage",
+      "disabled": true,
       "blocks": {
         "f07dc043-4b5f-429a-8213-0f11628f7a79": {
           "type": "grid_item",
@@ -381,7 +532,7 @@
             "heading": "",
             "subheading": "",
             "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos",
+            "link": "shopify:\/\/blogs\/proyectos\/charly",
             "link_text": "",
             "link_style": "button",
             "horizontal_text_position": "left",
@@ -400,7 +551,7 @@
             "heading": "",
             "subheading": "",
             "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos",
+            "link": "shopify:\/\/blogs\/proyectos\/charly",
             "link_text": "",
             "link_style": "button",
             "horizontal_text_position": "center",
@@ -438,7 +589,7 @@
             "heading": "",
             "subheading": "",
             "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos",
+            "link": "shopify:\/\/blogs\/proyectos\/charly",
             "link_text": "",
             "link_style": "button",
             "horizontal_text_position": "left",
@@ -457,7 +608,7 @@
             "heading": "",
             "subheading": "",
             "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos",
+            "link": "shopify:\/\/blogs\/proyectos\/charly",
             "link_text": "",
             "link_style": "arrow_link",
             "horizontal_text_position": "right",
@@ -708,6 +859,7 @@
   },
   "order": [
     "16530024512ab5fa1d",
+    "16544667769f849e1c",
     "1653003297e8ea651c",
     "collage",
     "1653003840e027f8fa",
