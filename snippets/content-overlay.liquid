@@ -18,8 +18,8 @@
   {%- endif -%}
 {%- endcapture -%}
 
-{% capture inner_text %}
-  {%- if contain == true -%}
+  <div class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
+    {%- if contain == true -%}
       <div class="content-overlay__container">
     {%- endif -%}
 
@@ -44,21 +44,7 @@
     {%- if contain == true -%}
       </div>
     {%- endif -%}
-{% endcapture %}
-
-{% if s.link != blank  and s.video_url == blank %}
-  <a
-    href="{{s.link}}" 
-    class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}"
-    {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}
-  >
-    {{inner_text}}
-  </a>
-{% else %}
-  <div class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
-    {{inner_text}}
   </div>
-{% endif %}
 
 {% if s.overlay_color != blank %}
   <div class="z-1 absolute absolute--fill o-{{ s.overlay_opacity }}" style="background: {{ s.overlay_color }};"></div>
