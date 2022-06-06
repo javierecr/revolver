@@ -19,8 +19,7 @@
 {%- endcapture -%}
 
 {% if s.link != blank  and s.video_url == blank %}
-  <a class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}
-  href="{{s.link}}">
+  <a class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %} href="{{s.link}}">
 {% else %}
   <div class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
 {% endif %}
@@ -50,7 +49,9 @@
   {%- if contain == true -%}
     </div>
   {%- endif -%}
+
   {% if s.link != blank  and s.video_url == blank %}
+  hola
     </a>
     {% else %}
     </div>
