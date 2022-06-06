@@ -20,6 +20,8 @@
       <div class="collage__item">
   {% endif %}
   hola
+    {{block.settings.url}}
+  {{block.settings.video_url}}
         <div
           data-bgset="{% render 'responsive-bg-image' with image: block.settings.image %}"
           role="img"
