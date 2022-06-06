@@ -9666,7 +9666,7 @@ div[data-media-type='external_video'] iframe {
   margin: 40px auto;
 
   margin: var(--spacing-large) auto;
-  text-align: center;
+  /* text-align: center; */
   line-height: 1.8;
 }
 
