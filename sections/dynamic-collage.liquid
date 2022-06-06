@@ -14,11 +14,7 @@
         endif
       %}
 
-      {% if block.settings.link != blank  and block.settings.video_url == blank %}
-      <a class="collage__item">
-      {% else %}
-      <div class="collage__item">
-      {% endif %}
+        <div class="collage__item">
         <div
           data-bgset="{% render 'responsive-bg-image' with image: block.settings.image %}"
           role="img"
@@ -40,11 +36,7 @@
             {% comment %} <video class="collage__video" autoplay playsinline loop muted src="{{ block.settings.video_url }}" /> {% endcomment %}
           {% endif %}
         </div>
-      {% if block.settings.link != blank  and block.settings.video_url == blank %}
-      </a>
-      {% else %}
-      </div>
-      {% endif %}
+        </div>
     {% endfor %}
 
   </div>

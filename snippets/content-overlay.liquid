@@ -18,7 +18,11 @@
   {%- endif -%}
 {%- endcapture -%}
 
-<div class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
+{% if s.link != blank  and s.video_url == blank %}
+  <a class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
+{% else %}
+  <div class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
+{% endif %}
 
   {%- if contain == true -%}
     <div class="content-overlay__container">
@@ -45,7 +49,11 @@
   {%- if contain == true -%}
     </div>
   {%- endif -%}
-</div>
+  {% if s.link != blank  and s.video_url == blank %}
+    </a>
+    {% else %}
+    </div>
+    {% endif %}
 
 {% if s.overlay_color != blank %}
   <div class="z-1 absolute absolute--fill o-{{ s.overlay_opacity }}" style="background: {{ s.overlay_color }};"></div>
