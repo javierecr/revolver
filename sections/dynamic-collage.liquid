@@ -40,14 +40,14 @@
             {% comment %} <video class="collage__video" autoplay playsinline loop muted src="{{ block.settings.video_url }}" /> {% endcomment %}
           {% endif %}
         </div>
-      </div>
-    {% endfor %}
-
     {% if block.settings.url != blank and block.settings.video_url == blank %}
         </a>
     {% else %}
         </div>
   {% endif %}
+    {% endfor %}
+
+      </div>
 </section>
 
 {% schema %}
