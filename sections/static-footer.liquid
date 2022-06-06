@@ -19,7 +19,7 @@
     {% if section.settings.show_newsletter_signup %}
       <div class="footer__newsletter">
         <div class="footer__signup-text">
-          {{ 'general.newsletter_form.newsletter_email' | t }}
+          {{section.settings.signup_text}}
         </div>
 
         <div class="footer__input-wrap">
@@ -36,7 +36,7 @@
                   name="contact[email]"
                   id="Email"
                   value="{% if customer.email != blank %}{{ customer.email }}{% endif %}"
-                  placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"
+                  placeholder="{{ section.settings.signup_input_placeholder }}"
                   autocorrect="off"
                   autocapitalize="off">
               </div>
@@ -136,6 +136,17 @@
         "id": "show_newsletter_signup",
         "label": "Show newsletter signup",
         "default": true
+      },
+      {
+        "type": "text",
+        "id": "signup_text",
+        "label": "Sign up text",
+        "default": "Suscríbete a nuestro boletin informativo."
+      },
+      {
+        "type": "text",
+        "id": "signup_input_placeholder",
+        "label": "Email input placeholder"
       },
       {
         "type": "checkbox",
