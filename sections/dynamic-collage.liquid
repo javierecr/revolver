@@ -14,7 +14,7 @@
         endif
       %}
 
-        <div class="collage__item">
+      <div class="collage__item">
         <div
           data-bgset="{% render 'responsive-bg-image' with image: block.settings.image %}"
           role="img"
@@ -36,7 +36,7 @@
             {% comment %} <video class="collage__video" autoplay playsinline loop muted src="{{ block.settings.video_url }}" /> {% endcomment %}
           {% endif %}
         </div>
-        </div>
+      </div>
     {% endfor %}
 
   </div>
