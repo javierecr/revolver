@@ -14,7 +14,11 @@
         endif
       %}
 
+  {% if block.settings.url != blank  and block.settings.video_url == blank %}
+      <a class="collage__item">
+  {% else %}
       <div class="collage__item">
+  {% endif %}
         <div
           data-bgset="{% render 'responsive-bg-image' with image: block.settings.image %}"
           role="img"
@@ -39,7 +43,11 @@
       </div>
     {% endfor %}
 
-  </div>
+    {% if block.settings.url != blank and block.settings.video_url == blank %}
+        </a>
+    {% else %}
+        </div>
+  {% endif %}
 </section>
 
 {% schema %}
