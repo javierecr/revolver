@@ -1,17 +1,9 @@
 <style>
 
   @media screen and (min-width: 38em) {
-    {% if section.blocks.size > 1%}
-      section[data-section-id="{{section.id}}"] .images-with-text__container{
-        grid-template-columns: repeat(3, 1fr);
-      }
-    {% endif %}
-
-    {% if section.blocks.size == 2 %}
-      section[data-section-id="{{section.id}}"] .images-with-text__container .images-with-text__item:first-of-type{
-        grid-column: 1 / span 2;
-      }
-    {% endif %}
+    section[data-section-id="{{section.id}}"] .images-with-text__container{
+      grid-template-columns: repeat({{section.blocks.size}}, 1fr);
+    }
   }
 </style>
 
