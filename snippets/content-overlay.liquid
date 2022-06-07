@@ -33,13 +33,13 @@
           <p class="content-overlay__subheading type-body-regular {{ horizontal_position }} {% if large == true%} large {% endif %}" {%- if s.text_max_width != blank -%} style="max-width: {{ s.text_max_width }}em;"{%- endif -%}>{{ s.subheading }}</p>
         {%- endif -%}
 
-        {%- if s.link != blank and s.link_text != blank -%}
+        {% comment %} {%- if s.link != blank and s.link_text != blank -%}
           {%- if s.link_style == 'button' -%}
             <a href="{{ s.link }}" class="bttn {{ horizontal_position }}">{{ s.link_text }}</a>
           {%- else -%}
             <a href="{{ s.link }}" class="accent-link {{ horizontal_position }}">{{ s.link_text }} &rarr;</a>
           {%- endif -%}
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
       </div>
 
       {%- if contain == true -%}
