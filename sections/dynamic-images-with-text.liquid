@@ -3,9 +3,9 @@
   @media screen and (min-width: 38em) {
     section[data-section-id="{{section.id}}"] .images-with-text__container{
       {% if section.blocks.size > 4 %}
-      grid-template-columns: repeat({{section.blocks.size}}, 1fr);
-      {% else %}
         grid-template-columns: repeat(3, 1fr);
+      {% else %}
+        grid-template-columns: repeat({{section.blocks.size}}, 1fr);
       {% endif %}
     }
   }
