@@ -98,7 +98,7 @@
         ],
         "settings": {
           "show_newsletter_signup": true,
-          "signup_text": "Suscríbete a nuestro boletín informativo",
+          "signup_text": "Suscríbete a nuestro newsletter para recibir noticias y novedades",
           "signup_input_placeholder": "Ingresa tu correo electrónico",
           "show_payment_icons": false,
           "show_locale_selector": false,
