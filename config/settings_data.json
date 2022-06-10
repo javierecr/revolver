@@ -55,7 +55,7 @@
     "social_youtube_link": "",
     "social_vimeo_link": "",
     "cart_notes_enable": true,
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
