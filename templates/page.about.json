@@ -3,6 +3,11 @@
     "about": {
       "type": "static-about",
       "settings": {
+        "title": "",
+        "subheading": "",
+        "overlay_opacity": 0,
+        "overlay_color": "",
+        "text_color": ""
       }
     }
   },
