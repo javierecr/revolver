@@ -3,36 +3,85 @@
     "collection": {
       "type": "static-collection",
       "settings": {
+        "show_collection_image": false,
+        "show_swatches": false,
+        "collection_products_per_row": 3,
+        "per_page": 12,
+        "aspect_ratio": "portrait",
+        "pagination": "infinite",
+        "show_sort": false,
+        "show_filters": false,
+        "filter_type": "by_tag",
+        "filter_style": "buttons"
       }
     },
     "blog-posts": {
       "type": "static-blog-posts",
       "settings": {
+        "enabled": false,
+        "title": "Blog posts",
+        "blog": "",
+        "post_limit": 3,
+        "aspect_ratio": "natural"
       }
     },
     "testimonials": {
       "type": "static-testimonials",
       "settings": {
+        "enabled": false,
+        "icon_width": 40,
+        "outline": false
       }
     },
     "newsletter": {
       "type": "static-newsletter",
       "settings": {
+        "enabled": false,
+        "title": "Newsletters can reinforce your brand",
+        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+        "outline": false
       }
     },
     "social-icons": {
       "type": "static-social-icons",
       "settings": {
+        "enabled": false,
+        "title": "Start the conversation",
+        "pinterest_enabled": false,
+        "instagram_enabled": false,
+        "facebook_enabled": false,
+        "tumblr_enabled": false,
+        "twitter_enabled": false,
+        "vimeo_enabled": false,
+        "youtube_enabled": false,
+        "outline": false
       }
     },
     "featured-collection": {
       "type": "static-featured-collection",
       "settings": {
+        "enabled": false,
+        "collection": "",
+        "title": "Featured collection",
+        "collection_subheading": "",
+        "link_text": "",
+        "heading_alignment": "left",
+        "products_per_row": 3,
+        "rows": 1,
+        "aspect_ratio": "square",
+        "outline": false
       }
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
+        "enabled": true,
+        "title": "Recently Viewed",
+        "alignment": "left",
+        "rows": 1,
+        "per_row": 3,
+        "aspect_ratio": "square",
+        "outline": false
       }
     }
   },

@@ -131,7 +131,7 @@
           "transparent_about_header_enabled": false,
           "transparent_header_foreground_color": "#ffffff",
           "transparent_header_border_color": "#ffffff",
-          "transparent_header_border_opacity": 20
+          "transparent_header_border_opacity": 0
         }
       },
       "product": {
