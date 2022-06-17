@@ -3,10 +3,10 @@
     "article": {
       "type": "static-article",
       "settings": {
-        "overlay_opacity": 30,
+        "overlay_opacity": 0,
         "overlay_color": "",
         "text_color": "",
-        "large_header": false
+        "large_header": true
       }
     },
     "article-code": {
@@ -18,6 +18,7 @@
     },
     "1652634084ff48ab4f": {
       "type": "dynamic-slideshow",
+      "disabled": true,
       "blocks": {
         "16526340843fc811e3-0": {
           "type": "slide",
