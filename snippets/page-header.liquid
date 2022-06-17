@@ -6,8 +6,10 @@
         {{ page.title }}
       </p>
     {% endif %}
-    <h1 class="page-header__title type-heading-display">{{ title }}</h1>
+  <div class="flex-ns justify-between-ns items-center-ns mt4 mb4 mb3-ns tc tl-ns">
+    <h1 class="ma0 type-heading-1">{{ title }}</h1>
     {% if subheading %}
-      <h2 class="page-header__subheading type-body-extra-large">{{ subheading }}</h2>
+      <h2 class="page-header__subheading">{{ subheading }}</h2>
     {% endif %}
+  </div>
 </div>
