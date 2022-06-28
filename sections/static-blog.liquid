@@ -8,7 +8,7 @@
     {% endif %}
 
     <div class="flex-ns justify-between-ns items-center-ns mt4 mb4 mb3-ns tc tl-ns">
-      <h2 class="dn-ns page-header__crumbs type-heading-meta mb2"><a href="{{ routes.root_url }}" class="color-inherit">{{ 'general.meta.home' | t }}</a> / {{ blog.title }}</h2>
+      {% comment %} <h2 class="dn-ns page-header__crumbs type-heading-meta mb2"><a href="{{ routes.root_url }}" class="color-inherit">{{ 'general.meta.home' | t }}</a> / {{ blog.title }}</h2> {% endcomment %}
       <h1 class="ma0 type-heading-1">{{ blog_title }}</h1>
       {% comment %} <a href="/blogs/{{ blog.handle }}.atom" class="blog__rss underline dn di-ns">{{ 'general.meta.rss' | t }}</a> {% endcomment %}
     </div>
