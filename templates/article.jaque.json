@@ -3,16 +3,17 @@
     "article": {
       "type": "static-article",
       "settings": {
-        "overlay_opacity": 30,
+        "overlay_opacity": 0,
         "overlay_color": "",
-        "text_color": "",
+        "text_color": "#ffffff",
         "large_header": false
       }
     },
     "article-code": {
       "type": "article-code",
       "settings": {
-        "two_column_layout": false
+        "narrow_layout": false,
+        "two_column_layout": true
       }
     },
     "1652634084ff48ab4f": {
@@ -20,6 +21,7 @@
       "blocks": {
         "16526340843fc811e3-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "video_url": "",
             "title": "This is your slideshow",
@@ -38,6 +40,7 @@
         },
         "16526340843fc811e3-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "video_url": "",
             "title": "This is your slideshow",
