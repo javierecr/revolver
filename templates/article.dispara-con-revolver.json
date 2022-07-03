@@ -16,6 +16,25 @@
         "two_column_layout": true
       }
     },
+    "16568869311b2a48b3": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "970b51f3-c41e-45a1-a31c-43f0572da753": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3b659166b2384c209daca82b0344222e.mov",
+            "video_image_url": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-06.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "970b51f3-c41e-45a1-a31c-43f0572da753"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
     "1652634084ff48ab4f": {
       "type": "dynamic-slideshow",
       "disabled": true,
@@ -139,6 +158,7 @@
   "order": [
     "article",
     "article-code",
+    "16568869311b2a48b3",
     "1652634084ff48ab4f",
     "blog-posts",
     "testimonials",
