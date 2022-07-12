@@ -11,6 +11,7 @@
     },
     "article-code": {
       "type": "article-code",
+      "disabled": true,
       "settings": {
         "narrow_layout": false,
         "two_column_layout": true
@@ -18,6 +19,7 @@
     },
     "16568869311b2a48b3": {
       "type": "dynamic-native-video",
+      "disabled": true,
       "blocks": {
         "970b51f3-c41e-45a1-a31c-43f0572da753": {
           "type": "video",
@@ -33,6 +35,85 @@
       "settings": {
         "title": "",
         "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
+    "165765369710427807": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "Nombre del personaje",
+        "text": "<p>Pequeña descripción del personaje<\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "1657653427e889b59a": {
+      "type": "dynamic-collage",
+      "blocks": {
+        "647fa42b-2b13-4794-9285-1f6d9a79705a": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-01.jpg",
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "16576534279365e933-2": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-06.jpg",
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "c1694bed-f5e3-4f91-9be2-5f48b6e744da": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-06.jpg",
+            "size": "large",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9c235f5791f74d8ea8d0933b25a86215.mp4",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 16,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        }
+      },
+      "block_order": [
+        "647fa42b-2b13-4794-9285-1f6d9a79705a",
+        "16576534279365e933-2",
+        "c1694bed-f5e3-4f91-9be2-5f48b6e744da"
+      ],
+      "settings": {
+        "large_text": false
       }
     },
     "1652634084ff48ab4f": {
@@ -87,6 +168,7 @@
     },
     "blog-posts": {
       "type": "static-blog-posts",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "title": "Blog posts",
@@ -97,6 +179,7 @@
     },
     "testimonials": {
       "type": "static-testimonials",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "icon_width": 40,
@@ -105,6 +188,7 @@
     },
     "newsletter": {
       "type": "static-newsletter",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "title": "Newsletters can reinforce your brand",
@@ -114,6 +198,7 @@
     },
     "social-icons": {
       "type": "static-social-icons",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "title": "Start the conversation",
@@ -129,6 +214,7 @@
     },
     "featured-collection": {
       "type": "static-featured-collection",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "collection": "",
@@ -144,6 +230,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enabled": true,
         "title": "Recently Viewed",
@@ -153,18 +240,241 @@
         "aspect_ratio": "square",
         "outline": false
       }
+    },
+    "165765438809242d34": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "Nombre del personaje",
+        "text": "",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "1657654343bb7a4d9f": {
+      "type": "dynamic-collage",
+      "disabled": true,
+      "blocks": {
+        "165765434287b80810-0": {
+          "type": "grid_item",
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is the Collage.",
+            "subheading": "Mix and match between large portrait blocks and small landscape blocks.",
+            "text_max_width": 20,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "165765434287b80810-1": {
+          "type": "grid_item",
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is a large portrait block.",
+            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "165765434287b80810-2": {
+          "type": "grid_item",
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is a large portrait block.",
+            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "165765434287b80810-3": {
+          "type": "grid_item",
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "Have control over your content",
+            "subheading": "Each block has text placement and max width options so you can fine tune your message and balance it with your imagery.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "Don't forget to add a link or two",
+            "link_style": "arrow_link",
+            "horizontal_text_position": "right",
+            "vertical_text_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "165765434287b80810-0",
+        "165765434287b80810-1",
+        "165765434287b80810-2",
+        "165765434287b80810-3"
+      ],
+      "settings": {
+        "large_text": false
+      }
+    },
+    "16576544546a1f5e60": {
+      "type": "dynamic-images-with-text",
+      "blocks": {
+        "1657654454e5476bb8-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-04.jpg",
+            "title": "",
+            "subheading": "Descripción del personaje\n\nThese blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collectiommm\nThese blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collectiommm\nThese blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collectiommm\nThese blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collectiommm\nThese blocks are great for images with a text caption. Add them to your grid for some variety, or use them on",
+            "link": ""
+          }
+        },
+        "1657654454e5476bb8-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-05.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657654454e5476bb8-0",
+        "1657654454e5476bb8-1"
+      ],
+      "settings": {
+        "aspect_ratio": "natural"
+      }
+    },
+    "1657654554b12f875a": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "33f1e72e-ad74-4632-a8d2-8cbcd4d78fb3": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f8a4d4e03c4b4a56839d5a0fb2341d4a.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/dispara-con-revolver-04.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "33f1e72e-ad74-4632-a8d2-8cbcd4d78fb3"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
+    "1657654656aee2c247": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "1657654656e8851e17-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-03.jpg",
+            "video_url": "",
+            "title": "Nombre del personaje",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 0,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 8,
+            "text_max_width": 16,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "1657654656e8851e17-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-00.jpg",
+            "video_url": "",
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 0,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 8,
+            "text_max_width": 16,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "1a88f279-9734-441b-99af-e34b5fb9dea6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-02.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f8a4d4e03c4b4a56839d5a0fb2341d4a.mp4",
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 0,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 8,
+            "text_max_width": 16,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        }
+      },
+      "block_order": [
+        "1657654656e8851e17-0",
+        "1657654656e8851e17-1",
+        "1a88f279-9734-441b-99af-e34b5fb9dea6"
+      ],
+      "settings": {
+        "desktop_height": 100,
+        "mobile_height": 100
+      }
     }
   },
   "order": [
     "article",
     "article-code",
     "16568869311b2a48b3",
+    "165765369710427807",
+    "1657653427e889b59a",
     "1652634084ff48ab4f",
     "blog-posts",
     "testimonials",
     "newsletter",
     "social-icons",
     "featured-collection",
-    "recently-viewed"
+    "recently-viewed",
+    "165765438809242d34",
+    "1657654343bb7a4d9f",
+    "16576544546a1f5e60",
+    "1657654554b12f875a",
+    "1657654656aee2c247"
   ]
 }
