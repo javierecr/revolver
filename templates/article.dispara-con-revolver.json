@@ -17,9 +17,66 @@
         "two_column_layout": true
       }
     },
+    "165765369710427807": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "Nombre del personaje",
+        "text": "<p>Pequeña descripción del personaje<\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "16583609435e96d0b2": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-00_dbf84800-fe2a-4791-b705-59703f4e16b7.jpg",
+        "video_url": "",
+        "aspect_ratio": "3_2",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 16,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
+    "16583610114af9f05e": {
+      "type": "dynamic-images-with-text",
+      "blocks": {
+        "1658361011674e5d05-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-01.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        },
+        "1658361011674e5d05-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-01.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1658361011674e5d05-0",
+        "1658361011674e5d05-1"
+      ],
+      "settings": {
+        "aspect_ratio": "natural"
+      }
+    },
     "16568869311b2a48b3": {
       "type": "dynamic-native-video",
-      "disabled": true,
       "blocks": {
         "970b51f3-c41e-45a1-a31c-43f0572da753": {
           "type": "video",
@@ -37,133 +94,158 @@
         "custom_html": "<p>Write or paste your HTML code here<\/p>"
       }
     },
-    "165765369710427807": {
+    "165765438809242d34": {
       "type": "dynamic-rich-text",
       "settings": {
         "title": "Nombre del personaje",
-        "text": "<p>Pequeña descripción del personaje<\/p>",
+        "text": "",
         "link": "",
         "link_text": ""
       }
     },
-    "1657653427e889b59a": {
-      "type": "dynamic-collage",
-      "blocks": {
-        "647fa42b-2b13-4794-9285-1f6d9a79705a": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-01.jpg",
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "16576534279365e933-2": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-06.jpg",
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
-        "c1694bed-f5e3-4f91-9be2-5f48b6e744da": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-06.jpg",
-            "size": "large",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9c235f5791f74d8ea8d0933b25a86215.mp4",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        }
-      },
-      "block_order": [
-        "647fa42b-2b13-4794-9285-1f6d9a79705a",
-        "16576534279365e933-2",
-        "c1694bed-f5e3-4f91-9be2-5f48b6e744da"
-      ],
+    "1658360765fd36de04": {
+      "type": "dynamic-full-width-image",
       "settings": {
-        "large_text": false
+        "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-04.jpg",
+        "video_url": "",
+        "aspect_ratio": "3_2",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 16,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
       }
     },
-    "1652634084ff48ab4f": {
-      "type": "dynamic-slideshow",
-      "disabled": true,
+    "16576544546a1f5e60": {
+      "type": "dynamic-images-with-text",
       "blocks": {
-        "16526340843fc811e3-0": {
-          "type": "slide",
+        "1657654454e5476bb8-0": {
+          "type": "block",
           "settings": {
-            "video_url": "",
-            "title": "This is your slideshow",
-            "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "overlay_opacity": 60,
-            "overlay_color": "#707070",
-            "text_color": "#ffffff",
-            "heading_max_width": 16,
-            "text_max_width": 24,
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-05.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
           }
         },
-        "16526340843fc811e3-1": {
-          "type": "slide",
+        "1657654454e5476bb8-1": {
+          "type": "block",
           "settings": {
-            "video_url": "",
-            "title": "This is your slideshow",
-            "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "overlay_opacity": 60,
-            "overlay_color": "#707070",
-            "text_color": "#ffffff",
-            "heading_max_width": 16,
-            "text_max_width": 24,
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-05.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "16526340843fc811e3-0",
-        "16526340843fc811e3-1"
+        "1657654454e5476bb8-0",
+        "1657654454e5476bb8-1"
       ],
       "settings": {
-        "desktop_height": 100,
-        "mobile_height": 100
+        "aspect_ratio": "natural"
+      }
+    },
+    "1657654554b12f875a": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "33f1e72e-ad74-4632-a8d2-8cbcd4d78fb3": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f8a4d4e03c4b4a56839d5a0fb2341d4a.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/dispara-con-revolver-04.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "33f1e72e-ad74-4632-a8d2-8cbcd4d78fb3"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
+    "16583611952d147009": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "Nombre del personaje",
+        "text": "<p>Pequeña descripción<\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "16583610815a6bccd9": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-00.jpg",
+        "video_url": "",
+        "aspect_ratio": "3_2",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 16,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
+    "16583611142d4fb711": {
+      "type": "dynamic-images-with-text",
+      "blocks": {
+        "16583611143e4c0bba-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-03.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        },
+        "16583611143e4c0bba-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-03.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16583611143e4c0bba-0",
+        "16583611143e4c0bba-1"
+      ],
+      "settings": {
+        "aspect_ratio": "natural"
+      }
+    },
+    "165836116140e3f74f": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "1bb73dbf-67b6-466d-b958-7641724dc927": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "video_image_url": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-00.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1bb73dbf-67b6-466d-b958-7641724dc927"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
       }
     },
     "blog-posts": {
@@ -240,189 +322,28 @@
         "aspect_ratio": "square",
         "outline": false
       }
-    },
-    "165765438809242d34": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "title": "Nombre del personaje",
-        "text": "",
-        "link": "",
-        "link_text": ""
-      }
-    },
-    "1657654343bb7a4d9f": {
-      "type": "dynamic-collage",
-      "disabled": true,
-      "blocks": {
-        "165765434287b80810-0": {
-          "type": "grid_item",
-          "settings": {
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "This is the Collage.",
-            "subheading": "Mix and match between large portrait blocks and small landscape blocks.",
-            "text_max_width": 20,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "165765434287b80810-1": {
-          "type": "grid_item",
-          "settings": {
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "This is a large portrait block.",
-            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
-            "text_max_width": 19,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
-        "165765434287b80810-2": {
-          "type": "grid_item",
-          "settings": {
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "This is a large portrait block.",
-            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
-            "text_max_width": 19,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
-        "165765434287b80810-3": {
-          "type": "grid_item",
-          "settings": {
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "Have control over your content",
-            "subheading": "Each block has text placement and max width options so you can fine tune your message and balance it with your imagery.",
-            "text_max_width": 19,
-            "link": "",
-            "link_text": "Don't forget to add a link or two",
-            "link_style": "arrow_link",
-            "horizontal_text_position": "right",
-            "vertical_text_position": "bottom"
-          }
-        }
-      },
-      "block_order": [
-        "165765434287b80810-0",
-        "165765434287b80810-1",
-        "165765434287b80810-2",
-        "165765434287b80810-3"
-      ],
-      "settings": {
-        "large_text": false
-      }
-    },
-    "1658360765fd36de04": {
-      "type": "dynamic-full-width-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-04.jpg",
-        "video_url": "",
-        "aspect_ratio": "3_2",
-        "overlay_opacity": 0,
-        "overlay_color": "#707070",
-        "text_color": "#ffffff",
-        "title": "",
-        "subheading": "",
-        "text_max_width": 16,
-        "link": "",
-        "link_text": "Try it out",
-        "link_style": "button",
-        "horizontal_text_position": "left",
-        "vertical_text_position": "middle"
-      }
-    },
-    "16576544546a1f5e60": {
-      "type": "dynamic-images-with-text",
-      "blocks": {
-        "1657654454e5476bb8-0": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-05.jpg",
-            "title": "",
-            "subheading": "",
-            "link": ""
-          }
-        },
-        "1657654454e5476bb8-1": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-05.jpg",
-            "title": "",
-            "subheading": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1657654454e5476bb8-0",
-        "1657654454e5476bb8-1"
-      ],
-      "settings": {
-        "aspect_ratio": "natural"
-      }
-    },
-    "1657654554b12f875a": {
-      "type": "dynamic-native-video",
-      "blocks": {
-        "33f1e72e-ad74-4632-a8d2-8cbcd4d78fb3": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f8a4d4e03c4b4a56839d5a0fb2341d4a.mp4",
-            "video_image_url": "shopify:\/\/shop_images\/dispara-con-revolver-04.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "33f1e72e-ad74-4632-a8d2-8cbcd4d78fb3"
-      ],
-      "settings": {
-        "title": "",
-        "custom_html": "<p>Write or paste your HTML code here<\/p>"
-      }
     }
   },
   "order": [
     "article",
     "article-code",
-    "16568869311b2a48b3",
     "165765369710427807",
-    "1657653427e889b59a",
-    "1652634084ff48ab4f",
+    "16583609435e96d0b2",
+    "16583610114af9f05e",
+    "16568869311b2a48b3",
+    "165765438809242d34",
+    "1658360765fd36de04",
+    "16576544546a1f5e60",
+    "1657654554b12f875a",
+    "16583611952d147009",
+    "16583610815a6bccd9",
+    "16583611142d4fb711",
+    "165836116140e3f74f",
     "blog-posts",
     "testimonials",
     "newsletter",
     "social-icons",
     "featured-collection",
-    "recently-viewed",
-    "165765438809242d34",
-    "1657654343bb7a4d9f",
-    "1658360765fd36de04",
-    "16576544546a1f5e60",
-    "1657654554b12f875a"
+    "recently-viewed"
   ]
 }
