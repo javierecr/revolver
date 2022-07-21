@@ -2,11 +2,19 @@
   "sections": {
     "article": {
       "type": "static-article",
+      "disabled": true,
       "settings": {
         "overlay_opacity": 0,
         "overlay_color": "",
         "text_color": "#ffffff",
         "large_header": false
+      }
+    },
+    "article-code": {
+      "type": "article-code",
+      "settings": {
+        "narrow_layout": false,
+        "two_column_layout": true
       }
     },
     "1652633911c45b8da2": {
@@ -36,15 +44,9 @@
         "custom_html": ""
       }
     },
-    "article-code": {
-      "type": "article-code",
-      "settings": {
-        "narrow_layout": false,
-        "two_column_layout": true
-      }
-    },
     "blog-posts": {
       "type": "static-blog-posts",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "title": "Blog posts",
@@ -55,6 +57,7 @@
     },
     "testimonials": {
       "type": "static-testimonials",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "icon_width": 40,
@@ -63,6 +66,7 @@
     },
     "newsletter": {
       "type": "static-newsletter",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "title": "Newsletters can reinforce your brand",
@@ -72,6 +76,7 @@
     },
     "social-icons": {
       "type": "static-social-icons",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "title": "Start the conversation",
@@ -87,6 +92,7 @@
     },
     "featured-collection": {
       "type": "static-featured-collection",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "collection": "",
@@ -203,8 +209,8 @@
   },
   "order": [
     "article",
-    "1652633911c45b8da2",
     "article-code",
+    "1652633911c45b8da2",
     "blog-posts",
     "testimonials",
     "newsletter",
