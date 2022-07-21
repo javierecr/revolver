@@ -17,6 +17,24 @@
         "two_column_layout": true
       }
     },
+    "1658442208e28bee35": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "25587755-5c66-4f4e-af31-d33f820c4694": {
+          "type": "video",
+          "settings": {
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "25587755-5c66-4f4e-af31-d33f820c4694"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
     "blog-posts": {
       "type": "static-blog-posts",
       "settings": {
@@ -90,6 +108,7 @@
   "order": [
     "article",
     "article-code",
+    "1658442208e28bee35",
     "blog-posts",
     "testimonials",
     "newsletter",
