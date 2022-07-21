@@ -1,5 +1,15 @@
 {
   "sections": {
+    "1658441624339da1a1": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "H&M",
+        "text": "",
+        "link": "",
+        "link_text": ""
+      }
+    },
     "article": {
       "type": "static-article",
       "settings": {
@@ -7,6 +17,14 @@
         "overlay_color": "",
         "text_color": "#ffffff",
         "large_header": false
+      }
+    },
+    "165844172214b4a268": {
+      "type": "dynamic-native-video",
+      "disabled": true,
+      "settings": {
+        "title": "Native mp4 video",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
       }
     },
     "1652633911c45b8da2": {
@@ -202,7 +220,9 @@
     }
   },
   "order": [
+    "1658441624339da1a1",
     "article",
+    "165844172214b4a268",
     "1652633911c45b8da2",
     "article-code",
     "blog-posts",
