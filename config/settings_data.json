@@ -1,6 +1,6 @@
 {
   "current": {
-    "color_accent": "#050505",
+    "color_accent": "#000000",
     "color_text": "#050505",
     "color_meta_text": "#0b0b0b",
     "color_button_text": "#ffffff",
@@ -126,7 +126,7 @@
           "header_style": "inline",
           "header_alignment": "left",
           "logo": "shopify:\/\/shop_images\/1._Logotipo_Revolver.jpg",
-          "logo_max_width": 200,
+          "logo_max_width": 210,
           "menu": "main-menu",
           "transparent_index_header_enabled": false,
           "transparent_about_header_enabled": false,
@@ -449,7 +449,7 @@
           "static-announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "background_color": "#080808",
+              "background_color": "#e93030",
               "text_color": "#ffffff",
               "text": "",
               "link": ""

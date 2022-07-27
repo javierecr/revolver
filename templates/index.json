@@ -12,14 +12,14 @@
             "subheading": "",
             "link": "shopify:\/\/blogs\/proyectos\/toyota",
             "link_text": "",
-            "link_style": "button",
+            "link_style": "arrow_link",
             "overlay_opacity": 0,
             "overlay_color": "#707070",
             "text_color": "#ffffff",
             "heading_max_width": 8,
             "text_max_width": 16,
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
+            "horizontal_text_position": "right",
+            "vertical_text_position": "bottom"
           }
         },
         "16530024512ea9663d-1": {
@@ -674,25 +674,11 @@
             "video_url": "",
             "video_url_2": ""
           }
-        },
-        "165300445402609773-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image_max_width": 100,
-            "title": "Column Three",
-            "subheading": "End it with an action item that the user can take advantage of. Link to a more in-depth page, or go straight to a collection. Your call.",
-            "link": "#",
-            "link_text": "Don't forget to add a link",
-            "video_url": "",
-            "video_url_2": ""
-          }
         }
       },
       "block_order": [
         "165300445402609773-0",
-        "165300445402609773-1",
-        "165300445402609773-2"
+        "165300445402609773-1"
       ],
       "settings": {
         "title": "",
