@@ -45,6 +45,7 @@
     },
     "blog-posts": {
       "type": "static-blog-posts",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "title": "Blog posts",
@@ -87,6 +88,7 @@
     },
     "featured-collection": {
       "type": "static-featured-collection",
+      "disabled": true,
       "settings": {
         "enabled": false,
         "collection": "",
@@ -102,6 +104,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enabled": true,
         "title": "Recently Viewed",
