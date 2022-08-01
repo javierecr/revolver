@@ -208,13 +208,13 @@
     {% endif %}
   </div>
 
-  {% comment %} <div class="product__description type-body-regular rte">
+  <div class="product__description type-body-regular rte">
     {% if is_placeholder %}
       {{ 'homepage.onboarding.product_description' | t }}
     {% else %}
       {{ product.description }}
     {% endif %}
-  </div> {% endcomment %}
+  </div>
 
   {% if show_share_buttons %}
     {% render 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
