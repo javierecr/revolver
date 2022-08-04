@@ -3,8 +3,8 @@
     "article": {
       "type": "static-article",
       "settings": {
-        "overlay_opacity": 0,
-        "overlay_color": "",
+        "overlay_opacity": 20,
+        "overlay_color": "#0a0909",
         "text_color": "#ffffff",
         "large_header": false
       }
