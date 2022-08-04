@@ -2,10 +2,9 @@
   "sections": {
     "article": {
       "type": "static-article",
-      "disabled": true,
       "settings": {
-        "overlay_opacity": 0,
-        "overlay_color": "",
+        "overlay_opacity": 20,
+        "overlay_color": "#201f1f",
         "text_color": "#ffffff",
         "large_header": false
       }
@@ -19,6 +18,7 @@
     },
     "1658442208e28bee35": {
       "type": "dynamic-native-video",
+      "disabled": true,
       "blocks": {
         "25587755-5c66-4f4e-af31-d33f820c4694": {
           "type": "video",
