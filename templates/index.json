@@ -133,7 +133,7 @@
             "text_color": "#ffffff",
             "heading_max_width": 16,
             "text_max_width": 24,
-            "horizontal_text_position": "left",
+            "horizontal_text_position": "right",
             "vertical_text_position": "middle"
           }
         }
