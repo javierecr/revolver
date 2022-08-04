@@ -116,6 +116,26 @@
             "horizontal_text_position": "left",
             "vertical_text_position": "middle"
           }
+        },
+        "ea756272-8204-42ba-8a58-c4da248dc6ff": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/proyectos-gatitos-05.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/proyectos-gatitos-05.jpg",
+            "video_url": "",
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 60,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 16,
+            "text_max_width": 24,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
         }
       },
       "block_order": [
@@ -124,7 +144,8 @@
         "4f9a2b72-2b3d-4f56-89cd-2beadfbe5f58",
         "f4797080-4e23-485d-a00d-a3db72763a5d",
         "44d8c26c-5bda-426c-8be1-8df1ea37546b",
-        "17310e17-52d5-4120-819b-28dc85232729"
+        "17310e17-52d5-4120-819b-28dc85232729",
+        "ea756272-8204-42ba-8a58-c4da248dc6ff"
       ],
       "settings": {
         "desktop_height": 100,
