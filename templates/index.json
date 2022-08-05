@@ -136,6 +136,25 @@
             "horizontal_text_position": "right",
             "vertical_text_position": "middle"
           }
+        },
+        "1cdf1999-fb33-46e4-9f38-c54113f9b18a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/proyectos-perritos-03.jpg",
+            "video_url": "",
+            "title": "Perritos",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 20,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 16,
+            "text_max_width": 24,
+            "horizontal_text_position": "right",
+            "vertical_text_position": "middle"
+          }
         }
       },
       "block_order": [
@@ -145,7 +164,8 @@
         "f4797080-4e23-485d-a00d-a3db72763a5d",
         "44d8c26c-5bda-426c-8be1-8df1ea37546b",
         "17310e17-52d5-4120-819b-28dc85232729",
-        "ea756272-8204-42ba-8a58-c4da248dc6ff"
+        "ea756272-8204-42ba-8a58-c4da248dc6ff",
+        "1cdf1999-fb33-46e4-9f38-c54113f9b18a"
       ],
       "settings": {
         "desktop_height": 100,
