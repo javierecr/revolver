@@ -560,6 +560,7 @@
         },
         "260d0f1f-7dc0-4daf-9656-65a7a5b1cb51": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/07-moby35-minutes-por-visualpanic.webp",
             "image_max_width": 100,

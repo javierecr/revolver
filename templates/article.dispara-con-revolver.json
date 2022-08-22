@@ -105,6 +105,69 @@
         "custom_html": "<p>Write or paste your HTML code here<\/p>"
       }
     },
+    "166121173732a74d21": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "This is the Rich text section",
+        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "16612118063a2a9276": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/images_4.jpg",
+        "video_url": "",
+        "aspect_ratio": "3_2",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 30,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
+    "166121182177264310": {
+      "type": "dynamic-images-with-text",
+      "blocks": {
+        "1661211821bac74ff8-0": {
+          "type": "block",
+          "settings": {
+            "title": "Images with text",
+            "subheading": "These blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collection.",
+            "link": ""
+          }
+        },
+        "1661211821bac74ff8-1": {
+          "type": "block",
+          "settings": {
+            "title": "Images with text",
+            "subheading": "These blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collection.",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661211821bac74ff8-0",
+        "1661211821bac74ff8-1"
+      ],
+      "settings": {
+        "aspect_ratio": "natural"
+      }
+    },
+    "16612118371367a5c1": {
+      "type": "dynamic-native-video",
+      "settings": {
+        "title": "Native mp4 video",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
     "165765438809242d34": {
       "type": "dynamic-rich-text",
       "settings": {
@@ -342,6 +405,10 @@
     "16583609435e96d0b2",
     "16583610114af9f05e",
     "16568869311b2a48b3",
+    "166121173732a74d21",
+    "16612118063a2a9276",
+    "166121182177264310",
+    "16612118371367a5c1",
     "165765438809242d34",
     "1658360765fd36de04",
     "16576544546a1f5e60",
