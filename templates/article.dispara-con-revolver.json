@@ -66,11 +66,21 @@
             "subheading": "",
             "link": ""
           }
+        },
+        "eca104fa-6fbb-4538-81ee-5b42b5b1bd50": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download.jpg",
+            "title": "Janis dispara con revolver",
+            "subheading": "Janis",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "1658361011674e5d05-0",
-        "1658361011674e5d05-1"
+        "1658361011674e5d05-1",
+        "eca104fa-6fbb-4538-81ee-5b42b5b1bd50"
       ],
       "settings": {
         "aspect_ratio": "natural"
