@@ -705,11 +705,25 @@
             "video_url": "",
             "video_url_2": ""
           }
+        },
+        "260d0f1f-7dc0-4daf-9656-65a7a5b1cb51": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07-moby35-minutes-por-visualpanic.webp",
+            "image_max_width": 100,
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "video_url": "",
+            "video_url_2": ""
+          }
         }
       },
       "block_order": [
         "165300445402609773-0",
-        "165300445402609773-1"
+        "165300445402609773-1",
+        "260d0f1f-7dc0-4daf-9656-65a7a5b1cb51"
       ],
       "settings": {
         "title": "",
