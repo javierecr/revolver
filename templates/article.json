@@ -23,12 +23,20 @@
         "25587755-5c66-4f4e-af31-d33f820c4694": {
           "type": "video",
           "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/MG_6722.jpg?v=1661201435",
+            "video_image_url": "shopify:\/\/shop_images\/MG_6722.jpg"
+          }
+        },
+        "13a0912a-a0a0-40f9-bace-8a24a42f4b85": {
+          "type": "video",
+          "settings": {
             "video_url": ""
           }
         }
       },
       "block_order": [
-        "25587755-5c66-4f4e-af31-d33f820c4694"
+        "25587755-5c66-4f4e-af31-d33f820c4694",
+        "13a0912a-a0a0-40f9-bace-8a24a42f4b85"
       ],
       "settings": {
         "title": "",

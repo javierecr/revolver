@@ -290,44 +290,6 @@
             "horizontal_text_position": "left",
             "vertical_text_position": "top"
           }
-        },
-        "06a5d6f9-6157-47b7-8830-7f9ac20074fc": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 25,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "7851da9b-df6f-4555-a6fb-8d25361f7009": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 25,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
         }
       },
       "block_order": [
@@ -335,9 +297,7 @@
         "16544667761d3e774c-0",
         "16544667761d3e774c-2",
         "16544667761d3e774c-3",
-        "deb20917-cdcc-4c5a-99ff-9fe99362b34f",
-        "06a5d6f9-6157-47b7-8830-7f9ac20074fc",
-        "7851da9b-df6f-4555-a6fb-8d25361f7009"
+        "deb20917-cdcc-4c5a-99ff-9fe99362b34f"
       ],
       "settings": {
         "large_text": false
