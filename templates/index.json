@@ -313,117 +313,6 @@
         "link_text": "Leer más"
       }
     },
-    "collage": {
-      "type": "dynamic-collage",
-      "disabled": true,
-      "blocks": {
-        "f07dc043-4b5f-429a-8213-0f11628f7a79": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FER075.jpg",
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/noticias-1",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "fd053cbc-17c9-4367-ae6a-c9ae9fe1787b": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Milanesasdeespinaca-Frizata2106Redes0499_web.jpg",
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/noticias-1",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "20be3015-2c24-4d47-9c8d-45244630c463": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02_Bavaria.jpg",
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/noticias-1",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "5437146e-2ff4-4428-8bb7-8a69ec7fc1ba": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/09-Sta-Rosa_web.jpg",
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/noticias-1",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "c51d8172-5bae-4c1e-9b54-ab835cf4d8fe": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Santa-Rosa-Provoleta1830_web.jpg",
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/noticias-1",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        }
-      },
-      "block_order": [
-        "f07dc043-4b5f-429a-8213-0f11628f7a79",
-        "fd053cbc-17c9-4367-ae6a-c9ae9fe1787b",
-        "20be3015-2c24-4d47-9c8d-45244630c463",
-        "5437146e-2ff4-4428-8bb7-8a69ec7fc1ba",
-        "c51d8172-5bae-4c1e-9b54-ab835cf4d8fe"
-      ],
-      "settings": {
-        "large_text": false
-      }
-    },
     "1653003840e027f8fa": {
       "type": "dynamic-native-video",
       "blocks": {
@@ -498,65 +387,10 @@
         "aspect_ratio": "natural"
       }
     },
-    "1653003050a914381b": {
-      "type": "dynamic-text-columns-with-images",
-      "disabled": true,
-      "blocks": {
-        "1653003050c438a0c7-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FER075_1.jpg",
-            "image_max_width": 100,
-            "title": "",
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "video_url": "",
-            "video_url_2": ""
-          }
-        },
-        "1653003050c438a0c7-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02_Bavaria_1_c4bf9ab4-bdbf-4d58-b7fc-6b4a57e6dbde.jpg",
-            "image_max_width": 100,
-            "title": "",
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "video_url": "",
-            "video_url_2": ""
-          }
-        },
-        "1653003050c438a0c7-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Subway_Cream_Cheese.jpg",
-            "image_max_width": 100,
-            "title": "",
-            "subheading": "",
-            "link": "#",
-            "link_text": "",
-            "video_url": "",
-            "video_url_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "1653003050c438a0c7-0",
-        "1653003050c438a0c7-1",
-        "1653003050c438a0c7-2"
-      ],
-      "settings": {
-        "title": "Text columns with images",
-        "subheading": "This section is designed for steps or policies. Tell your brand's story, describe how a product is made, or outline shipping stages.",
-        "outline": false
-      }
-    },
     "1653003843def9a352": {
       "type": "dynamic-featured-product",
       "settings": {
-        "product": "termo",
+        "product": "termo-2",
         "show_vendor": false,
         "show_swatches": false,
         "show_share_buttons": false,
@@ -910,11 +744,9 @@
     "16530024512ab5fa1d",
     "16544667769f849e1c",
     "1653003297e8ea651c",
-    "collage",
     "1653003840e027f8fa",
     "1661211096ce663bcf",
     "1653002605bce9270d",
-    "1653003050a914381b",
     "1653003843def9a352",
     "1653004021e9383b2e",
     "16530044549f72c30c",
