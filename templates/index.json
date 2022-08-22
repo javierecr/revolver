@@ -451,6 +451,24 @@
         "custom_html": "<p>Write or paste your HTML code here<\/p>"
       }
     },
+    "1661211096ce663bcf": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be": {
+          "type": "video",
+          "settings": {
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
     "1653002605bce9270d": {
       "type": "dynamic-images-with-text",
       "disabled": true,
@@ -894,6 +912,7 @@
     "1653003297e8ea651c",
     "collage",
     "1653003840e027f8fa",
+    "1661211096ce663bcf",
     "1653002605bce9270d",
     "1653003050a914381b",
     "1653003843def9a352",
