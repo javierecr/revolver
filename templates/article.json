@@ -3,17 +3,10 @@
     "article": {
       "type": "static-article",
       "settings": {
-        "overlay_opacity": 20,
+        "overlay_opacity": 0,
         "overlay_color": "#201f1f",
         "text_color": "#ffffff",
         "large_header": false
-      }
-    },
-    "article-code": {
-      "type": "article-code",
-      "settings": {
-        "narrow_layout": false,
-        "two_column_layout": true
       }
     },
     "1658442208e28bee35": {
@@ -41,6 +34,13 @@
       "settings": {
         "title": "",
         "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
+    "article-code": {
+      "type": "article-code",
+      "settings": {
+        "narrow_layout": false,
+        "two_column_layout": true
       }
     },
     "blog-posts": {
@@ -115,8 +115,8 @@
   },
   "order": [
     "article",
-    "article-code",
     "1658442208e28bee35",
+    "article-code",
     "blog-posts",
     "testimonials",
     "newsletter",
