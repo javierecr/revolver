@@ -275,6 +275,7 @@
           "type": "grid_item",
           "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/07-moby35-minutes-por-visualpanic.webp",
             "size": "small",
             "video_url": "",
             "overlay_opacity": 50,
