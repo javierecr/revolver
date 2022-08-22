@@ -167,7 +167,7 @@
             "link": "",
             "link_text": "",
             "link_style": "button",
-            "overlay_opacity": 60,
+            "overlay_opacity": 0,
             "overlay_color": "#707070",
             "text_color": "#ffffff",
             "heading_max_width": 16,
@@ -437,7 +437,7 @@
         "5491cb4d-bae4-4ac7-ab78-91c162cf72a3": {
           "type": "video",
           "settings": {
-            "video_url": "",
+            "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/MG_6722.jpg?v=1661201435",
             "video_image_url": "shopify:\/\/shop_images\/download_1.jpg"
           }
         }
