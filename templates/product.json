@@ -87,9 +87,10 @@
     },
     "product-recommendations": {
       "type": "static-product-recommendations",
+      "disabled": true,
       "settings": {
         "enabled": true,
-        "title": "You May Also Like",
+        "title": "SI TE GUSTA EL GATO TE GUSTA",
         "alignment": "left",
         "rows": 1,
         "per_row": 3,
@@ -99,6 +100,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enabled": true,
         "title": "Recently Viewed",
