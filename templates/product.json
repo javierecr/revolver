@@ -58,7 +58,7 @@
     "social-icons": {
       "type": "static-social-icons",
       "settings": {
-        "enabled": true,
+        "enabled": false,
         "title": "Start the conversation",
         "pinterest_enabled": false,
         "instagram_enabled": false,
