@@ -322,18 +322,10 @@
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
             "video_image_url": "shopify:\/\/shop_images\/PORTADA1.jpg"
           }
-        },
-        "5491cb4d-bae4-4ac7-ab78-91c162cf72a3": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0592\/3300\/9802\/files\/MG_6722.jpg?v=1661201435",
-            "video_image_url": "shopify:\/\/shop_images\/download_1.jpg"
-          }
         }
       },
       "block_order": [
-        "997f7bc8-4371-4ff1-9a08-f01eaadd0359",
-        "5491cb4d-bae4-4ac7-ab78-91c162cf72a3"
+        "997f7bc8-4371-4ff1-9a08-f01eaadd0359"
       ],
       "settings": {
         "title": "",
@@ -346,7 +338,8 @@
         "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be": {
           "type": "video",
           "settings": {
-            "video_url": ""
+            "video_url": "",
+            "video_image_url": "shopify:\/\/shop_images\/proyectos-Corona-Agua-Rifada-01.jpg"
           }
         }
       },
