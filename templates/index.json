@@ -338,7 +338,7 @@
         "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be": {
           "type": "video",
           "settings": {
-            "video_url": "",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d653281373e74d828165c8baa2c001f3.mp4",
             "video_image_url": "shopify:\/\/shop_images\/proyectos-Corona-Agua-Rifada-01.jpg"
           }
         }
@@ -348,7 +348,7 @@
       ],
       "settings": {
         "title": "",
-        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+        "custom_html": ""
       }
     },
     "1653002605bce9270d": {
