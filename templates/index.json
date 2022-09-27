@@ -119,6 +119,7 @@
         },
         "ea756272-8204-42ba-8a58-c4da248dc6ff": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/proyectos-gatitos-05.jpg",
             "mobile_image": "shopify:\/\/shop_images\/proyectos-gatitos-05.jpg",
@@ -139,6 +140,7 @@
         },
         "1cdf1999-fb33-46e4-9f38-c54113f9b18a": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/proyectos-perritos-03.jpg",
             "video_url": "",
@@ -158,6 +160,7 @@
         },
         "bd1a5fcc-846a-4637-9188-34604cea26c0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/images.jpg",
             "mobile_image": "shopify:\/\/shop_images\/images.jpg",
@@ -334,6 +337,7 @@
     },
     "1661211096ce663bcf": {
       "type": "dynamic-native-video",
+      "disabled": true,
       "blocks": {
         "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be": {
           "type": "video",
