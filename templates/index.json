@@ -6,7 +6,7 @@
         "16530024512ea9663d-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Corolla_1.jpg",
+            "image": "shopify:\/\/shop_images\/proyectos-Corona-Agua-Rifada-01.jpg",
             "video_url": "",
             "title": "",
             "subheading": "",
@@ -178,6 +178,25 @@
             "horizontal_text_position": "left",
             "vertical_text_position": "middle"
           }
+        },
+        "c1a47794-8ae0-4d32-81b0-c3f3f678fbf7": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "video_url": "",
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 60,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 16,
+            "text_max_width": 24,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
         }
       },
       "block_order": [
@@ -189,7 +208,8 @@
         "17310e17-52d5-4120-819b-28dc85232729",
         "ea756272-8204-42ba-8a58-c4da248dc6ff",
         "1cdf1999-fb33-46e4-9f38-c54113f9b18a",
-        "bd1a5fcc-846a-4637-9188-34604cea26c0"
+        "bd1a5fcc-846a-4637-9188-34604cea26c0",
+        "c1a47794-8ae0-4d32-81b0-c3f3f678fbf7"
       ],
       "settings": {
         "desktop_height": 100,
