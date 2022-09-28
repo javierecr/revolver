@@ -82,7 +82,7 @@
         "44d8c26c-5bda-426c-8be1-8df1ea37546b": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Oggi.jpg",
+            "image": "shopify:\/\/shop_images\/proyectos-h_m-01_2d8553a5-b7f2-495b-b573-006f4bd2e774.jpg",
             "video_url": "",
             "title": "",
             "subheading": "",
@@ -100,6 +100,7 @@
         },
         "17310e17-52d5-4120-819b-28dc85232729": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Still_01_Anejo_hi.jpg",
             "video_url": "",
