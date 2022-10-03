@@ -11,6 +11,7 @@
     },
     "1652633911c45b8da2": {
       "type": "dynamic-native-video",
+      "disabled": true,
       "blocks": {
         "6c28a971-133b-4492-8d39-ef0a14fe2c35": {
           "type": "video",
