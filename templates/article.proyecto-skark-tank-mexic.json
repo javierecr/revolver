@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "article": {
+      "type": "static-article",
+      "settings": {
+        "overlay_opacity": 0,
+        "overlay_color": "",
+        "text_color": "#ffffff",
+        "large_header": false
+      }
+    },
+    "1652633911c45b8da2": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "6c28a971-133b-4492-8d39-ef0a14fe2c35": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/woman-jumping-workout.jpg"
+          }
+        },
+        "db89920c-a72f-44c7-abd2-a1f1d86db984": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/exercise-balance.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "6c28a971-133b-4492-8d39-ef0a14fe2c35",
+        "db89920c-a72f-44c7-abd2-a1f1d86db984"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": ""
+      }
+    },
+    "article-code": {
+      "type": "article-code",
+      "settings": {
+        "narrow_layout": false,
+        "two_column_layout": true
+      }
+    },
+    "blog-posts": {
+      "type": "static-blog-posts",
+      "settings": {
+        "enabled": false,
+        "title": "Blog posts",
+        "blog": "",
+        "post_limit": 3,
+        "aspect_ratio": "natural"
+      }
+    },
+    "testimonials": {
+      "type": "static-testimonials",
+      "settings": {
+        "enabled": false,
+        "icon_width": 40,
+        "outline": false
+      }
+    },
+    "newsletter": {
+      "type": "static-newsletter",
+      "settings": {
+        "enabled": false,
+        "title": "Newsletters can reinforce your brand",
+        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+        "outline": false
+      }
+    },
+    "social-icons": {
+      "type": "static-social-icons",
+      "settings": {
+        "enabled": false,
+        "title": "Start the conversation",
+        "pinterest_enabled": false,
+        "instagram_enabled": false,
+        "facebook_enabled": false,
+        "tumblr_enabled": false,
+        "twitter_enabled": false,
+        "vimeo_enabled": false,
+        "youtube_enabled": false,
+        "outline": false
+      }
+    },
+    "featured-collection": {
+      "type": "static-featured-collection",
+      "settings": {
+        "enabled": false,
+        "collection": "",
+        "title": "Featured collection",
+        "collection_subheading": "",
+        "link_text": "",
+        "heading_alignment": "left",
+        "products_per_row": 3,
+        "rows": 1,
+        "aspect_ratio": "square",
+        "outline": false
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enabled": true,
+        "title": "Recently Viewed",
+        "alignment": "left",
+        "rows": 1,
+        "per_row": 3,
+        "aspect_ratio": "square",
+        "outline": false
+      }
+    },
+    "165263383853ed19ea": {
+      "type": "dynamic-collage",
+      "disabled": true,
+      "blocks": {
+        "16526338388c3c0313-0": {
+          "type": "grid_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-07_at_2.54.01_p.m..png",
+            "size": "small",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "",
+            "subheading": "",
+            "text_max_width": 20,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "top"
+          }
+        },
+        "16526338388c3c0313-1": {
+          "type": "grid_item",
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is a large portrait block.",
+            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16526338388c3c0313-2": {
+          "type": "grid_item",
+          "settings": {
+            "size": "large",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "This is a large portrait block.",
+            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "",
+            "link_style": "button",
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16526338388c3c0313-3": {
+          "type": "grid_item",
+          "settings": {
+            "size": "small",
+            "video_url": "",
+            "overlay_opacity": 50,
+            "overlay_color": "#000000",
+            "text_color": "#ffffff",
+            "heading": "Have control over your content",
+            "subheading": "Each block has text placement and max width options so you can fine tune your message and balance it with your imagery.",
+            "text_max_width": 19,
+            "link": "",
+            "link_text": "Don't forget to add a link or two",
+            "link_style": "arrow_link",
+            "horizontal_text_position": "right",
+            "vertical_text_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "16526338388c3c0313-0",
+        "16526338388c3c0313-1",
+        "16526338388c3c0313-2",
+        "16526338388c3c0313-3"
+      ],
+      "settings": {
+        "large_text": false
+      }
+    }
+  },
+  "order": [
+    "article",
+    "1652633911c45b8da2",
+    "article-code",
+    "blog-posts",
+    "testimonials",
+    "newsletter",
+    "social-icons",
+    "featured-collection",
+    "recently-viewed",
+    "165263383853ed19ea"
+  ]
+}
