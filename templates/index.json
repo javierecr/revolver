@@ -260,6 +260,73 @@
         "vertical_text_position": "middle"
       }
     },
+    "bd90adb9-ad93-4077-8250-0007adf5c0c0": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "video_url": "",
+        "aspect_ratio": "unconstrained",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 16,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
+    "a99c2204-2541-498c-9a1a-f03e2e117dbd": {
+      "type": "dynamic-native-video",
+      "blocks": {
+        "8a362812-b60d-4f02-8a82-94e7c093cd27": {
+          "type": "video",
+          "settings": {
+            "video_url": "",
+            "video_image_url": "shopify:\/\/shop_images\/proyectos-charly-08.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "8a362812-b60d-4f02-8a82-94e7c093cd27"
+      ],
+      "settings": {
+        "title": "",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
+    },
+    "1e6ccdb7-7fc2-42af-902c-0f6f157254bb": {
+      "type": "dynamic-images-with-text",
+      "blocks": {
+        "template--14984511815818__1e6ccdb7-7fc2-42af-902c-0f6f157254bb-16690705499202b77e-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/proyectos-charly-09.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        },
+        "template--14984511815818__1e6ccdb7-7fc2-42af-902c-0f6f157254bb-16690705499202b77e-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/proyectos-charly-06.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14984511815818__1e6ccdb7-7fc2-42af-902c-0f6f157254bb-16690705499202b77e-1",
+        "template--14984511815818__1e6ccdb7-7fc2-42af-902c-0f6f157254bb-16690705499202b77e-0"
+      ],
+      "settings": {
+        "aspect_ratio": "natural"
+      }
+    },
     "16544667769f849e1c": {
       "type": "dynamic-collage",
       "disabled": true,
@@ -432,6 +499,7 @@
     },
     "1653003843def9a352": {
       "type": "dynamic-featured-product",
+      "disabled": true,
       "settings": {
         "product": "termo-2",
         "show_vendor": false,
@@ -441,135 +509,6 @@
         "enable_payment_button": true,
         "enable_video_looping": false,
         "outline": false
-      }
-    },
-    "1653004021e9383b2e": {
-      "type": "dynamic-collage",
-      "blocks": {
-        "16530040213d260d0b-0": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-19_075_1_copy.jpg",
-            "size": "small",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos\/charly",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "16530040213d260d0b-1": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-21_033_1.jpg",
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos\/charly",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "center",
-            "vertical_text_position": "bottom"
-          }
-        },
-        "16530040213d260d0b-2": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "This is a large portrait block.",
-            "subheading": "Try adding two small blocks before and after two large blocks for an asymmetrical mosaic effect.",
-            "text_max_width": 19,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
-        "8f77ea49-f1f9-44f0-9fc6-b1d04f254183": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/CHARLY-D2_LOOK-24_009_1_1.jpg",
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos\/charly",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "16530040213d260d0b-3": {
-          "type": "grid_item",
-          "settings": {
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/proyectos\/charly",
-            "link_text": "",
-            "link_style": "arrow_link",
-            "horizontal_text_position": "right",
-            "vertical_text_position": "bottom"
-          }
-        },
-        "f779968e-ab08-44f9-a658-c6534411a172": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 50,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 25,
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        }
-      },
-      "block_order": [
-        "16530040213d260d0b-0",
-        "16530040213d260d0b-1",
-        "16530040213d260d0b-2",
-        "8f77ea49-f1f9-44f0-9fc6-b1d04f254183",
-        "16530040213d260d0b-3",
-        "f779968e-ab08-44f9-a658-c6534411a172"
-      ],
-      "settings": {
-        "large_text": false
       }
     },
     "16530044549f72c30c": {
@@ -786,13 +725,15 @@
     "16530024512ab5fa1d",
     "6c338124-b1a7-4f98-a501-f566c7a28e4e",
     "4878b368-17ed-42c7-8a2c-d54fd6891e10",
+    "bd90adb9-ad93-4077-8250-0007adf5c0c0",
+    "a99c2204-2541-498c-9a1a-f03e2e117dbd",
+    "1e6ccdb7-7fc2-42af-902c-0f6f157254bb",
     "16544667769f849e1c",
     "1653003297e8ea651c",
     "1653003840e027f8fa",
     "1661211096ce663bcf",
     "1653002605bce9270d",
     "1653003843def9a352",
-    "1653004021e9383b2e",
     "16530044549f72c30c",
     "16530046199f26e11c",
     "1653004622f8c94467",
