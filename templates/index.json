@@ -82,7 +82,6 @@
         "44d8c26c-5bda-426c-8be1-8df1ea37546b": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/proyectos-h_m-01_2d8553a5-b7f2-495b-b573-006f4bd2e774.jpg",
             "video_url": "",
             "title": "",
             "subheading": "",
@@ -122,8 +121,6 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/proyectos-gatitos-05.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/proyectos-gatitos-05.jpg",
             "video_url": "shopify:\/\/blogs\/proyectos\/gatitos",
             "title": "Gatitos",
             "subheading": "Proyecto Prueba",
@@ -143,7 +140,6 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/proyectos-perritos-03.jpg",
             "video_url": "",
             "title": "Perritos",
             "subheading": "",
@@ -163,8 +159,6 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/images.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/images.jpg",
             "video_url": "",
             "title": "",
             "subheading": "",
@@ -217,28 +211,40 @@
         "mobile_height": 100
       }
     },
-    "16544667769f849e1c": {
-      "type": "dynamic-collage",
+    "6c338124-b1a7-4f98-a501-f566c7a28e4e": {
+      "type": "dynamic-images-with-text",
       "blocks": {
-        "16544667761d3e774c-1": {
-          "type": "grid_item",
+        "template--14984511815818__6c338124-b1a7-4f98-a501-f566c7a28e4e-16690705499202b77e-1": {
+          "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FER075_1.jpg",
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/news",
-            "link_text": "hola",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
+            "image": "shopify:\/\/shop_images\/noticias-fernanda-bonserio-00.jpg",
+            "title": "CONOCE A FERNANDA BONSERIO",
+            "subheading": "Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.\n\nDesde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.",
+            "link": ""
           }
         },
+        "template--14984511815818__6c338124-b1a7-4f98-a501-f566c7a28e4e-16690705499202b77e-0": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FER075_1.jpg",
+            "title": "",
+            "subheading": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14984511815818__6c338124-b1a7-4f98-a501-f566c7a28e4e-16690705499202b77e-1",
+        "template--14984511815818__6c338124-b1a7-4f98-a501-f566c7a28e4e-16690705499202b77e-0"
+      ],
+      "settings": {
+        "aspect_ratio": "natural"
+      }
+    },
+    "16544667769f849e1c": {
+      "type": "dynamic-collage",
+      "disabled": true,
+      "blocks": {
         "16544667761d3e774c-0": {
           "type": "grid_item",
           "settings": {
@@ -260,6 +266,7 @@
         },
         "16544667761d3e774c-2": {
           "type": "grid_item",
+          "disabled": true,
           "settings": {
             "size": "large",
             "video_url": "",
@@ -278,6 +285,7 @@
         },
         "16544667761d3e774c-3": {
           "type": "grid_item",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Milanesasdeespinaca-Frizata2106Redes0499_web.jpg",
             "size": "small",
@@ -295,33 +303,31 @@
             "vertical_text_position": "bottom"
           }
         },
-        "deb20917-cdcc-4c5a-99ff-9fe99362b34f": {
+        "16544667761d3e774c-1": {
           "type": "grid_item",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/07-moby35-minutes-por-visualpanic.webp",
-            "size": "small",
+            "image": "shopify:\/\/shop_images\/FER075_1.jpg",
+            "size": "large",
             "video_url": "",
-            "overlay_opacity": 50,
+            "overlay_opacity": 0,
             "overlay_color": "#000000",
             "text_color": "#ffffff",
             "heading": "",
             "subheading": "",
-            "text_max_width": 25,
-            "link": "",
-            "link_text": "",
+            "text_max_width": 16,
+            "link": "shopify:\/\/blogs\/news",
+            "link_text": "hola",
             "link_style": "button",
             "horizontal_text_position": "left",
-            "vertical_text_position": "top"
+            "vertical_text_position": "middle"
           }
         }
       },
       "block_order": [
-        "16544667761d3e774c-1",
         "16544667761d3e774c-0",
         "16544667761d3e774c-2",
         "16544667761d3e774c-3",
-        "deb20917-cdcc-4c5a-99ff-9fe99362b34f"
+        "16544667761d3e774c-1"
       ],
       "settings": {
         "large_text": false
@@ -363,8 +369,7 @@
         "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d653281373e74d828165c8baa2c001f3.mp4",
-            "video_image_url": "shopify:\/\/shop_images\/proyectos-Corona-Agua-Rifada-01.jpg"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d653281373e74d828165c8baa2c001f3.mp4"
           }
         }
       },
@@ -500,7 +505,6 @@
         "16530040213d260d0b-3": {
           "type": "grid_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/abstract_negro.jpg",
             "size": "small",
             "video_url": "",
             "overlay_opacity": 0,
@@ -580,7 +584,6 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/07-moby35-minutes-por-visualpanic.webp",
             "image_max_width": 100,
             "title": "",
             "subheading": "",
@@ -761,6 +764,7 @@
   },
   "order": [
     "16530024512ab5fa1d",
+    "6c338124-b1a7-4f98-a501-f566c7a28e4e",
     "16544667769f849e1c",
     "1653003297e8ea651c",
     "1653003840e027f8fa",
