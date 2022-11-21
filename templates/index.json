@@ -241,6 +241,25 @@
         "aspect_ratio": "natural"
       }
     },
+    "4878b368-17ed-42c7-8a2c-d54fd6891e10": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/proyectos-corona-00.jpg",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
+        "aspect_ratio": "3_2",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 30,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
     "16544667769f849e1c": {
       "type": "dynamic-collage",
       "disabled": true,
@@ -345,6 +364,7 @@
     },
     "1653003840e027f8fa": {
       "type": "dynamic-native-video",
+      "disabled": true,
       "blocks": {
         "997f7bc8-4371-4ff1-9a08-f01eaadd0359": {
           "type": "video",
@@ -765,6 +785,7 @@
   "order": [
     "16530024512ab5fa1d",
     "6c338124-b1a7-4f98-a501-f566c7a28e4e",
+    "4878b368-17ed-42c7-8a2c-d54fd6891e10",
     "16544667769f849e1c",
     "1653003297e8ea651c",
     "1653003840e027f8fa",
