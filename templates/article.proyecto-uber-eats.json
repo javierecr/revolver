@@ -39,7 +39,6 @@
     },
     "article-code": {
       "type": "article-code",
-      "disabled": true,
       "settings": {
         "narrow_layout": false,
         "two_column_layout": true
