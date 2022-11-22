@@ -20,6 +20,7 @@
     },
     "e420ec6e-baf2-4ed4-8051-750e4cf5392f": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "settings": {
         "title": "This is the Rich text section",
         "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
