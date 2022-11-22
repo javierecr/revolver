@@ -445,6 +445,24 @@
         "link": "",
         "link_text": ""
       }
+    },
+    "1a063d01-a382-4eef-b272-37ec9363b7f5": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "video_url": "",
+        "aspect_ratio": "3_2",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 16,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
     }
   },
   "order": [
@@ -457,6 +475,7 @@
     "16530044549f72c30c",
     "16530046199f26e11c",
     "22f5bdf6-d245-4a1e-a42e-1c00f13a8e9d",
-    "4297d667-c77e-4651-97c9-5dc3f16b8536"
+    "4297d667-c77e-4651-97c9-5dc3f16b8536",
+    "1a063d01-a382-4eef-b272-37ec9363b7f5"
   ]
 }
