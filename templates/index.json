@@ -327,193 +327,21 @@
         "aspect_ratio": "natural"
       }
     },
-    "16544667769f849e1c": {
-      "type": "dynamic-collage",
-      "disabled": true,
-      "blocks": {
-        "16544667761d3e774c-0": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/noticias-fernanda-bonserio-07.jpg",
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/news",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "top"
-          }
-        },
-        "16544667761d3e774c-2": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 100,
-            "overlay_color": "#ffffff",
-            "text_color": "#050505",
-            "heading": "CONOCE A FERNANDA BONSERIO",
-            "subheading": "Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.\n\nDesde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/news",
-            "link_text": "",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
-        "16544667761d3e774c-3": {
-          "type": "grid_item",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Milanesasdeespinaca-Frizata2106Redes0499_web.jpg",
-            "size": "small",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/news",
-            "link_text": "",
-            "link_style": "arrow_link",
-            "horizontal_text_position": "right",
-            "vertical_text_position": "bottom"
-          }
-        },
-        "16544667761d3e774c-1": {
-          "type": "grid_item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FER075_1.jpg",
-            "size": "large",
-            "video_url": "",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "text_color": "#ffffff",
-            "heading": "",
-            "subheading": "",
-            "text_max_width": 16,
-            "link": "shopify:\/\/blogs\/news",
-            "link_text": "hola",
-            "link_style": "button",
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "16544667761d3e774c-0",
-        "16544667761d3e774c-2",
-        "16544667761d3e774c-3",
-        "16544667761d3e774c-1"
-      ],
-      "settings": {
-        "large_text": false
-      }
-    },
-    "1653003297e8ea651c": {
-      "type": "dynamic-rich-text",
-      "disabled": true,
-      "settings": {
-        "title": "CONOCE A FERNANDA BONSERIO",
-        "text": "<p>Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.<\/p><p>Desde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.<\/p>",
-        "link": "shopify:\/\/blogs\/noticias-1",
-        "link_text": "Leer más"
-      }
-    },
-    "1653003840e027f8fa": {
-      "type": "dynamic-native-video",
-      "disabled": true,
-      "blocks": {
-        "997f7bc8-4371-4ff1-9a08-f01eaadd0359": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
-            "video_image_url": "shopify:\/\/shop_images\/PORTADA1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "997f7bc8-4371-4ff1-9a08-f01eaadd0359"
-      ],
-      "settings": {
-        "title": "",
-        "custom_html": "<p>Write or paste your HTML code here<\/p>"
-      }
-    },
-    "1661211096ce663bcf": {
-      "type": "dynamic-native-video",
-      "disabled": true,
-      "blocks": {
-        "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d653281373e74d828165c8baa2c001f3.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "2dd8c3a6-fcc3-4a7b-b049-d39cd108f3be"
-      ],
-      "settings": {
-        "title": "",
-        "custom_html": ""
-      }
-    },
-    "1653002605bce9270d": {
-      "type": "dynamic-images-with-text",
-      "disabled": true,
-      "blocks": {
-        "16530026059a0e7bf8-0": {
-          "type": "block",
-          "settings": {
-            "title": "Images with text",
-            "subheading": "These blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collection.",
-            "link": ""
-          }
-        },
-        "16530026059a0e7bf8-1": {
-          "type": "block",
-          "settings": {
-            "title": "Images with text",
-            "subheading": "These blocks are great for images with a text caption. Add them to your grid for some variety, or use them on their own to feature a product, blog post, or collection.",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16530026059a0e7bf8-0",
-        "16530026059a0e7bf8-1"
-      ],
-      "settings": {
-        "aspect_ratio": "natural"
-      }
-    },
-    "1653003843def9a352": {
-      "type": "dynamic-featured-product",
-      "disabled": true,
-      "settings": {
-        "product": "termo-2",
-        "show_vendor": false,
-        "show_swatches": false,
-        "show_share_buttons": false,
-        "show_quantity_input": false,
-        "enable_payment_button": true,
-        "enable_video_looping": false,
-        "outline": false
-      }
-    },
     "16530044549f72c30c": {
       "type": "dynamic-text-columns-with-images",
       "blocks": {
+        "165300445402609773-1": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 100,
+            "title": "El mejor café en shootings",
+            "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici consentem et odis ex eatest\nevent aut doluptu sanducit officietur alitas est, nihit, ne dendusam\nremquis sandent, quid minvelest harc.",
+            "link": "shopify:\/\/blogs\/news",
+            "link_text": "Leer más",
+            "video_url": "",
+            "video_url_2": ""
+          }
+        },
         "165300445402609773-0": {
           "type": "column",
           "settings": {
@@ -523,18 +351,6 @@
             "subheading": "",
             "link": "shopify:\/\/blogs\/news",
             "link_text": "",
-            "video_url": "",
-            "video_url_2": ""
-          }
-        },
-        "165300445402609773-1": {
-          "type": "column",
-          "settings": {
-            "image_max_width": 100,
-            "title": "El mejor café en shootings",
-            "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici consentem et odis ex eatest\nevent aut doluptu sanducit officietur alitas est, nihit, ne dendusam\nremquis sandent, quid minvelest harc.",
-            "link": "shopify:\/\/blogs\/news",
-            "link_text": "Leer más",
             "video_url": "",
             "video_url_2": ""
           }
@@ -554,8 +370,8 @@
         }
       },
       "block_order": [
-        "165300445402609773-0",
         "165300445402609773-1",
+        "165300445402609773-0",
         "260d0f1f-7dc0-4daf-9656-65a7a5b1cb51"
       ],
       "settings": {
@@ -567,18 +383,6 @@
     "16530046199f26e11c": {
       "type": "dynamic-text-columns-with-images",
       "blocks": {
-        "1653004619bf259b45-0": {
-          "type": "column",
-          "settings": {
-            "image_max_width": 100,
-            "title": "PAU SOMMERZ",
-            "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici\nconsentem et odis ex eatest event\naut doluptu sanducit officietur alitas est, nihit, ne dendusam remquis\nsandent, quid minvelest harc",
-            "link": "shopify:\/\/pages\/nosotros",
-            "link_text": "Más aquí",
-            "video_url": "",
-            "video_url_2": ""
-          }
-        },
         "1653004619bf259b45-1": {
           "type": "column",
           "settings": {
@@ -591,11 +395,23 @@
             "video_url": "",
             "video_url_2": ""
           }
+        },
+        "1653004619bf259b45-0": {
+          "type": "column",
+          "settings": {
+            "image_max_width": 100,
+            "title": "PAU SOMMERZ",
+            "subheading": "Ehenducipsam es aut vent.\nIc tem quisti temolor ehendenihici\nconsentem et odis ex eatest event\naut doluptu sanducit officietur alitas est, nihit, ne dendusam remquis\nsandent, quid minvelest harc",
+            "link": "shopify:\/\/pages\/nosotros",
+            "link_text": "Más aquí",
+            "video_url": "",
+            "video_url_2": ""
+          }
         }
       },
       "block_order": [
-        "1653004619bf259b45-0",
-        "1653004619bf259b45-1"
+        "1653004619bf259b45-1",
+        "1653004619bf259b45-0"
       ],
       "settings": {
         "title": "",
@@ -603,86 +419,17 @@
         "outline": false
       }
     },
-    "1653004622f8c94467": {
-      "type": "dynamix-parallax-slideshow",
-      "disabled": true,
-      "blocks": {
-        "16530046220c869027-0": {
-          "type": "slide",
-          "settings": {
-            "title": "This is your slideshow",
-            "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "overlay_opacity": 60,
-            "overlay_color": "#707070",
-            "text_color": "#ffffff",
-            "heading_max_width": 16,
-            "text_max_width": 24,
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
-        "16530046220c869027-1": {
-          "type": "slide",
-          "settings": {
-            "title": "This is your slideshow",
-            "subheading": "Use it to set your brand's tone and create a first impression with your customers. Vibrant imagery with a lot of background accent works well for a full-screen effect.",
-            "link": "",
-            "link_text": "",
-            "link_style": "button",
-            "overlay_opacity": 60,
-            "overlay_color": "#707070",
-            "text_color": "#ffffff",
-            "heading_max_width": 16,
-            "text_max_width": 24,
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        }
-      },
-      "block_order": [
-        "16530046220c869027-0",
-        "16530046220c869027-1"
-      ],
-      "settings": {
-        "desktop_height": 100,
-        "mobile_height": 100
-      }
-    },
-    "16530047576593b18a": {
-      "type": "dynamic-testimonials",
-      "disabled": true,
-      "blocks": {
-        "1653004757647dfa7e-0": {
-          "type": "testimonial",
-          "settings": {
-            "quote": "Absolutely unparalleled products and service. I'm confident that this store will be the next big thing in its industry, and that its products will be timeless.",
-            "author": "Steve Jordans"
-          }
-        }
-      },
-      "block_order": [
-        "1653004757647dfa7e-0"
-      ],
-      "settings": {
-        "icon_width": 40,
-        "outline": false
-      }
-    },
-    "1653004762e3d2b0c1": {
+    "22f5bdf6-d245-4a1e-a42e-1c00f13a8e9d": {
       "type": "dynamic-full-width-image",
-      "disabled": true,
       "settings": {
         "video_url": "",
         "aspect_ratio": "3_2",
-        "overlay_opacity": 50,
+        "overlay_opacity": 0,
         "overlay_color": "#707070",
         "text_color": "#ffffff",
-        "title": "Full width image section",
-        "subheading": "This section can be used to organize the homepage into distinct areas, or mix and match it before or after items in the Collage grid to give it a magazine-like feel.",
-        "text_max_width": 30,
+        "title": "",
+        "subheading": "",
+        "text_max_width": 16,
         "link": "",
         "link_text": "Try it out",
         "link_style": "button",
@@ -690,34 +437,13 @@
         "vertical_text_position": "middle"
       }
     },
-    "16530047897e4ec4ee": {
-      "type": "dynamic-images-with-text",
-      "blocks": {
-        "16530047898a5a290b-0": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MarcoColin1_e774dfec-35d7-41aa-9fda-839fa50f9557.jpg",
-            "title": "",
-            "subheading": "",
-            "link": "shopify:\/\/blogs\/dispara-con-revolver\/disparaconrevolver"
-          }
-        },
-        "16530047898a5a290b-1": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Janis2.jpg",
-            "title": "",
-            "subheading": "",
-            "link": "shopify:\/\/blogs\/dispara-con-revolver\/disparaconrevolver"
-          }
-        }
-      },
-      "block_order": [
-        "16530047898a5a290b-0",
-        "16530047898a5a290b-1"
-      ],
+    "4297d667-c77e-4651-97c9-5dc3f16b8536": {
+      "type": "dynamic-rich-text",
       "settings": {
-        "aspect_ratio": "natural"
+        "title": "MARCO COLÍN",
+        "text": "<p>Dispara con Revolver<\/p>",
+        "link": "",
+        "link_text": ""
       }
     }
   },
@@ -728,17 +454,9 @@
     "bd90adb9-ad93-4077-8250-0007adf5c0c0",
     "a99c2204-2541-498c-9a1a-f03e2e117dbd",
     "1e6ccdb7-7fc2-42af-902c-0f6f157254bb",
-    "16544667769f849e1c",
-    "1653003297e8ea651c",
-    "1653003840e027f8fa",
-    "1661211096ce663bcf",
-    "1653002605bce9270d",
-    "1653003843def9a352",
     "16530044549f72c30c",
     "16530046199f26e11c",
-    "1653004622f8c94467",
-    "16530047576593b18a",
-    "1653004762e3d2b0c1",
-    "16530047897e4ec4ee"
+    "22f5bdf6-d245-4a1e-a42e-1c00f13a8e9d",
+    "4297d667-c77e-4651-97c9-5dc3f16b8536"
   ]
 }
