@@ -1,10 +1,10 @@
 {
   "current": {
     "color_accent": "#000000",
-    "color_text": "#050505",
+    "color_text": "#000000",
     "color_meta_text": "#0b0b0b",
-    "color_button_text": "#ffffff",
-    "color_bg": "#ffffff",
+    "color_button_text": "#fafafa",
+    "color_bg": "#fafafa",
     "color_border": "#101010",
     "color_input_text": "#101010",
     "color_secondary_button": "#f8f8f8",
