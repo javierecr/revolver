@@ -18,6 +18,24 @@
         "two_column_layout": true
       }
     },
+    "16583609435e96d0b2": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "video_url": "",
+        "aspect_ratio": "unconstrained",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "",
+        "text_max_width": 16,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
     "165765369710427807": {
       "type": "dynamic-rich-text",
       "settings": {
@@ -27,10 +45,9 @@
         "link_text": ""
       }
     },
-    "16583609435e96d0b2": {
+    "6618d4a9-8f48-46dc-85e4-b52ddce04438": {
       "type": "dynamic-full-width-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-00_dbf84800-fe2a-4791-b705-59703f4e16b7.jpg",
         "video_url": "",
         "aspect_ratio": "3_2",
         "overlay_opacity": 0,
@@ -70,7 +87,6 @@
         "eca104fa-6fbb-4538-81ee-5b42b5b1bd50": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/download.jpg",
             "title": "Janis dispara con revolver",
             "subheading": "Janis",
             "link": ""
@@ -117,7 +133,6 @@
     "16612118063a2a9276": {
       "type": "dynamic-full-width-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/images_4.jpg",
         "video_url": "",
         "aspect_ratio": "3_2",
         "overlay_opacity": 0,
@@ -401,8 +416,9 @@
   "order": [
     "article",
     "article-code",
-    "165765369710427807",
     "16583609435e96d0b2",
+    "165765369710427807",
+    "6618d4a9-8f48-46dc-85e4-b52ddce04438",
     "16583610114af9f05e",
     "16568869311b2a48b3",
     "166121173732a74d21",
