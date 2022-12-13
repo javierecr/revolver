@@ -1,5 +1,5 @@
 <div class="blog__heading">
-  {%- assign blog_title = blog.title -%}
+  {%- assign blog_title = section.settings.title -%}
 
   {% if current_tags %}
     {% capture blog_title %}{{ blog.title | link_to: blog.url }} &mdash; {{ current_tags.first }}{% endcapture %}
@@ -15,9 +15,9 @@
     Article Previews
     ====================
   {% endcomment %}
-
   <section class="blog__articles">
-    {% for article in blog.articles %}
+    {% for block in section.blocks %}
+      {% assign article = block.settings.article %}
       <div class="pa1 w-100 pa2-ns w-50-m w-third-l">
         <article class="blog__article">
           {% if article.image %}
@@ -48,8 +48,15 @@
 
 {% schema %}
 {
-  "name": "Blog pages",
+  "name": "Recommended projects",
+  "max_blocks": 3,
   "settings": [
+    {
+      "id": "title",
+      "label": "Section title",
+      "type": "text",
+      "default": "Proyectos"
+    },
     {
       "id": "aspect_ratio",
       "type": "select",
@@ -61,12 +68,21 @@
         { "label": "Portrait (2:3)", "value": "portrait" }
       ],
       "default": "square"
-    },
-    {
-      "id": "some_id",
-      "label": "article",
-      "type": "article"
     }
-  ]
+  ],
+  "blocks": [
+    {
+      "type": "project",
+      "name": "Proyecto",
+      "settings": [
+        {
+          "type": "article",
+          "id": "article",
+          "label": "Project blog post"
+        }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Recommended projects" }]
 }
 {% endschema %}

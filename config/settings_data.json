@@ -127,10 +127,11 @@
           "header_alignment": "left",
           "logo": "shopify:\/\/shop_images\/REVOLVER_logotipo.jpg",
           "logo_max_width": 210,
+          "sticky_header_logo": "shopify:\/\/shop_images\/REVOLVER_logotipo.jpg",
           "menu": "main-menu",
-          "transparent_index_header_enabled": false,
+          "transparent_index_header_enabled": true,
           "transparent_about_header_enabled": false,
-          "transparent_header_foreground_color": "#ffffff",
+          "transparent_header_foreground_color": "#000000",
           "transparent_header_border_color": "#ffffff",
           "transparent_header_border_opacity": 0
         }
