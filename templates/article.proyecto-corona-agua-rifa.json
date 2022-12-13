@@ -15,15 +15,15 @@
         "6c28a971-133b-4492-8d39-ef0a14fe2c35": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d653281373e74d828165c8baa2c001f3.mp4",
-            "video_image_url": "shopify:\/\/shop_images\/portada.jpg"
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/d653281373e74d828165c8baa2c001f3.mp4",
+            "video_image_url": "shopify://shop_images/portada.jpg"
           }
         },
         "db89920c-a72f-44c7-abd2-a1f1d86db984": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e72e3236b522435b81cd1cb994cbad3b.mp4",
-            "video_image_url": "shopify:\/\/shop_images\/portada2.jpg"
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e72e3236b522435b81cd1cb994cbad3b.mp4",
+            "video_image_url": "shopify://shop_images/portada2.jpg"
           }
         }
       },
@@ -66,7 +66,7 @@
       "settings": {
         "enabled": false,
         "title": "Newsletters can reinforce your brand",
-        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.</p>",
         "outline": false
       }
     },
@@ -119,9 +119,9 @@
         "16526338388c3c0313-0": {
           "type": "grid_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-05-07_at_2.54.01_p.m..png",
+            "image": "shopify://shop_images/Screen_Shot_2022-05-07_at_2.54.01_p.m..png",
             "size": "small",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ecefbd2f366e43d1bf469fc4e525cda1.mp4",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "text_color": "#ffffff",
@@ -199,6 +199,38 @@
       "settings": {
         "large_text": false
       }
+    },
+    "recommended": {
+      "type": "recommended-projects",
+      "blocks": {
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos/corona-agua-rifada"
+          }
+        },
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos/skark-tank-mexico"
+          }
+        },
+        "00d75256-db59-4f28-ad23-438961df507c": {
+          "type": "project",
+          "settings": {
+            "article": "news/fernanda-bonserio"
+          }
+        }
+      },
+      "block_order": [
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b",
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2",
+        "00d75256-db59-4f28-ad23-438961df507c"
+      ],
+      "settings": {
+        "title": "Proyectos recomendados",
+        "aspect_ratio": "landscape"
+      }
     }
   },
   "order": [
@@ -211,6 +243,7 @@
     "social-icons",
     "featured-collection",
     "recently-viewed",
-    "165263383853ed19ea"
+    "165263383853ed19ea",
+    "recommended"
   ]
 }

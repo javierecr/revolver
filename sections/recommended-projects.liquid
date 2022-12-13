@@ -1,0 +1,88 @@
+<div class="blog__heading">
+  {%- assign blog_title = section.settings.title -%}
+
+  {% if current_tags %}
+    {% capture blog_title %}{{ blog.title | link_to: blog.url }} &mdash; {{ current_tags.first }}{% endcapture %}
+  {% endif %}
+
+  <div class="flex-ns justify-between-ns items-center-ns mt4 mb4 mb3-ns tc tl-ns">
+    <h1 class="ma0 type-heading-1">{{ blog_title }}</h1>
+  </div>
+</div>
+
+<div class="blog__container">
+  {% comment %}
+    Article Previews
+    ====================
+  {% endcomment %}
+  <section class="blog__articles">
+    {% for block in section.blocks %}
+      {% assign article = block.settings.article %}
+      <div class="pa1 w-100 pa2-ns w-50-m w-third-l">
+        <article class="blog__article">
+          {% if article.image %}
+            <a
+              href="{{ article.url }}"
+              class="{% render 'aspect-ratio-modifier', aspect_ratio: section.settings.aspect_ratio %}"
+            >
+              {% render 'responsive-image', image: article.image, max_width: 520, max_height: 750 %}
+            </a>
+          {% endif %}
+
+          <div class="blog__article-content">
+            <div>
+              <h3 class="blog__article-heading type-heading-2">
+                <a href="{{ article.url }}">{{ article.title }}</a>
+              </h3>
+
+              <div class="blog__article-excerpt type-body-small">
+                {{ article.excerpt_or_content | strip_html | truncate: 200 }}
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    {% endfor %}
+  </section>
+</div>
+
+{% schema %}
+{
+  "name": "Recommended projects",
+  "max_blocks": 3,
+  "settings": [
+    {
+      "id": "title",
+      "label": "Section title",
+      "type": "text",
+      "default": "Proyectos"
+    },
+    {
+      "id": "aspect_ratio",
+      "type": "select",
+      "label": "Image aspect ratio",
+      "options": [
+        { "label": "Natural", "value": "natural" },
+        { "label": "Square (1:1)", "value": "square" },
+        { "label": "Landscape (3:2)", "value": "landscape" },
+        { "label": "Portrait (2:3)", "value": "portrait" }
+      ],
+      "default": "square"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "project",
+      "name": "Proyecto",
+      "settings": [
+        {
+          "type": "article",
+          "id": "article",
+          "label": "Project blog post"
+        }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Recommended projects" }]
+}
+{% endschema %}

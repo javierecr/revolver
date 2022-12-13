@@ -40,7 +40,7 @@
       "type": "dynamic-rich-text",
       "settings": {
         "title": "Nombre del personaje",
-        "text": "<p>Pequeña descripción del personaje<\/p>",
+        "text": "<p>Pequeña descripción del personaje</p>",
         "link": "",
         "link_text": ""
       }
@@ -69,7 +69,7 @@
         "1658361011674e5d05-0": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-01.jpg",
+            "image": "shopify://shop_images/dispara-con-revolver-disparaconrevolver-01.jpg",
             "title": "XXXXXX",
             "subheading": "",
             "link": ""
@@ -78,7 +78,7 @@
         "1658361011674e5d05-1": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-01.jpg",
+            "image": "shopify://shop_images/dispara-con-revolver-disparaconrevolver-01.jpg",
             "title": "XXXXXX",
             "subheading": "",
             "link": ""
@@ -87,7 +87,7 @@
         "eca104fa-6fbb-4538-81ee-5b42b5b1bd50": {
           "type": "block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dispara-con-revolver-disparaconrevolver-01.jpg",
+            "image": "shopify://shop_images/dispara-con-revolver-disparaconrevolver-01.jpg",
             "title": "XXXXXX",
             "subheading": "",
             "link": ""
@@ -240,7 +240,7 @@
       "settings": {
         "enabled": false,
         "title": "Newsletters can reinforce your brand",
-        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.</p>",
         "outline": false
       }
     },
@@ -288,6 +288,38 @@
         "aspect_ratio": "square",
         "outline": false
       }
+    },
+    "recommended": {
+      "type": "recommended-projects",
+      "blocks": {
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos/corona-agua-rifada"
+          }
+        },
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos/skark-tank-mexico"
+          }
+        },
+        "00d75256-db59-4f28-ad23-438961df507c": {
+          "type": "project",
+          "settings": {
+            "article": "news/fernanda-bonserio"
+          }
+        }
+      },
+      "block_order": [
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b",
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2",
+        "00d75256-db59-4f28-ad23-438961df507c"
+      ],
+      "settings": {
+        "title": "Proyectos recomendados",
+        "aspect_ratio": "landscape"
+      }
     }
   },
   "order": [
@@ -305,6 +337,7 @@
     "newsletter",
     "social-icons",
     "featured-collection",
-    "recently-viewed"
+    "recently-viewed",
+    "recommended"
   ]
 }

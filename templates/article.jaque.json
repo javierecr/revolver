@@ -58,10 +58,7 @@
           }
         }
       },
-      "block_order": [
-        "16526340843fc811e3-0",
-        "16526340843fc811e3-1"
-      ],
+      "block_order": ["16526340843fc811e3-0", "16526340843fc811e3-1"],
       "settings": {
         "desktop_height": 100,
         "mobile_height": 100
@@ -90,7 +87,7 @@
       "settings": {
         "enabled": false,
         "title": "Newsletters can reinforce your brand",
-        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
+        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.</p>",
         "outline": false
       }
     },
@@ -135,6 +132,38 @@
         "aspect_ratio": "square",
         "outline": false
       }
+    },
+    "recommended": {
+      "type": "recommended-projects",
+      "blocks": {
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos/corona-agua-rifada"
+          }
+        },
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos/skark-tank-mexico"
+          }
+        },
+        "00d75256-db59-4f28-ad23-438961df507c": {
+          "type": "project",
+          "settings": {
+            "article": "news/fernanda-bonserio"
+          }
+        }
+      },
+      "block_order": [
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b",
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2",
+        "00d75256-db59-4f28-ad23-438961df507c"
+      ],
+      "settings": {
+        "title": "Proyectos recomendados",
+        "aspect_ratio": "landscape"
+      }
     }
   },
   "order": [
@@ -146,6 +175,7 @@
     "newsletter",
     "social-icons",
     "featured-collection",
-    "recently-viewed"
+    "recently-viewed",
+    "recommended"
   ]
 }

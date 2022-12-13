@@ -199,6 +199,38 @@
       "settings": {
         "large_text": false
       }
+    },
+    "43a09646-8573-4899-ab13-fed1d7e1584e": {
+      "type": "recommended-projects",
+      "blocks": {
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/corona-agua-rifada"
+          }
+        },
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/skark-tank-mexico"
+          }
+        },
+        "00d75256-db59-4f28-ad23-438961df507c": {
+          "type": "project",
+          "settings": {
+            "article": "news\/fernanda-bonserio"
+          }
+        }
+      },
+      "block_order": [
+        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b",
+        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2",
+        "00d75256-db59-4f28-ad23-438961df507c"
+      ],
+      "settings": {
+        "title": "Proyectos recomendados",
+        "aspect_ratio": "landscape"
+      }
     }
   },
   "order": [
@@ -211,6 +243,7 @@
     "social-icons",
     "featured-collection",
     "recently-viewed",
-    "165263383853ed19ea"
+    "165263383853ed19ea",
+    "43a09646-8573-4899-ab13-fed1d7e1584e"
   ]
 }
