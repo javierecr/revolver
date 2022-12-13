@@ -1,5 +1,16 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+@font-face {
+  font-family: 'HelveticaBoldCondensed';
+  src: url('HelveticaBoldCondensed.woff2') format('woff2'),
+    url('HelveticaBoldCondensed.woff') format('woff');
+}
+@font-face {
+  font-family: 'HelveticaCondensed';
+  src: url('HelveticaCondensed.woff2') format('woff2'),
+    url('HelveticaCondensed.woff') format('woff');
+}
+
 /* Document
    ========================================================================== */
 
@@ -720,6 +731,7 @@ h6 {
   font-size: var(--font-size-body-base);
   font-weight: var(--font-body-weight);
   font-style: var(--font-body-style);
+  text-transform: uppercase;
 }
 
 body,
