@@ -1,0 +1,112 @@
+{% liquid
+  assign video_link_verified = false
+
+  if section.settings.video_url contains '.mp4'
+    assign video_link_verified = true
+  endif
+%}
+
+{% style %}
+  .cover-with-text .content-overlay__heading {
+    font-size: calc(var(--font-size-heading-1) * ({{ section.settings.text_scale }} / 2))
+  }
+
+  @media screen and (min-width: 38em ) {
+    .cover-with-text .content-overlay__heading {
+      font-size: calc(var(--font-size-heading-1) * {{ section.settings.text_scale }})
+    }
+  }
+{% endstyle %}
+
+<section
+  data-section-id="{{ section.id }}"
+  data-section-type="full-width-image"
+  class="full-width-image full-width-image--3_2 cover-with-text"
+  style="padding-top: calc((2 / 5) * 100%);"
+>
+  {%- if section.settings.image == blank and video_link_verified == false -%}
+    <div class="full-width-image__placeholder">{{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+  {%- endif -%}
+
+  {% render 'content-overlay', s: section.settings, heading: section.settings.title, contain: true %}
+
+  {% if video_link_verified %}
+    <video class="full-width-image__video" autoplay playsinline loop muted src="{{ section.settings.video_url }}" />
+  {% endif %}
+
+  {% if section.settings.image != blank %}
+    {%
+      render 'responsive-image' with
+      image: section.settings.image,
+      wrapper_class: 'full-width-image__image',
+      max_width: 3000,
+    %}
+  {% endif %}
+</section>
+
+{% schema %}
+{
+  "name": "Cover with text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "This image will also display as your fallback image if a video is added."
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "text_max_width",
+      "label": "Max width of text",
+      "min": 16,
+      "max": 38,
+      "step": 1,
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "text_scale",
+      "label": "Text size",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "horizontal_text_position",
+      "label": "Horizontal text position",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "vertical_text_position",
+      "label": "Vertical text position",
+      "options": [
+        { "value": "top", "label": "Top" },
+        { "value": "middle", "label": "Middle" },
+        { "value": "bottom", "label": "Bottom" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Cover with text"
+    }
+  ]
+}
+{% endschema %}
