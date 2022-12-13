@@ -101,12 +101,12 @@
     --font-logo-weight: {{ settings.font_logo.weight }};
     --font-logo-style: {{ settings.font_logo.style }};
 
-    --font-heading: {{ settings.font_heading.family }}, {{ settings.font_heading.fallback_families }};
+    --font-heading: 'HelveticaBoldCondensed', {{ settings.font_heading.family }}, {{ settings.font_heading.fallback_families }};
     --font-heading-weight: {{ settings.font_heading.weight }};
     --font-heading-style: {{ settings.font_heading.style }};
     --font-heading-bold-weight: {{ font_heading_bold.weight | default: 'bold' }};
 
-    --font-body: {{ settings.font_body.family }}, {{ settings.font_body.fallback_families }};
+    --font-body: 'HelveticaCondensed', {{ settings.font_body.family }}, {{ settings.font_body.fallback_families }};
     --font-body-weight: {{ settings.font_body.weight }};
     --font-body-style: {{ settings.font_body.style }};
     --font-body-bold-weight: {{ font_body_bold.weight | default: 'bold' }};
