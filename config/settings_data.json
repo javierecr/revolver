@@ -40,7 +40,7 @@
     "size_heading": 22,
     "uppercase_headings": false,
     "font_body": "assistant_n4",
-    "size_body": 16,
+    "size_body": 18,
     "font_logo": "assistant_n4",
     "font_logo_size": 32,
     "share_facebook": true,
@@ -90,17 +90,33 @@
           "static-footer-2": {
             "type": "link_list",
             "settings": {
-              "menu": "footer"
+              "title": "<p>REVOLVER ©<br><strong>PRODUCTION HOUSE<\/strong><\/p>",
+              "menu": "main-menu"
+            }
+          },
+          "d6fc46fa-695a-4cbd-928f-737e894fdc83": {
+            "type": "text",
+            "settings": {
+              "title": "FILM \/ PHOTOGRAPHY \/ POST \/ SERVICES",
+              "text": "<p>OFICINAS\/STUDIO<br\/>TEL. <a href='tel:5567250081'>55.6725.0081<\/a><br\/>CDMX CP 06700 MÉXICO<\/p>"
+            }
+          },
+          "8677781f-f13b-4063-aa56-6bd8fe2bbdbf": {
+            "type": "newsletter",
+            "settings": {
+              "tagline": "REVOLVER © S.A. DE C.V. PRODUCTION",
+              "signup_text": "SUSCRÍBETE A NUESTRO NEWSLETTER PARA RECIBIR NOTICIAS Y NOVEDADES",
+              "signup_input_placeholder": "Ingresa tu correo electrónico"
             }
           }
         },
         "block_order": [
-          "static-footer-2"
+          "static-footer-2",
+          "d6fc46fa-695a-4cbd-928f-737e894fdc83",
+          "8677781f-f13b-4063-aa56-6bd8fe2bbdbf"
         ],
         "settings": {
-          "show_newsletter_signup": true,
-          "signup_text": "Suscríbete a nuestro newsletter para recibir noticias y novedades",
-          "signup_input_placeholder": "Ingresa tu correo electrónico",
+          "logo": "shopify:\/\/shop_images\/WhatsApp_Image_2022-12-13_at_1.21.08_PM.jpg",
           "show_payment_icons": false,
           "show_locale_selector": false,
           "show_currency_selector": false
@@ -1488,7 +1504,6 @@
             "static-footer-2"
           ],
           "settings": {
-            "show_newsletter_signup": true,
             "show_payment_icons": true
           }
         },
@@ -2026,7 +2041,6 @@
             "static-footer-3"
           ],
           "settings": {
-            "show_newsletter_signup": true,
             "show_payment_icons": true
           }
         },
