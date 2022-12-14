@@ -2,16 +2,70 @@
   "sections": {
     "about": {
       "type": "static-about",
+      "disabled": true,
       "settings": {
         "title": "Nosotros",
         "subheading": "",
         "overlay_opacity": 0,
         "overlay_color": "",
-        "text_color": ""
+        "text_color": "#ffffff"
+      }
+    },
+    "cover-with-text": {
+      "type": "cover-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/proyectos-h-m-06.jpg",
+        "text_color": "#ffffff",
+        "title": "NOSOTROS",
+        "text_max_width": 25,
+        "text_scale": 3,
+        "horizontal_text_position": "center",
+        "vertical_text_position": "middle"
+      }
+    },
+    "big-text": {
+      "type": "big-text",
+      "settings": {
+        "text_content": "<p>PRODUCTION HOUSE. CREATIVE COLLECTIVE<\/p>",
+        "content_width": 64,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 10,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "4327672f-544a-4bc7-9855-86951190f655": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Revolver nace como una casa productora que representa a talentosos fotógrafos de nuestro país y en el extranjero, apoyados por un sólido equipo de producción, en poco tiempo hemos trabajado con las marcas mas importantes del mercado publicitario mexicano.<\/p>"
+          }
+        },
+        "1de752df-d251-4c9c-9054-0cf66ffaabdb": {
+          "type": "column",
+          "settings": {
+            "text": "<p>Tenemos como propósito aterrizar tus ideas a través de soluciones con el mejor equipo especializados en pre, pro y post producción. Trabajamos con múltiples marcas, mexicanas y trasnacionales. Teniendo como colaboradores a los mejores fotógrafos nacionales e internacionales<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4327672f-544a-4bc7-9855-86951190f655",
+        "1de752df-d251-4c9c-9054-0cf66ffaabdb"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "about"
+    "about",
+    "cover-with-text",
+    "big-text",
+    "multi-column"
   ]
 }

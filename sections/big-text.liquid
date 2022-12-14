@@ -1,0 +1,128 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  .big-text-container {
+    padding-right: var(--spacing-medium);
+    padding-left: var(--spacing-medium);
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
+
+  .big-text-container .big-text {
+    width: {{ section.settings.content_width | append: '%' }};
+    margin: 0 auto;
+    text-align: {{ section.settings.text_alignment }};
+    font-family: var(--font-{{ section.settings.font_style }});
+    line-height: 0.9;
+    font-size: {{ section.settings.heading_scale | divided_by: 2 | append: "rem" }};
+  }
+
+  .big-text-container .big-text p {
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 38em) {
+    .big-text-container {
+      padding-right: var(--spacing-large);
+      padding-left: var(--spacing-large);
+    }
+
+    .big-text-container .big-text {
+      font-size: {{ section.settings.heading_scale | append: "rem" }};
+    }
+
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="big-text-container section-{{ section.id }}-padding">
+  <div class="big-text">
+    {{ section.settings.text_content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Big Text",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "text_content",
+      "label": "Content",
+      "default": "<p>PRODUCTION HOUSE. CREATIVE COLLECTIVE</p>"
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "min": 10,
+      "max": 100,
+      "step": 2,
+      "unit": "%",
+      "label": "Content-width",
+      "default": 80
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "font_style",
+      "label": "Font style",
+      "options": [
+        { "value": "body", "label": "Body" },
+        { "value": "heading", "label": "Heading" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "range",
+      "id": "heading_scale",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "rem",
+      "label": "Font scale",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Section top paddingp",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Section bottom padding",
+      "default": 52
+    }
+  ],
+  "presets": [
+    {
+      "name": "Big Text"
+    }
+  ]
+}
+{% endschema %}

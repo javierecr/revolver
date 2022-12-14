@@ -18,64 +18,24 @@
   {%- endif -%}
 {%- endcapture -%}
 
-  {%- if s.link != blank and s.video_url == blank -%}
-    <a href="{{s.link}}" class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
-      {%- if contain == true -%}
-        <div class="content-overlay__container">
-      {%- endif -%}
-
-      <div class="content-overlay__inner">
-        {%- if heading != blank -%}
-          <h3 class="content-overlay__heading type-heading-1 {{ horizontal_position }} {% if large == true%} large {% endif %}" {%- if s.text_max_width != blank -%} style="max-width: {{ s.text_max_width }}em;"{%- endif -%}>{{ heading }}</h3>
-        {%- endif -%}
-
-        {%- if s.subheading != blank -%}
-          <p class="content-overlay__subheading type-body-regular {{ horizontal_position }} {% if large == true%} large {% endif %}" {%- if s.text_max_width != blank -%} style="max-width: {{ s.text_max_width }}em;"{%- endif -%}>{{ s.subheading }}</p>
-        {%- endif -%}
-
-        {% comment %} {%- if s.link != blank and s.link_text != blank -%}
-          {%- if s.link_style == 'button' -%}
-            <a href="{{ s.link }}" class="bttn {{ horizontal_position }}">{{ s.link_text }}</a>
-          {%- else -%}
-            <a href="{{ s.link }}" class="accent-link {{ horizontal_position }}">{{ s.link_text }} &rarr;</a>
-          {%- endif -%}
-        {%- endif -%} {% endcomment %}
-      </div>
-
-      {%- if contain == true -%}
-        </div>
-      {%- endif -%}
-    </a>
-  {%- else -%}
-  <div class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}" {% if s.text_color != blank %}style="color: {{ s.text_color }}"{% endif %}>
-    {%- if contain == true -%}
-      <div class="content-overlay__container">
-    {%- endif -%}
-
+<div
+  class="content-overlay z-3 absolute absolute--fill flex flex-column {{ vertical_position }}"
+  {% if s.text_color != blank %}
+    style="color: {{ s.text_color }}"
+  {% endif %}
+>
+  <div class="content-overlay__container">
     <div class="content-overlay__inner">
       {%- if heading != blank -%}
-        <h3 class="content-overlay__heading type-heading-1 {{ horizontal_position }} {% if large == true%} large {% endif %}" {%- if s.text_max_width != blank -%} style="max-width: {{ s.text_max_width }}em;"{%- endif -%}>{{ heading }}</h3>
-      {%- endif -%}
-
-      {%- if s.subheading != blank -%}
-        <p class="content-overlay__subheading type-body-regular {{ horizontal_position }} {% if large == true%} large {% endif %}" {%- if s.text_max_width != blank -%} style="max-width: {{ s.text_max_width }}em;"{%- endif -%}>{{ s.subheading }}</p>
-      {%- endif -%}
-
-      {%- if s.link != blank and s.link_text != blank -%}
-        {%- if s.link_style == 'button' -%}
-          <a href="{{ s.link }}" class="bttn {{ horizontal_position }}">{{ s.link_text }}</a>
-        {%- else -%}
-          <a href="{{ s.link }}" class="accent-link {{ horizontal_position }}">{{ s.link_text }} &rarr;</a>
-        {%- endif -%}
+        <h3
+          class="content-overlay__heading type-heading-1 {{ horizontal_position }} {% if large == true%} large {% endif %}"
+          {%- if s.text_max_width -%}
+            style="max-width: {{ s.text_max_width }}em;"
+          {%- endif -%}
+        >
+          {{ heading }}
+        </h3>
       {%- endif -%}
     </div>
-
-    {%- if contain == true -%}
-      </div>
-    {%- endif -%}
   </div>
-  {%- endif -%}
-
-{% if s.overlay_color != blank %}
-  <div class="z-1 absolute absolute--fill o-{{ s.overlay_opacity }}" style="background: {{ s.overlay_color }};"></div>
-{% endif %}
+</div>
