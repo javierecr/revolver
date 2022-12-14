@@ -4,11 +4,12 @@
   class="section"
 >
   <div class="text-columns">
-
     {% if section.settings.title != blank or section.settings.subheading != blank %}
       <div class="text-columns__heading">
         {%- if section.settings.title != blank -%}
-          <h2 class="text-columns__title type-heading-1 ma0 mb3">{{ section.settings.title }}</h2>
+          <h2 class="text-columns__title type-heading-{{ section.settings.title_size }} w-100 {{ section.settings.title_alignment }} ma0 mb3">
+            {{ section.settings.title }}
+          </h2>
         {%- endif -%}
         {%- if section.settings.subheading != blank -%}
           <p class="text-columns__subheading type-body-regular measure">{{ section.settings.subheading }}</p>
@@ -18,8 +19,12 @@
 
     <div class="text-columns__content">
       {% for block in section.blocks %}
-        <div class="text-columns__feature text-columns__feature--{{ section.blocks.size }} {% if block.settings.image == blank%}text-columns__middle{% endif %}
-        {% if block.settings.image != blank and block.settings.title == blank and block.settings.subheading == blank and block.settings.link == blank and block.settings.video_url == blank and block.settings.video_url_2 == blank %} first-mobile{% endif %}">
+        <div
+          class="
+            text-columns__feature text-columns__feature--{{ section.blocks.size }} {% if block.settings.image == blank%}text-columns__middle{% endif %}
+            {% if block.settings.image != blank and block.settings.title == blank and block.settings.subheading == blank and block.settings.link == blank and block.settings.video_url == blank and block.settings.video_url_2 == blank %} first-mobile{% endif %}
+          "
+        >
           {%- if block.settings.image != blank -%}
             <div class="mb3" style="max-width: {{ block.settings.image_max_width }}%;">
               <div style="max-width: {{ block.settings.image.width | divided_by: 2 }}px">
@@ -28,13 +33,17 @@
             </div>
           {%- endif -%}
           {%- if block.settings.title != blank -%}
-            <h3 class="type-heading-2 mt0">{{ block.settings.title }}</h3>
+            <h3 class="type-heading-{{ block.settings.title_size }} w-100 {{ block.settings.title_alignment }} mt0">
+              {{ block.settings.title }}
+            </h3>
           {%- endif -%}
           {%- if block.settings.subheading != blank -%}
             <p class="type-body-regular mb0">{{ block.settings.subheading }}</p>
           {%- endif -%}
           {%- if block.settings.link != blank and block.settings.link_text != blank -%}
-            <a href="{{ block.settings.link }}" class="type-body-regular accent-link db mt3">{{ block.settings.link_text }} &rarr;</a>
+            <a href="{{ block.settings.link }}" class="type-body-regular accent-link db mt3">
+              {{- block.settings.link_text }} &rarr;</a
+            >
           {%- endif -%}
           {% if block.settings.video_url != blank or block.settings.video_url_2 != blank %}
             <div class="video-triggers-container">
@@ -42,24 +51,45 @@
                 {%- if block.settings.video_url != blank -%}
                   {% assign popupId = block.id | append: '-1' %}
                   <div class="video-preview">
-                    <img class="video-poster" src="{{block.settings.video_image_url | img_url: 'master' }}"/>
+                    <img
+                      class="video-poster"
+                      src="{{ block.settings.video_image_url | image_url }}"
+                      loading="lazy"
+                      width="{{ block.settings.video_image_url.width }}"
+                      height="{{ block.settings.video_image_url.height }}"
+                    >
+
                     <div class="play-button" onclick="openVideoModal('{{popupId}}')">
                       {% render 'icon-play' %}
                     </div>
                   </div>
-                  {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url, video_img: block.settings.video_image_url %}
+                  {% render 'video-modal',
+                    popup_modal: popupId,
+                    video_url: block.settings.video_url,
+                    video_img: block.settings.video_image_url
+                  %}
                 {%- endif -%}
               </div>
               <div class="video-trigger-item">
                 {%- if block.settings.video_url_2 != blank -%}
                   {% assign popupId = block.id | append: '-2' %}
                   <div class="video-preview">
-                    <img class="video-poster" src="{{block.settings.video_image_url_2 | img_url: 'master' }}"/>
+                    <img
+                      class="video-poster"
+                      src="{{block.settings.video_image_url_2 | image_url: 'master' }}"
+                      loading="lazy"
+                      width="{{ block.settings.video_image_url_2.width }}"
+                      height="{{ block.settings.video_image_url_2.height }}"
+                    >
                     <div class="play-button" onclick="openVideoModal('{{popupId}}')">
                       {% render 'icon-play' %}
                     </div>
                   </div>
-                  {% render 'video-modal', popup_modal: popupId, video_url: block.settings.video_url_2, video_img: block.settings.video_image_url_2 %}
+                  {% render 'video-modal',
+                    popup_modal: popupId,
+                    video_url: block.settings.video_url_2,
+                    video_img: block.settings.video_image_url_2
+                  %}
                 {%- endif -%}
               </div>
             </div>
@@ -71,137 +101,183 @@
 </section>
 
 {% schema %}
-  {
-    "name": "Text columns with images",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading"
-      },
-      {
-        "type": "textarea",
-        "id": "subheading",
-        "label": "Subheading"
-      },
-      {
-        "type": "header",
-        "content": "Section style"
-      },
-      {
-        "type": "checkbox",
-        "id": "outline",
-        "label": "Outline section",
-        "default": false
-      }
-    ],
-    "max_blocks": 6,
-    "blocks": [
-      {
-        "type": "column",
-        "name": "Column",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          },
-          {
-            "type": "range",
-            "id": "image_max_width",
-            "label": "Max image width",
-            "min": 10,
-            "max": 100,
-            "step": 10,
-            "unit": "%",
-            "default": 100
-          },
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Heading"
-          },
-          {
-            "type": "textarea",
-            "id": "subheading",
-            "label": "Subheading"
-          },
-          {
-            "type": "url",
-            "id": "link",
-            "label": "Link"
-          },
-          {
-            "type": "text",
-            "id": "link_text",
-            "label": "Link text"
-          },
-          {
-            "type": "header",
-            "content": "Video 1"
-          },
-          {
-            "type": "url",
-            "id": "video_url",
-            "label": "Video URL"
-          },
-          {
-            "type": "image_picker",
-            "id": "video_image_url",
-            "label": "Preview image"
-          },
-          {
-            "type": "header",
-            "content": "Video 2"
-          },
-          {
-            "type": "url",
-            "id": "video_url_2",
-            "label": "Video URL"
-          },
-          {
-            "type": "image_picker",
-            "id": "video_image_url_2",
-            "label": "Preview image"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Text columns with images",
-        "category": "Text",
-        "settings": {
-          "title": "Text columns with images",
-          "subheading": "This section is designed for steps or policies. Tell your brand's story, describe how a product is made, or outline shipping stages.",
-          "outline": false
+{
+  "name": "Text columns with images",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Title size",
+      "options": [
+        { "label": "Small", "value": "3" },
+        { "label": "Medium", "value": "2" },
+        { "label": "Large", "value": "1" },
+        { "label": "Extra-large", "value": "display" }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
+        { "label": "Left", "value": "tl" },
+        { "label": "Center", "value": "tc" },
+        { "label": "Right", "value": "tr" }
+      ],
+      "default": "tl"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "header",
+      "content": "Section style"
+    },
+    {
+      "type": "checkbox",
+      "id": "outline",
+      "label": "Outline section",
+      "default": false
+    }
+  ],
+  "max_blocks": 6,
+  "blocks": [
+    {
+      "type": "column",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         },
-        "blocks": [
-          {
-            "type": "column",
-            "settings": {
-              "title": "Column One",
-              "subheading": "Start here. Introduce your vision, or explain why what you do or sell is superior to your competitors."
-            }
-          },
-          {
-            "type": "column",
-            "settings": {
-              "title": "Column Two",
-              "subheading": "Get into your process a bit. The quality of handiwork, proprietary knowledge, or materials that you use that make your products better. "
-            }
-          },
-          {
-            "type": "column",
-            "settings": {
-              "title": "Column Three",
-              "subheading": "End it with an action item that the user can take advantage of. Link to a more in-depth page, or go straight to a collection. Your call.",
-              "link": "#",
-              "link_text": "Don't forget to add a link"
-            }
+        {
+          "type": "range",
+          "id": "image_max_width",
+          "label": "Max image width",
+          "min": 10,
+          "max": 100,
+          "step": 10,
+          "unit": "%",
+          "default": 100
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "title_size",
+          "label": "Title size",
+          "options": [
+            { "label": "Small", "value": "3" },
+            { "label": "Medium", "value": "2" },
+            { "label": "Large", "value": "1" },
+            { "label": "Extra-large", "value": "display" }
+          ],
+          "default": "1"
+        },
+        {
+          "type": "select",
+          "id": "title_alignment",
+          "label": "Title alignment",
+          "options": [
+            { "label": "Left", "value": "tl" },
+            { "label": "Center", "value": "tc" },
+            { "label": "Right", "value": "tr" }
+          ],
+          "default": "tl"
+        },
+        {
+          "type": "textarea",
+          "id": "subheading",
+          "label": "Subheading"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "header",
+          "content": "Video 1"
+        },
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "video_image_url",
+          "label": "Preview image"
+        },
+        {
+          "type": "header",
+          "content": "Video 2"
+        },
+        {
+          "type": "url",
+          "id": "video_url_2",
+          "label": "Video URL"
+        },
+        {
+          "type": "image_picker",
+          "id": "video_image_url_2",
+          "label": "Preview image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text columns with images",
+      "category": "Text",
+      "settings": {
+        "title": "Text columns with images",
+        "subheading": "This section is designed for steps or policies. Tell your brand's story, describe how a product is made, or outline shipping stages.",
+        "outline": false
+      },
+      "blocks": [
+        {
+          "type": "column",
+          "settings": {
+            "title": "Column One",
+            "subheading": "Start here. Introduce your vision, or explain why what you do or sell is superior to your competitors."
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "type": "column",
+          "settings": {
+            "title": "Column Two",
+            "subheading": "Get into your process a bit. The quality of handiwork, proprietary knowledge, or materials that you use that make your products better. "
+          }
+        },
+        {
+          "type": "column",
+          "settings": {
+            "title": "Column Three",
+            "subheading": "End it with an action item that the user can take advantage of. Link to a more in-depth page, or go straight to a collection. Your call.",
+            "link": "#",
+            "link_text": "Don't forget to add a link"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
