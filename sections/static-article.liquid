@@ -32,7 +32,7 @@
         {% endif %}
       >
         <header role="banner" class="article__heading__text ph3 tc self-center centered-content">
-          <h1 class="type-heading-display measure-narrow center{% if section.settings.large_header == true %} large{% endif%}">
+          <h1 class="type-heading-{{ section.settings.title_size }} measure-narrow center{% if section.settings.large_header == true %} large{% endif%}">
             {{ article.title }}
           </h1>
           {%- if article.excerpt != blank -%}
@@ -89,9 +89,16 @@
       "label": "Text color"
     },
     {
-      "type": "checkbox",
-      "id": "large_header",
-      "label": "Larger header"
+      "type": "select",
+      "id": "title_size",
+      "label": "Header size",
+      "options": [
+        { "label": "Small", "value": "3" },
+        { "label": "Medium", "value": "2" },
+        { "label": "Large", "value": "1" },
+        { "label": "Extra-large", "value": "display" }
+      ],
+      "default": "display"
     }
   ]
 }
