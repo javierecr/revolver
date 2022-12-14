@@ -27,7 +27,7 @@
         {% endif %}
 
           <div class="images-with-text__item-inner">
-            <div class="images-with-text__image{% render 'aspect-ratio-modifier' with aspect_ratio: section.settings.aspect_ratio %}">
+            <div class="images-with-text__image{% render 'aspect-ratio-modifier', aspect_ratio: section.settings.aspect_ratio %}">
               {% if block.settings.image != blank %}
                 {% render 'responsive-image' with
                   image: block.settings.image,
@@ -43,7 +43,7 @@
 
 
             <div class="pa4">
-              <h2 class="images-with-text__heading type-heading-1">{{ block.settings.title }}</h2>
+              <h2 class="images-with-text__heading type-heading-{{ section.settings.title_size }} w-100 {{ section.settings.title_alignment }}">{{ block.settings.title }}</h2>
               {% if block.settings.subheading != '' %}
                 <p class="images-with-text__subheading">{{ block.settings.subheading }}</p>
               {% endif %}
@@ -75,6 +75,29 @@
           { "label": "Portrait (2:3)", "value": "portrait" }
         ],
         "default": "natural"
+      },
+      {
+        "type": "select",
+        "id": "title_size",
+        "label": "Title size",
+        "options": [
+          { "label": "Small", "value": "3" },
+          { "label": "Medium", "value": "2" },
+          { "label": "Large", "value": "1" },
+          { "label": "Extra-large", "value": "display" }
+        ],
+        "default": "1"
+      },
+      {
+        "type": "select",
+        "id": "title_alignment",
+        "label": "Title alignment",
+        "options": [
+          { "label": "Left", "value": "tl" },
+          { "label": "Center", "value": "tc" },
+          { "label": "Right", "value": "tr" }
+        ],
+        "default": "tl"
       }
     ],
     "max_blocks": 6,

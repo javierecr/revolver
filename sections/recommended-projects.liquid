@@ -6,7 +6,9 @@
   {% endif %}
 
   <div class="flex-ns justify-between-ns items-center-ns mt4 mb4 mb3-ns tc tl-ns">
-    <h1 class="ma0 type-heading-1">{{ blog_title }}</h1>
+    <h1 class="ma0 type-heading-{{ section.settings.title_size }} w-100 {{ section.settings.title_alignment }}">
+      {{ blog_title }}
+    </h1>
   </div>
 </div>
 
@@ -56,6 +58,29 @@
       "label": "Section title",
       "type": "text",
       "default": "Proyectos"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Title size",
+      "options": [
+        { "label": "Small", "value": "3" },
+        { "label": "Medium", "value": "2" },
+        { "label": "Large", "value": "1" },
+        { "label": "Extra-large", "value": "display" }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
+        { "label": "Left", "value": "tl" },
+        { "label": "Center", "value": "tc" },
+        { "label": "Right", "value": "tr" }
+      ],
+      "default": "tl"
     },
     {
       "id": "aspect_ratio",

@@ -24,121 +24,121 @@
         "8333e41d-cc4d-4151-b6c9-75d09da6056e": {
           "type": "project",
           "settings": {
-            "article": "proyectos/maestro-dobel-pavito"
+            "article": "proyectos\/maestro-dobel-pavito"
           }
         },
         "3f16435d-0456-44d4-a2da-51bd3cfc9c98": {
           "type": "project",
           "settings": {
-            "article": "proyectos/minino"
+            "article": "proyectos\/minino"
           }
         },
         "1c8c05af-c909-4f0e-9446-74f5fda47c7a": {
           "type": "project",
           "settings": {
-            "article": "proyectos/skark-tank-mexico"
+            "article": "proyectos\/skark-tank-mexico"
           }
         },
         "56a872fe-10dc-452d-8f0d-eb3ba9bdae97": {
           "type": "project",
           "settings": {
-            "article": "proyectos/buchanan-s"
+            "article": "proyectos\/buchanan-s"
           }
         },
         "ec9a2362-def1-4b30-a51d-2deb9bbe7121": {
           "type": "project",
           "settings": {
-            "article": "proyectos/santander-sueldo-extra"
+            "article": "proyectos\/santander-sueldo-extra"
           }
         },
         "34b24da3-f28e-45b6-a1fd-7f29d0e8a5db": {
           "type": "project",
           "settings": {
-            "article": "proyectos/corona-agua-rifada"
+            "article": "proyectos\/corona-agua-rifada"
           }
         },
         "0b539e6d-e0b6-400b-83e5-b525bd89d5ae": {
           "type": "project",
           "settings": {
-            "article": "proyectos/uber-eats"
+            "article": "proyectos\/uber-eats"
           }
         },
         "d6bd6cf6-ff12-458a-ab06-ea6f693074fc": {
           "type": "project",
           "settings": {
-            "article": "proyectos/toyota"
+            "article": "proyectos\/toyota"
           }
         },
         "33e12ace-96e0-487c-845f-3fc2bdc7443c": {
           "type": "project",
           "settings": {
-            "article": "proyectos/skechers"
+            "article": "proyectos\/skechers"
           }
         },
         "5f3d0916-5d63-4c94-88da-5f42bbc927d5": {
           "type": "project",
           "settings": {
-            "article": "proyectos/nissan"
+            "article": "proyectos\/nissan"
           }
         },
         "bee342f9-0dae-427d-a568-c307eab76501": {
           "type": "project",
           "settings": {
-            "article": "proyectos/mg"
+            "article": "proyectos\/mg"
           }
         },
         "830771f4-4cd6-4d48-8564-bc28aa5bdcef": {
           "type": "project",
           "settings": {
-            "article": "proyectos/didi"
+            "article": "proyectos\/didi"
           }
         },
         "60a27f79-c854-48e6-af67-c942ffef60ee": {
           "type": "project",
           "settings": {
-            "article": "proyectos/buchanans"
+            "article": "proyectos\/buchanans"
           }
         },
         "541711db-f812-4555-971b-53eb7b15b5d2": {
           "type": "project",
           "settings": {
-            "article": "proyectos/corona"
+            "article": "proyectos\/corona"
           }
         },
         "2bb10415-c01f-4358-bdbe-345fe23f482d": {
           "type": "project",
           "settings": {
-            "article": "proyectos/charly"
+            "article": "proyectos\/charly"
           }
         },
         "b50792f0-1df4-401a-9761-6dede63ba603": {
           "type": "project",
           "settings": {
-            "article": "proyectos/oggi"
+            "article": "proyectos\/oggi"
           }
         },
         "974d5ed7-7b65-42d9-a391-6c4c348e9bb5": {
           "type": "project",
           "settings": {
-            "article": "proyectos/monex"
+            "article": "proyectos\/monex"
           }
         },
         "c53b7c6c-df6d-4906-be27-0e77edb2bf35": {
           "type": "project",
           "settings": {
-            "article": "proyectos/h-m"
+            "article": "proyectos\/h-m"
           }
         },
         "d893f3e4-152d-4a20-accd-ba3edd76ee53": {
           "type": "project",
           "settings": {
-            "article": "proyectos/porsche"
+            "article": "proyectos\/porsche"
           }
         },
         "60780c12-83ee-4718-8a56-5a0222bd1383": {
           "type": "project",
           "settings": {
-            "article": "proyectos/dobel-holiday"
+            "article": "proyectos\/dobel-holiday"
           }
         }
       },
@@ -166,10 +166,15 @@
       ],
       "settings": {
         "title": "Proyectos",
+        "title_size": "display",
+        "title_alginment": "tr",
         "aspect_ratio": "landscape",
         "some_id": ""
       }
     }
   },
-  "order": ["cover", "projects"]
+  "order": [
+    "cover",
+    "projects"
+  ]
 }

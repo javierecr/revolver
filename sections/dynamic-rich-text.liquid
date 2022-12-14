@@ -3,9 +3,10 @@
   data-section-id="{{ section.id }}"
   data-section-type="dynamic-rich-text"
 >
-
   {%- if section.settings.title != blank -%}
-    <h2 class="type-heading-1">{{ section.settings.title | escape }}</h2>
+    <h2 class="type-heading-{{ section.settings.title_size }} w-100 {{ section.settings.title_alignment }}">
+      {{ section.settings.title | escape }}
+    </h2>
   {%- endif -%}
 
   {%- if section.settings.text != blank -%}
@@ -19,39 +20,63 @@
       <a class="bttn" href="{{ section.settings.link }}">{{ section.settings.link_text }}</a>
     </div>
   {%- endif -%}
-
 </section>
 
 {% schema %}
-  {
-    "name": "Rich text",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading",
-        "default":"This is the Rich text section"
-      },
-      {
-        "type": "richtext",
-        "id": "text",
-        "label": "Text",
-        "default": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-      },
-      {
-        "type": "url",
-        "id": "link",
-        "label": "Link"
-      },
-      {
-        "type": "text",
-        "id": "link_text",
-        "label": "Link text"
-      }
-    ],
-    "presets": [{
-        "name": "Rich text",
-        "category": "Text"
-    }]
-  }
+{
+  "name": "Rich text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "This is the Rich text section"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Title size",
+      "options": [
+        { "label": "Small", "value": "3" },
+        { "label": "Medium", "value": "2" },
+        { "label": "Large", "value": "1" },
+        { "label": "Extra-large", "value": "display" }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
+        { "label": "Left", "value": "tl" },
+        { "label": "Center", "value": "tc" },
+        { "label": "Right", "value": "tr" }
+      ],
+      "default": "tc"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Rich text",
+      "category": "Text"
+    }
+  ]
+}
 {% endschema %}
