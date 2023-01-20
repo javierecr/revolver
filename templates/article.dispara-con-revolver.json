@@ -18,9 +18,51 @@
         "two_column_layout": true
       }
     },
+    "d8ff95a7-2e8a-4b34-bddf-1b3b9b0a4f4e": {
+      "type": "cover-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/entradaDCR.jpg",
+        "text_color": "#ffffff",
+        "title": "DISPARA CON REVOLVER",
+        "text_max_width": 22,
+        "text_scale": 4,
+        "horizontal_text_position": "center",
+        "vertical_text_position": "middle"
+      }
+    },
     "16583609435e96d0b2": {
       "type": "dynamic-full-width-image",
+      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/entradaDCR.jpg",
+        "video_url": "",
+        "aspect_ratio": "unconstrained",
+        "overlay_opacity": 0,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "DISPARA CON REVOLVER",
+        "subheading": "",
+        "text_max_width": 38,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "center",
+        "vertical_text_position": "middle"
+      }
+    },
+    "165765369710427807": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "RODRIGO GARCÍA",
+        "text": "<p>Pequeña descripción dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has <\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "6618d4a9-8f48-46dc-85e4-b52ddce04438": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/RODRIGO.jpg",
         "video_url": "",
         "aspect_ratio": "unconstrained",
         "overlay_opacity": 0,
@@ -36,26 +78,119 @@
         "vertical_text_position": "middle"
       }
     },
-    "165765369710427807": {
+    "e2f73791-7926-4925-a245-714eeb5b649f": {
+      "type": "big-text",
+      "settings": {
+        "text_content": "",
+        "content_width": 66,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 6,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "41a6f161-1bee-40f5-9775-67724bc125ca": {
       "type": "dynamic-rich-text",
       "settings": {
-        "title": "Nombre del personaje",
-        "text": "<p>Pequeña descripción del personaje</p>",
+        "title": "JANIS WHITE",
+        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
         "link": "",
         "link_text": ""
       }
     },
-    "6618d4a9-8f48-46dc-85e4-b52ddce04438": {
+    "977e8674-396a-4e7a-a32c-15343b68a597": {
       "type": "dynamic-full-width-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/JANIS_e38256b0-8206-4b6a-a8d6-67d27b46d99b.jpg",
         "video_url": "",
-        "aspect_ratio": "3_2",
-        "overlay_opacity": 0,
+        "aspect_ratio": "unconstrained",
+        "overlay_opacity": 50,
         "overlay_color": "#707070",
         "text_color": "#ffffff",
         "title": "",
-        "subheading": "",
-        "text_max_width": 16,
+        "subheading": ".",
+        "text_max_width": 30,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
+    "4e3c0910-8b53-429f-bf0c-90eaba355695": {
+      "type": "big-text",
+      "settings": {
+        "text_content": "",
+        "content_width": 80,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 6,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "00bffafe-4a25-4b93-9bff-07784830f9de": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "JUAN MANUEL BERNAL",
+        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "ac9813e9-f45f-4eae-8465-c35a6f6caa55": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BERNAL.jpg",
+        "video_url": "",
+        "aspect_ratio": "unconstrained",
+        "overlay_opacity": 50,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "This section can be used to organize the homepage into distinct areas, or mix and match it before or after items in the Collage grid to give it a magazine-like feel.",
+        "text_max_width": 30,
+        "link": "",
+        "link_text": "Try it out",
+        "link_style": "button",
+        "horizontal_text_position": "left",
+        "vertical_text_position": "middle"
+      }
+    },
+    "ea2048ab-f532-49cf-9de9-97d1b99f948f": {
+      "type": "big-text",
+      "settings": {
+        "text_content": "",
+        "content_width": 80,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 6,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "965c21b6-1d0f-4b78-abbb-cf57b0235838": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "VIC Y EMPE",
+        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
+    "90218ad0-8b61-4da4-b712-0807bbd68def": {
+      "type": "dynamic-full-width-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/VIC-EMPE.jpg",
+        "video_url": "",
+        "aspect_ratio": "unconstrained",
+        "overlay_opacity": 50,
+        "overlay_color": "#707070",
+        "text_color": "#ffffff",
+        "title": "",
+        "subheading": "This section can be used to organize the homepage into distinct areas, or mix and match it before or after items in the Collage grid to give it a magazine-like feel.",
+        "text_max_width": 30,
         "link": "",
         "link_text": "Try it out",
         "link_style": "button",
@@ -66,20 +201,20 @@
     "16583610114af9f05e": {
       "type": "dynamic-images-with-text",
       "blocks": {
-        "1658361011674e5d05-0": {
+        "1658361011674e5d05-1": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/dispara-con-revolver-disparaconrevolver-01.jpg",
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/Hernan.jpg",
+            "title": "HERNÁN IBARRA",
             "subheading": "",
             "link": ""
           }
         },
-        "1658361011674e5d05-1": {
+        "1658361011674e5d05-0": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/dispara-con-revolver-disparaconrevolver-01.jpg",
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/Bruno.jpg",
+            "title": "BRUNO PADILLA",
             "subheading": "",
             "link": ""
           }
@@ -87,16 +222,16 @@
         "eca104fa-6fbb-4538-81ee-5b42b5b1bd50": {
           "type": "block",
           "settings": {
-            "image": "shopify://shop_images/dispara-con-revolver-disparaconrevolver-01.jpg",
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/HUMBERTO.jpg",
+            "title": "HUMBERTO POLAR",
             "subheading": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "1658361011674e5d05-0",
         "1658361011674e5d05-1",
+        "1658361011674e5d05-0",
         "eca104fa-6fbb-4538-81ee-5b42b5b1bd50"
       ],
       "settings": {
@@ -109,15 +244,8 @@
         "template--15128194875530__3a3ce5be-381a-4423-9269-9c20f379c8b7-1669076945cebdc5bd-0": {
           "type": "block",
           "settings": {
-            "title": "XXXXXX",
-            "subheading": "",
-            "link": ""
-          }
-        },
-        "template--15128194875530__3a3ce5be-381a-4423-9269-9c20f379c8b7-1669076945cebdc5bd-1": {
-          "type": "block",
-          "settings": {
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/LUIS-ELIZALDE.jpg",
+            "title": "LUIS ELIZALDE",
             "subheading": "",
             "link": ""
           }
@@ -125,7 +253,17 @@
         "94f13bbe-9b0c-44a6-926b-53db3b4f9a4d": {
           "type": "block",
           "settings": {
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/POTRILLO.jpg",
+            "title": "POTRILLO",
+            "subheading": "",
+            "link": ""
+          }
+        },
+        "template--15128194875530__3a3ce5be-381a-4423-9269-9c20f379c8b7-1669076945cebdc5bd-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/spooky.jpg",
+            "title": "SPOOKY",
             "subheading": "",
             "link": ""
           }
@@ -133,8 +271,8 @@
       },
       "block_order": [
         "template--15128194875530__3a3ce5be-381a-4423-9269-9c20f379c8b7-1669076945cebdc5bd-0",
-        "template--15128194875530__3a3ce5be-381a-4423-9269-9c20f379c8b7-1669076945cebdc5bd-1",
-        "94f13bbe-9b0c-44a6-926b-53db3b4f9a4d"
+        "94f13bbe-9b0c-44a6-926b-53db3b4f9a4d",
+        "template--15128194875530__3a3ce5be-381a-4423-9269-9c20f379c8b7-1669076945cebdc5bd-1"
       ],
       "settings": {
         "aspect_ratio": "natural"
@@ -146,7 +284,8 @@
         "template--15128194875530__6320d16d-851b-47ba-a04c-e7aab6eb88bf-1669076945cebdc5bd-0": {
           "type": "block",
           "settings": {
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/LuisGaitan.jpg",
+            "title": "LUIS GAITÁN",
             "subheading": "",
             "link": ""
           }
@@ -154,7 +293,8 @@
         "template--15128194875530__6320d16d-851b-47ba-a04c-e7aab6eb88bf-1669076945cebdc5bd-1": {
           "type": "block",
           "settings": {
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/RAUL-CARDOS.jpg",
+            "title": "RAÚL CARDÓS",
             "subheading": "",
             "link": ""
           }
@@ -162,7 +302,8 @@
         "b777f40d-7831-4582-a43e-8f88431cc992": {
           "type": "block",
           "settings": {
-            "title": "XXXXXX",
+            "image": "shopify:\/\/shop_images\/MARIANAnavarrete.jpg",
+            "title": "MARIANA NAVARRETE",
             "subheading": "",
             "link": ""
           }
@@ -240,7 +381,7 @@
       "settings": {
         "enabled": false,
         "title": "Newsletters can reinforce your brand",
-        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.</p>",
+        "subheading": "<p>Include a short sentence describing what someone can expect from your newsletter.<\/p>",
         "outline": false
       }
     },
@@ -288,46 +429,24 @@
         "aspect_ratio": "square",
         "outline": false
       }
-    },
-    "recommended": {
-      "type": "recommended-projects",
-      "blocks": {
-        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/corona-agua-rifada"
-          }
-        },
-        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/skark-tank-mexico"
-          }
-        },
-        "00d75256-db59-4f28-ad23-438961df507c": {
-          "type": "project",
-          "settings": {
-            "article": "news/fernanda-bonserio"
-          }
-        }
-      },
-      "block_order": [
-        "c160d7a2-bcb5-48d2-9066-bb1947f6f34b",
-        "4fbf743c-6826-4c21-8c30-3c1780ac4ff2",
-        "00d75256-db59-4f28-ad23-438961df507c"
-      ],
-      "settings": {
-        "title": "Proyectos recomendados",
-        "aspect_ratio": "landscape"
-      }
     }
   },
   "order": [
     "article",
     "article-code",
+    "d8ff95a7-2e8a-4b34-bddf-1b3b9b0a4f4e",
     "16583609435e96d0b2",
     "165765369710427807",
     "6618d4a9-8f48-46dc-85e4-b52ddce04438",
+    "e2f73791-7926-4925-a245-714eeb5b649f",
+    "41a6f161-1bee-40f5-9775-67724bc125ca",
+    "977e8674-396a-4e7a-a32c-15343b68a597",
+    "4e3c0910-8b53-429f-bf0c-90eaba355695",
+    "00bffafe-4a25-4b93-9bff-07784830f9de",
+    "ac9813e9-f45f-4eae-8465-c35a6f6caa55",
+    "ea2048ab-f532-49cf-9de9-97d1b99f948f",
+    "965c21b6-1d0f-4b78-abbb-cf57b0235838",
+    "90218ad0-8b61-4da4-b712-0807bbd68def",
     "16583610114af9f05e",
     "3a3ce5be-381a-4423-9269-9c20f379c8b7",
     "6320d16d-851b-47ba-a04c-e7aab6eb88bf",
@@ -337,7 +456,6 @@
     "newsletter",
     "social-icons",
     "featured-collection",
-    "recently-viewed",
-    "recommended"
+    "recently-viewed"
   ]
 }

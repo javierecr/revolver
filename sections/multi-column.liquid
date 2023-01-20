@@ -41,7 +41,7 @@
 {%- endstyle -%}
 
 <div class="multi-column-container section-{{ section.id }}-padding">
-  <div class="multi-column">
+  <div class="multi-column {{ section.settings.text_alignment }}">
     {% for block in section.blocks %}
       {{ block.settings.text }}
     {% endfor %}
@@ -55,12 +55,24 @@
     {
       "type": "select",
       "id": "width",
-      "label": "Content-width",
+      "label": "Text container width",
       "options": [
         { "value": "narrow", "label": "Narrow" },
         { "value": "standard", "label": "Standard" }
       ],
-      "default": "standard"
+      "default": "standard",
+      "info": "Useful to adjust line break depending on text size"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "tl", "label": "Left" },
+        { "value": "tc", "label": "Center" },
+        { "value": "tr", "label": "Right" }
+      ],
+      "default": "tc"
     },
     {
       "type": "range",

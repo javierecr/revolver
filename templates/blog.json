@@ -1,20 +1,34 @@
 {
   "sections": {
+    "a3daddcc-debb-4a66-8032-91f33e3a8cc4": {
+      "type": "cover-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1096.jpg",
+        "text_color": "#ffffff",
+        "title": "NOTICIAS\/BLOG",
+        "text_max_width": 25,
+        "text_scale": 4,
+        "horizontal_text_position": "center",
+        "vertical_text_position": "middle"
+      }
+    },
     "7e1d8d77-749c-418a-9e10-90cad63e1fa1": {
       "type": "dynamic-full-width-image",
+      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_1096.jpg",
         "video_url": "",
         "aspect_ratio": "unconstrained",
         "overlay_opacity": 0,
         "overlay_color": "#707070",
         "text_color": "#ffffff",
-        "title": "",
-        "subheading": "This section can be used to organize the homepage into distinct areas, or mix and match it before or after items in the Collage grid to give it a magazine-like feel.",
+        "title": "NOTICIAS \/ BLOG",
+        "subheading": "",
         "text_max_width": 16,
         "link": "",
         "link_text": "Try it out",
         "link_style": "button",
-        "horizontal_text_position": "left",
+        "horizontal_text_position": "center",
         "vertical_text_position": "middle"
       }
     },
@@ -32,7 +46,7 @@
       "type": "static-blog",
       "settings": {
         "aspect_ratio": "natural",
-        "some_id": ""
+        "some_id": "dispara-con-revolver\/disparaconrevolver"
       }
     },
     "recently-viewed": {
@@ -49,6 +63,7 @@
     }
   },
   "order": [
+    "a3daddcc-debb-4a66-8032-91f33e3a8cc4",
     "7e1d8d77-749c-418a-9e10-90cad63e1fa1",
     "e420ec6e-baf2-4ed4-8051-750e4cf5392f",
     "blog",

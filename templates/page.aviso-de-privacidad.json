@@ -13,30 +13,20 @@
     },
     "cover-with-text": {
       "type": "cover-with-text",
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/team.jpg",
+        "image": "shopify:\/\/shop_images\/proyectos-h-m-06.jpg",
         "text_color": "#ffffff",
-        "title": "NOSOTROS",
+        "title": "Aviso de Privacidad",
         "text_max_width": 25,
         "text_scale": 3,
         "horizontal_text_position": "center",
-        "vertical_text_position": "bottom"
-      }
-    },
-    "big-text": {
-      "type": "big-text",
-      "settings": {
-        "text_content": "<p>PRODUCTION HOUSE. CREATIVE COLLECTIVE<\/p>",
-        "content_width": 64,
-        "text_alignment": "center",
-        "font_style": "heading",
-        "heading_scale": 10,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "vertical_text_position": "middle"
       }
     },
     "multi-column": {
       "type": "multi-column",
+      "disabled": true,
       "blocks": {
         "4327672f-544a-4bc7-9855-86951190f655": {
           "type": "column",
@@ -71,7 +61,6 @@
   "order": [
     "about",
     "cover-with-text",
-    "big-text",
     "multi-column",
     "page"
   ]

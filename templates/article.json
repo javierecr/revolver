@@ -6,7 +6,7 @@
         "overlay_opacity": 0,
         "overlay_color": "#201f1f",
         "text_color": "#ffffff",
-        "large_header": false
+        "large_header": true
       }
     },
     "1658442208e28bee35": {
@@ -16,15 +16,16 @@
         "25587755-5c66-4f4e-af31-d33f820c4694": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9c235f5791f74d8ea8d0933b25a86215.mp4",
-            "video_image_url": "shopify:\/\/shop_images\/MG_6722.jpg"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35a11263b5014b33a422e26fbc62d949.mov",
+            "video_image_url": "shopify:\/\/shop_images\/Screen_Shot_2022-12-29_at_16.12.58.png"
           }
         },
         "13a0912a-a0a0-40f9-bace-8a24a42f4b85": {
           "type": "video",
           "disabled": true,
           "settings": {
-            "video_url": ""
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6fe4dfa363664017984c4c912c0e7468.mov",
+            "video_image_url": "shopify:\/\/shop_images\/Portyada2.png"
           }
         }
       },
@@ -34,7 +35,7 @@
       ],
       "settings": {
         "title": "",
-        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+        "custom_html": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b4b938417e58467d8ef3257b4d7132d2.mov"
       }
     },
     "article-code": {
@@ -103,6 +104,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enabled": true,
         "title": "Recently Viewed",
@@ -111,6 +113,38 @@
         "per_row": 3,
         "aspect_ratio": "square",
         "outline": false
+      }
+    },
+    "c644a208-6768-44f0-a4f1-cf8ece9ce24d": {
+      "type": "recommended-projects",
+      "blocks": {
+        "c5398540-3467-41a9-8d5f-f6b15fe5fc66": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/h-m"
+          }
+        },
+        "2ebcba9c-8a25-46c8-b4ee-b418ef2ddb54": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/ballantines"
+          }
+        },
+        "efad8b67-02b4-41c6-99e7-9fe2d077cbe3": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/nescafe"
+          }
+        }
+      },
+      "block_order": [
+        "c5398540-3467-41a9-8d5f-f6b15fe5fc66",
+        "2ebcba9c-8a25-46c8-b4ee-b418ef2ddb54",
+        "efad8b67-02b4-41c6-99e7-9fe2d077cbe3"
+      ],
+      "settings": {
+        "title": "Proyectos recomendados",
+        "aspect_ratio": "landscape"
       }
     }
   },
@@ -123,6 +157,7 @@
     "newsletter",
     "social-icons",
     "featured-collection",
-    "recently-viewed"
+    "recently-viewed",
+    "c644a208-6768-44f0-a4f1-cf8ece9ce24d"
   ]
 }

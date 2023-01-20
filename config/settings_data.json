@@ -4,7 +4,7 @@
     "color_text": "#000000",
     "color_meta_text": "#0b0b0b",
     "color_button_text": "#fafafa",
-    "color_bg": "#fafafa",
+    "color_bg": "#ffffff",
     "color_border": "#101010",
     "color_input_text": "#101010",
     "color_secondary_button": "#f8f8f8",
@@ -90,7 +90,7 @@
           "static-footer-2": {
             "type": "link_list",
             "settings": {
-              "title": "<p>REVOLVER ©<br><strong>PRODUCTION HOUSE<\/strong><\/p>",
+              "title": "<p>REVOLVER ©<br\/><strong>PRODUCTION HOUSE<\/strong><\/p>",
               "menu": "main-menu"
             }
           },
@@ -98,7 +98,7 @@
             "type": "text",
             "settings": {
               "title": "FILM \/ PHOTOGRAPHY \/ POST \/ SERVICES",
-              "text": "<p>OFICINAS\/STUDIO<br\/>TEL. <a href='tel:5567250081'>55.6725.0081<\/a><br\/>CDMX CP 06700 MÉXICO<\/p>"
+              "text": "<p>OFICINAS\/STUDIO<br\/>TEL. <a href=\"tel:5567250081\">55.6725.0081<\/a><br\/>CDMX CP 06700 MÉXICO<\/p>"
             }
           },
           "8677781f-f13b-4063-aa56-6bd8fe2bbdbf": {
@@ -108,15 +108,23 @@
               "signup_text": "SUSCRÍBETE A NUESTRO NEWSLETTER PARA RECIBIR NOTICIAS Y NOVEDADES",
               "signup_input_placeholder": "Ingresa tu correo electrónico"
             }
+          },
+          "576d336c-1aad-4811-ad95-162242c25770": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
           "static-footer-2",
           "d6fc46fa-695a-4cbd-928f-737e894fdc83",
-          "8677781f-f13b-4063-aa56-6bd8fe2bbdbf"
+          "8677781f-f13b-4063-aa56-6bd8fe2bbdbf",
+          "576d336c-1aad-4811-ad95-162242c25770"
         ],
         "settings": {
-          "logo": "shopify:\/\/shop_images\/WhatsApp_Image_2022-12-13_at_1.21.08_PM.jpg",
+          "logo": "shopify:\/\/shop_images\/footer_1_33edd9e5-4aa8-459b-bb70-c87f25c5346a.png",
           "show_payment_icons": false,
           "show_locale_selector": false,
           "show_currency_selector": false
@@ -129,6 +137,17 @@
             "type": "mega_nav",
             "settings": {
               "dropdown_parent_link": "",
+              "mega_nav_featured_image": "shopify:\/\/shop_images\/R_logotipo.png",
+              "featured_image_heading": "",
+              "featured_image_link_text": "",
+              "featured_image_link": ""
+            }
+          },
+          "5ac7ffb7-eecb-4867-959e-4d9e2a695c7f": {
+            "type": "mega_nav",
+            "disabled": true,
+            "settings": {
+              "dropdown_parent_link": "",
               "featured_image_heading": "",
               "featured_image_link_text": "",
               "featured_image_link": ""
@@ -136,20 +155,22 @@
           }
         },
         "block_order": [
-          "a1bc6005-4b34-40d8-aaf0-f34c2338fe0a"
+          "a1bc6005-4b34-40d8-aaf0-f34c2338fe0a",
+          "5ac7ffb7-eecb-4867-959e-4d9e2a695c7f"
         ],
         "settings": {
           "header_style": "inline",
           "header_alignment": "left",
-          "logo": "shopify:\/\/shop_images\/REVOLVER_logotipo.jpg",
-          "logo_max_width": 210,
-          "sticky_header_logo": "shopify:\/\/shop_images\/REVOLVER_logotipo.jpg",
+          "logo": "shopify:\/\/shop_images\/R_logotipoNEGRO_423cb671-5aa0-48a3-b43b-b4d6ef9db3ef.png",
+          "logo_max_width": 200,
+          "sticky_header_logo": "shopify:\/\/shop_images\/R_logotipoNEGRO_423cb671-5aa0-48a3-b43b-b4d6ef9db3ef.png",
           "menu": "main-menu",
           "transparent_index_header_enabled": true,
           "transparent_about_header_enabled": false,
-          "transparent_header_foreground_color": "#000000",
+          "transparent_header_foreground_color": "#ffffff",
           "transparent_header_border_color": "#ffffff",
-          "transparent_header_border_opacity": 0
+          "transparent_header_border_opacity": 0,
+          "transparent_header_logo": "shopify:\/\/shop_images\/R_logotipo-blanco_c9df6533-900a-4f0d-96c5-07d75ec77855.png"
         }
       },
       "product": {
