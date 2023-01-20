@@ -2,7 +2,9 @@
   "sections": {
     "cover": {
       "type": "dynamic-full-width-image",
+      "disabled": true,
       "settings": {
+        "image": "shopify:\/\/shop_images\/ENTRADA_PROYECTOS.jpg",
         "video_url": "",
         "aspect_ratio": "unconstrained",
         "overlay_opacity": 0,
@@ -18,158 +20,324 @@
         "vertical_text_position": "middle"
       }
     },
+    "d3c32b90-3986-4f00-8195-fbff9e4adf5b": {
+      "type": "cover-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/proyectos-camino-real-01_159a3d63-01ea-4862-8f3c-ca0835f02c03.jpg",
+        "text_color": "#ffffff",
+        "title": "PROYECTOS",
+        "text_max_width": 25,
+        "text_scale": 3,
+        "horizontal_text_position": "center",
+        "vertical_text_position": "middle"
+      }
+    },
+    "ea2c9eb5-6a65-4cdc-9830-4a6a3bf78ab6": {
+      "type": "big-text",
+      "disabled": true,
+      "settings": {
+        "text_content": "",
+        "content_width": 80,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 10,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "ffb6f5db-64dc-4db3-b9fd-1d310917f18b": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "title": "NUESTROS PROYECTOS",
+        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+        "link": "",
+        "link_text": ""
+      }
+    },
     "projects": {
       "type": "custom-blog",
       "blocks": {
-        "8333e41d-cc4d-4151-b6c9-75d09da6056e": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/maestro-dobel-pavito"
-          }
-        },
         "3f16435d-0456-44d4-a2da-51bd3cfc9c98": {
           "type": "project",
           "settings": {
-            "article": "proyectos/minino"
-          }
-        },
-        "1c8c05af-c909-4f0e-9446-74f5fda47c7a": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/skark-tank-mexico"
-          }
-        },
-        "56a872fe-10dc-452d-8f0d-eb3ba9bdae97": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/buchanan-s"
-          }
-        },
-        "ec9a2362-def1-4b30-a51d-2deb9bbe7121": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/santander-sueldo-extra"
-          }
-        },
-        "34b24da3-f28e-45b6-a1fd-7f29d0e8a5db": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/corona-agua-rifada"
-          }
-        },
-        "0b539e6d-e0b6-400b-83e5-b525bd89d5ae": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/uber-eats"
-          }
-        },
-        "d6bd6cf6-ff12-458a-ab06-ea6f693074fc": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/toyota"
+            "article": "proyectos\/minino"
           }
         },
         "33e12ace-96e0-487c-845f-3fc2bdc7443c": {
           "type": "project",
           "settings": {
-            "article": "proyectos/skechers"
+            "article": "proyectos\/skechers"
           }
         },
-        "5f3d0916-5d63-4c94-88da-5f42bbc927d5": {
+        "22512e93-b66b-428e-b029-602028525b2a": {
           "type": "project",
           "settings": {
-            "article": "proyectos/nissan"
+            "article": "proyectos\/shark-tank-mexico"
           }
         },
-        "bee342f9-0dae-427d-a568-c307eab76501": {
+        "34b24da3-f28e-45b6-a1fd-7f29d0e8a5db": {
           "type": "project",
           "settings": {
-            "article": "proyectos/mg"
-          }
-        },
-        "830771f4-4cd6-4d48-8564-bc28aa5bdcef": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/didi"
-          }
-        },
-        "60a27f79-c854-48e6-af67-c942ffef60ee": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/buchanans"
-          }
-        },
-        "541711db-f812-4555-971b-53eb7b15b5d2": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/corona"
-          }
-        },
-        "2bb10415-c01f-4358-bdbe-345fe23f482d": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/charly"
-          }
-        },
-        "b50792f0-1df4-401a-9761-6dede63ba603": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/oggi"
-          }
-        },
-        "974d5ed7-7b65-42d9-a391-6c4c348e9bb5": {
-          "type": "project",
-          "settings": {
-            "article": "proyectos/monex"
+            "article": "proyectos\/corona-agua-rifada"
           }
         },
         "c53b7c6c-df6d-4906-be27-0e77edb2bf35": {
           "type": "project",
           "settings": {
-            "article": "proyectos/h-m"
+            "article": "proyectos\/h-m"
+          }
+        },
+        "53fd498b-43e7-4037-9514-d82cd72049e2": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/hennessy-1"
+          }
+        },
+        "8333e41d-cc4d-4151-b6c9-75d09da6056e": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/maestro-dobel-pavito"
           }
         },
         "d893f3e4-152d-4a20-accd-ba3edd76ee53": {
           "type": "project",
           "settings": {
-            "article": "proyectos/porsche"
+            "article": "proyectos\/porsche"
+          }
+        },
+        "60a27f79-c854-48e6-af67-c942ffef60ee": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/buchanans"
+          }
+        },
+        "96407fab-2bda-4df0-a900-4b7a5e68c2e8": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/reputacion-dudosa"
+          }
+        },
+        "1eba2660-c5f9-4193-8286-84c7d48e1ef6": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/camino-real"
+          }
+        },
+        "ec9a2362-def1-4b30-a51d-2deb9bbe7121": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/santander-sueldo-extra"
+          }
+        },
+        "bee342f9-0dae-427d-a568-c307eab76501": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/mg"
+          }
+        },
+        "9071ed72-283d-430d-980b-11011e8bf243": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/maestro-dobel"
+          }
+        },
+        "974d5ed7-7b65-42d9-a391-6c4c348e9bb5": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/monex"
+          }
+        },
+        "b50792f0-1df4-401a-9761-6dede63ba603": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/oggi"
+          }
+        },
+        "001b2119-53db-4404-ac0a-996450d1675b": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/tequila-hijole"
+          }
+        },
+        "0b539e6d-e0b6-400b-83e5-b525bd89d5ae": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/uber-eats"
+          }
+        },
+        "d6bd6cf6-ff12-458a-ab06-ea6f693074fc": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/toyota"
+          }
+        },
+        "5f3d0916-5d63-4c94-88da-5f42bbc927d5": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/nissan"
+          }
+        },
+        "830771f4-4cd6-4d48-8564-bc28aa5bdcef": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/didi"
+          }
+        },
+        "2bb10415-c01f-4358-bdbe-345fe23f482d": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/charly"
+          }
+        },
+        "72e007b2-a36f-4c4d-a3c3-d4799178a55e": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/santander-cashback"
+          }
+        },
+        "ede90277-b5bd-43e2-b842-7c41ed38e908": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/ballantines"
+          }
+        },
+        "ebe2ab13-2c3d-49f4-b854-aa13f5bad28e": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/skechers-1"
           }
         },
         "60780c12-83ee-4718-8a56-5a0222bd1383": {
           "type": "project",
           "settings": {
-            "article": "proyectos/dobel-holiday"
+            "article": "proyectos\/dobel-holiday"
+          }
+        },
+        "c14a66b6-c29d-416f-9590-8901bc26670d": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/gmc-sierra-1"
+          }
+        },
+        "5e1ca9de-36fd-48ff-ac1c-3b1923a2d997": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/la-lechera"
+          }
+        },
+        "71b4e191-76a6-4832-8d0e-14de0d15971c": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/nissan-march"
+          }
+        },
+        "e5b90cfb-e6b4-47cd-80f9-ba79e6383ffa": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/nescafe"
+          }
+        },
+        "f58a274d-7e7d-40fa-b031-3b9bb2d66e43": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/tequila-don-ramon"
+          }
+        },
+        "521f8214-4cc9-4057-9608-66646cfe66a9": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/ford-transit"
+          }
+        },
+        "f5e60a0d-1ba8-4711-9cda-8790281fc452": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/la-lechera-1"
+          }
+        },
+        "eab9138d-1e33-47cf-a012-8c088000c394": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/michelob"
+          }
+        },
+        "e79fea49-f206-4f81-bcee-b8f80754b991": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/ford-lobo"
+          }
+        },
+        "e16c1387-76af-439c-b663-4b3cfd521e6d": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/nissan-kicks"
+          }
+        },
+        "b7e1e993-7171-4304-b7f3-0d694c796ca2": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/nissan-kicks-e-power"
+          }
+        },
+        "bc8ef36d-55b3-4ecc-a2f7-503d3b2dfbe7": {
+          "type": "project",
+          "settings": {
+            "article": "proyectos\/la-casa-de-la-playa"
           }
         }
       },
       "block_order": [
-        "8333e41d-cc4d-4151-b6c9-75d09da6056e",
         "3f16435d-0456-44d4-a2da-51bd3cfc9c98",
-        "1c8c05af-c909-4f0e-9446-74f5fda47c7a",
-        "56a872fe-10dc-452d-8f0d-eb3ba9bdae97",
-        "ec9a2362-def1-4b30-a51d-2deb9bbe7121",
+        "33e12ace-96e0-487c-845f-3fc2bdc7443c",
+        "22512e93-b66b-428e-b029-602028525b2a",
         "34b24da3-f28e-45b6-a1fd-7f29d0e8a5db",
+        "c53b7c6c-df6d-4906-be27-0e77edb2bf35",
+        "53fd498b-43e7-4037-9514-d82cd72049e2",
+        "8333e41d-cc4d-4151-b6c9-75d09da6056e",
+        "d893f3e4-152d-4a20-accd-ba3edd76ee53",
+        "60a27f79-c854-48e6-af67-c942ffef60ee",
+        "96407fab-2bda-4df0-a900-4b7a5e68c2e8",
+        "1eba2660-c5f9-4193-8286-84c7d48e1ef6",
+        "ec9a2362-def1-4b30-a51d-2deb9bbe7121",
+        "bee342f9-0dae-427d-a568-c307eab76501",
+        "9071ed72-283d-430d-980b-11011e8bf243",
+        "974d5ed7-7b65-42d9-a391-6c4c348e9bb5",
+        "b50792f0-1df4-401a-9761-6dede63ba603",
+        "001b2119-53db-4404-ac0a-996450d1675b",
         "0b539e6d-e0b6-400b-83e5-b525bd89d5ae",
         "d6bd6cf6-ff12-458a-ab06-ea6f693074fc",
-        "33e12ace-96e0-487c-845f-3fc2bdc7443c",
         "5f3d0916-5d63-4c94-88da-5f42bbc927d5",
-        "bee342f9-0dae-427d-a568-c307eab76501",
         "830771f4-4cd6-4d48-8564-bc28aa5bdcef",
-        "60a27f79-c854-48e6-af67-c942ffef60ee",
-        "541711db-f812-4555-971b-53eb7b15b5d2",
         "2bb10415-c01f-4358-bdbe-345fe23f482d",
-        "b50792f0-1df4-401a-9761-6dede63ba603",
-        "974d5ed7-7b65-42d9-a391-6c4c348e9bb5",
-        "c53b7c6c-df6d-4906-be27-0e77edb2bf35",
-        "d893f3e4-152d-4a20-accd-ba3edd76ee53",
-        "60780c12-83ee-4718-8a56-5a0222bd1383"
+        "72e007b2-a36f-4c4d-a3c3-d4799178a55e",
+        "ede90277-b5bd-43e2-b842-7c41ed38e908",
+        "ebe2ab13-2c3d-49f4-b854-aa13f5bad28e",
+        "60780c12-83ee-4718-8a56-5a0222bd1383",
+        "c14a66b6-c29d-416f-9590-8901bc26670d",
+        "5e1ca9de-36fd-48ff-ac1c-3b1923a2d997",
+        "71b4e191-76a6-4832-8d0e-14de0d15971c",
+        "e5b90cfb-e6b4-47cd-80f9-ba79e6383ffa",
+        "f58a274d-7e7d-40fa-b031-3b9bb2d66e43",
+        "521f8214-4cc9-4057-9608-66646cfe66a9",
+        "f5e60a0d-1ba8-4711-9cda-8790281fc452",
+        "eab9138d-1e33-47cf-a012-8c088000c394",
+        "e79fea49-f206-4f81-bcee-b8f80754b991",
+        "e16c1387-76af-439c-b663-4b3cfd521e6d",
+        "b7e1e993-7171-4304-b7f3-0d694c796ca2",
+        "bc8ef36d-55b3-4ecc-a2f7-503d3b2dfbe7"
       ],
       "settings": {
-        "title": "Proyectos",
+        "title": "",
         "aspect_ratio": "landscape",
         "some_id": ""
       }
     }
   },
-  "order": ["cover", "projects"]
+  "order": [
+    "cover",
+    "d3c32b90-3986-4f00-8195-fbff9e4adf5b",
+    "ea2c9eb5-6a65-4cdc-9830-4a6a3bf78ab6",
+    "ffb6f5db-64dc-4db3-b9fd-1d310917f18b",
+    "projects"
+  ]
 }

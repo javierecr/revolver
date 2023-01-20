@@ -6,11 +6,12 @@
         "overlay_opacity": 0,
         "overlay_color": "",
         "text_color": "#ffffff",
-        "large_header": false
+        "large_header": true
       }
     },
     "1652633911c45b8da2": {
       "type": "dynamic-native-video",
+      "disabled": true,
       "blocks": {
         "6c28a971-133b-4492-8d39-ef0a14fe2c35": {
           "type": "video",
@@ -102,6 +103,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enabled": true,
         "title": "Recently Viewed",
@@ -212,13 +214,13 @@
         "4fbf743c-6826-4c21-8c30-3c1780ac4ff2": {
           "type": "project",
           "settings": {
-            "article": "proyectos\/skark-tank-mexico"
+            "article": "proyectos\/tequila-hijole"
           }
         },
         "00d75256-db59-4f28-ad23-438961df507c": {
           "type": "project",
           "settings": {
-            "article": "news\/fernanda-bonserio"
+            "article": "proyectos\/nissan-kicks"
           }
         }
       },

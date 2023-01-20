@@ -74,6 +74,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enabled": true,
         "title": "Recently Viewed",

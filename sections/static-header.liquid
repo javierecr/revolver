@@ -107,7 +107,8 @@
         <a href="{{ routes.root_url }}" class="header__logo-image color-inherit">
           {% if header_is_transparent and s.transparent_header_logo != blank %}
             {% capture image_size %}{{ s.logo_max_width }}x{% endcapture %}
-              {{ s.logo | image_url: width: s.logo_max_width | image_tag: loading: 'lazy' }}
+              {{ s.transparent_header_logo | image_url: width: s.logo_max_width | image_tag: loading: 'lazy' }}
+
           {% else %}
             {% if s.logo != blank %}
               {% capture image_size %}{{ s.logo_max_width }}x{% endcapture %}

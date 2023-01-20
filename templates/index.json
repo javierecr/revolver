@@ -3,14 +3,33 @@
     "16530024512ab5fa1d": {
       "type": "dynamic-slideshow",
       "blocks": {
-        "16530024512ea9663d-0": {
+        "f4797080-4e23-485d-a00d-a3db72763a5d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PortadaAguaRifada.jpg",
+            "image": "shopify:\/\/shop_images\/proyectos-hennessy-portada.jpg",
             "video_url": "",
             "title": "",
             "subheading": "",
-            "link": "shopify:\/\/blogs\/proyectos\/toyota",
+            "link": "shopify:\/\/blogs\/proyectos\/hennessy-1",
+            "link_text": "",
+            "link_style": "button",
+            "overlay_opacity": 0,
+            "overlay_color": "#707070",
+            "text_color": "#ffffff",
+            "heading_max_width": 8,
+            "text_max_width": 16,
+            "horizontal_text_position": "left",
+            "vertical_text_position": "middle"
+          }
+        },
+        "16530024512ea9663d-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/proyectos-santander-cashback-PORTADA.jpg",
+            "video_url": "",
+            "title": "",
+            "subheading": "",
+            "link": "shopify:\/\/blogs\/proyectos\/santander-cashback",
             "link_text": "",
             "link_style": "arrow_link",
             "overlay_opacity": 0,
@@ -25,11 +44,11 @@
         "16530024512ea9663d-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/proyectos-Santander-Sueldo-Extra-01.jpg",
+            "image": "shopify:\/\/shop_images\/6A-ALBERCA.jpg",
             "video_url": "",
             "title": "",
             "subheading": "",
-            "link": "shopify:\/\/blogs\/proyectos\/h-m",
+            "link": "shopify:\/\/blogs\/proyectos\/la-casa-de-la-playa",
             "link_text": "",
             "link_style": "button",
             "overlay_opacity": 0,
@@ -60,48 +79,10 @@
             "vertical_text_position": "middle"
           }
         },
-        "f4797080-4e23-485d-a00d-a3db72763a5d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/proyectos-Buchanans-01.jpg",
-            "video_url": "",
-            "title": "",
-            "subheading": "",
-            "link": "shopify:\/\/blogs\/proyectos\/monex",
-            "link_text": "",
-            "link_style": "button",
-            "overlay_opacity": 0,
-            "overlay_color": "#707070",
-            "text_color": "#ffffff",
-            "heading_max_width": 8,
-            "text_max_width": 16,
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
-        "44d8c26c-5bda-426c-8be1-8df1ea37546b": {
-          "type": "slide",
-          "settings": {
-            "video_url": "",
-            "title": "",
-            "subheading": "",
-            "link": "shopify:\/\/blogs\/proyectos\/oggi",
-            "link_text": "",
-            "link_style": "button",
-            "overlay_opacity": 0,
-            "overlay_color": "#707070",
-            "text_color": "#ffffff",
-            "heading_max_width": 8,
-            "text_max_width": 16,
-            "horizontal_text_position": "left",
-            "vertical_text_position": "middle"
-          }
-        },
         "17310e17-52d5-4120-819b-28dc85232729": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Still_01_Anejo_hi.jpg",
+            "image": "shopify:\/\/shop_images\/Still_01_Anejo_hiHOME.jpg",
             "video_url": "",
             "title": "",
             "subheading": "",
@@ -117,41 +98,22 @@
             "vertical_text_position": "middle"
           }
         },
-        "ea756272-8204-42ba-8a58-c4da248dc6ff": {
+        "44d8c26c-5bda-426c-8be1-8df1ea37546b": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "video_url": "shopify:\/\/blogs\/proyectos\/gatitos",
-            "title": "Gatitos",
-            "subheading": "Proyecto Prueba",
-            "link": "shopify:\/\/blogs\/proyectos\/gatitos",
+            "image": "shopify:\/\/shop_images\/proyectos-camino-real-05_471734fa-4105-40d3-a133-9f06f50fb676.jpg",
+            "video_url": "",
+            "title": "",
+            "subheading": "",
+            "link": "shopify:\/\/blogs\/proyectos\/camino-real",
             "link_text": "",
             "link_style": "button",
             "overlay_opacity": 0,
             "overlay_color": "#707070",
             "text_color": "#ffffff",
-            "heading_max_width": 16,
-            "text_max_width": 24,
-            "horizontal_text_position": "right",
-            "vertical_text_position": "middle"
-          }
-        },
-        "1cdf1999-fb33-46e4-9f38-c54113f9b18a": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "video_url": "",
-            "title": "Perritos",
-            "subheading": "",
-            "link": "shopify:\/\/blogs\/proyectos\/perritos",
-            "link_text": "",
-            "link_style": "button",
-            "overlay_opacity": 20,
-            "overlay_color": "#707070",
-            "text_color": "#ffffff",
-            "heading_max_width": 16,
-            "text_max_width": 24,
-            "horizontal_text_position": "right",
+            "heading_max_width": 8,
+            "text_max_width": 16,
+            "horizontal_text_position": "left",
             "vertical_text_position": "middle"
           }
         },
@@ -195,14 +157,12 @@
         }
       },
       "block_order": [
+        "f4797080-4e23-485d-a00d-a3db72763a5d",
         "16530024512ea9663d-0",
         "16530024512ea9663d-1",
         "4f9a2b72-2b3d-4f56-89cd-2beadfbe5f58",
-        "f4797080-4e23-485d-a00d-a3db72763a5d",
-        "44d8c26c-5bda-426c-8be1-8df1ea37546b",
         "17310e17-52d5-4120-819b-28dc85232729",
-        "ea756272-8204-42ba-8a58-c4da248dc6ff",
-        "1cdf1999-fb33-46e4-9f38-c54113f9b18a",
+        "44d8c26c-5bda-426c-8be1-8df1ea37546b",
         "bd1a5fcc-846a-4637-9188-34604cea26c0",
         "c1a47794-8ae0-4d32-81b0-c3f3f678fbf7"
       ],
@@ -220,7 +180,7 @@
             "image": "shopify:\/\/shop_images\/noticias-fernanda-bonserio-00.jpg",
             "title": "CONOCE A FERNANDA BONSERIO",
             "subheading": "Apasionada de la cámara desde que era una adolescente y después de completar sus estudios en fotografía, Fernanda comenzó a trabajar como asistente para muchos prestigiosos fotógrafos hasta 2010 cuando decidió abrir su estudio de fotografía.\n\nDesde entonces no ha dejado de fotografiar alimentos para publicidad, editorial y empaques para agencias de publicidad y empresas del ramo alimenticio.",
-            "link": ""
+            "link": "shopify:\/\/blogs\/news"
           }
         },
         "template--14984511815818__6c338124-b1a7-4f98-a501-f566c7a28e4e-16690705499202b77e-0": {
@@ -229,7 +189,7 @@
             "image": "shopify:\/\/shop_images\/FER075_1.jpg",
             "title": "",
             "subheading": "",
-            "link": ""
+            "link": "shopify:\/\/blogs\/news"
           }
         }
       },
@@ -244,8 +204,7 @@
     "4878b368-17ed-42c7-8a2c-d54fd6891e10": {
       "type": "dynamic-full-width-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/proyectos-corona-00.jpg",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9ffe7f29914e4301abf99877478aa0ee.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ce71c96a6d6e4b959cab05988a49a000.mp4",
         "aspect_ratio": "3_2",
         "overlay_opacity": 0,
         "overlay_color": "#707070",
@@ -253,16 +212,29 @@
         "title": "",
         "subheading": "",
         "text_max_width": 30,
-        "link": "",
+        "link": "shopify:\/\/blogs\/proyectos\/corona-agua-rifada",
         "link_text": "Try it out",
         "link_style": "button",
         "horizontal_text_position": "left",
         "vertical_text_position": "middle"
       }
     },
+    "bed07ab5-0ad1-45b7-9f25-e96b8b4d2f58": {
+      "type": "big-text",
+      "settings": {
+        "text_content": "",
+        "content_width": 80,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 6,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "bd90adb9-ad93-4077-8250-0007adf5c0c0": {
       "type": "dynamic-full-width-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/TERMO9.jpg",
         "video_url": "",
         "aspect_ratio": "unconstrained",
         "overlay_opacity": 0,
@@ -271,8 +243,8 @@
         "title": "",
         "subheading": "",
         "text_max_width": 16,
-        "link": "",
-        "link_text": "Try it out",
+        "link": "shopify:\/\/collections\/frontpage",
+        "link_text": "Comprar ahora",
         "link_style": "button",
         "horizontal_text_position": "left",
         "vertical_text_position": "middle"
@@ -284,13 +256,21 @@
         "8a362812-b60d-4f02-8a82-94e7c093cd27": {
           "type": "video",
           "settings": {
-            "video_url": "",
-            "video_image_url": "shopify:\/\/shop_images\/proyectos-charly-08.jpg"
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7516c5ea0b0444b5b121d306b3d0f281.mp4",
+            "video_image_url": "shopify:\/\/shop_images\/Charly_home1.jpg"
+          }
+        },
+        "298d35b2-3bd1-4dbc-bf80-e59e45dc4a48": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_url": ""
           }
         }
       },
       "block_order": [
-        "8a362812-b60d-4f02-8a82-94e7c093cd27"
+        "8a362812-b60d-4f02-8a82-94e7c093cd27",
+        "298d35b2-3bd1-4dbc-bf80-e59e45dc4a48"
       ],
       "settings": {
         "title": "",
@@ -306,7 +286,7 @@
             "image": "shopify:\/\/shop_images\/proyectos-charly-09.jpg",
             "title": "",
             "subheading": "",
-            "link": ""
+            "link": "shopify:\/\/blogs\/proyectos\/charly"
           }
         },
         "template--14984511815818__1e6ccdb7-7fc2-42af-902c-0f6f157254bb-16690705499202b77e-0": {
@@ -315,7 +295,7 @@
             "image": "shopify:\/\/shop_images\/proyectos-charly-06.jpg",
             "title": "",
             "subheading": "",
-            "link": ""
+            "link": "shopify:\/\/blogs\/proyectos\/charly"
           }
         }
       },
@@ -386,7 +366,7 @@
         "1653004619bf259b45-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3284.jpg",
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-25_at_21.44.49.png",
             "image_max_width": 100,
             "title": "",
             "subheading": "",
@@ -407,11 +387,25 @@
             "video_url": "",
             "video_url_2": ""
           }
+        },
+        "7156ca4d-7806-44f1-bc28-47e6bfababcb": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image_max_width": 100,
+            "title": "",
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "video_url": "",
+            "video_url_2": ""
+          }
         }
       },
       "block_order": [
         "1653004619bf259b45-1",
-        "1653004619bf259b45-0"
+        "1653004619bf259b45-0",
+        "7156ca4d-7806-44f1-bc28-47e6bfababcb"
       ],
       "settings": {
         "title": "",
@@ -422,35 +416,62 @@
     "22f5bdf6-d245-4a1e-a42e-1c00f13a8e9d": {
       "type": "dynamic-full-width-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-12-25_at_22.21.18.png",
         "video_url": "",
-        "aspect_ratio": "3_2",
+        "aspect_ratio": "unconstrained",
         "overlay_opacity": 0,
         "overlay_color": "#707070",
         "text_color": "#ffffff",
         "title": "",
         "subheading": "",
         "text_max_width": 16,
-        "link": "",
+        "link": "shopify:\/\/blogs\/dispara-con-revolver",
         "link_text": "Try it out",
         "link_style": "button",
         "horizontal_text_position": "left",
         "vertical_text_position": "middle"
       }
     },
+    "b450dd35-2a13-4850-abcb-2a2723721da7": {
+      "type": "big-text",
+      "disabled": true,
+      "settings": {
+        "text_content": "<p>DISPARA CON REVOLVER<\/p>",
+        "content_width": 54,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 2,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "4297d667-c77e-4651-97c9-5dc3f16b8536": {
       "type": "dynamic-rich-text",
       "settings": {
-        "title": "MARCO COLÍN",
-        "text": "<p>Dispara con Revolver<\/p>",
+        "title": "dispara con revolver",
+        "text": "",
         "link": "",
         "link_text": ""
+      }
+    },
+    "6acc058c-e06a-4ac1-88df-35dd46da4c1c": {
+      "type": "big-text",
+      "settings": {
+        "text_content": "<p>MARCO COLÍN<\/p>",
+        "content_width": 64,
+        "text_alignment": "center",
+        "font_style": "heading",
+        "heading_scale": 7,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1a063d01-a382-4eef-b272-37ec9363b7f5": {
       "type": "dynamic-full-width-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-01-02_at_13.37.27.png",
         "video_url": "",
-        "aspect_ratio": "3_2",
+        "aspect_ratio": "unconstrained",
         "overlay_opacity": 0,
         "overlay_color": "#707070",
         "text_color": "#ffffff",
@@ -468,9 +489,57 @@
       "type": "dynamic-rich-text",
       "settings": {
         "title": "",
-        "text": "<p>Use this text area to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p><p><\/p>",
-        "link": "shopify:\/\/blogs\/dispara-con-revolver",
+        "text": "<p>El de Marco, fue uno de nuestros proyectos más exitosos de Dispara con Revolver, su personalidad se prestó perfecto para el concepto de este shooting, en un camper, fue una gran experiencia para todos en el equipo, te invitamos a ver más proyectos como este.<\/p><p><\/p>",
+        "link": "shopify:\/\/blogs\/dispara-con-revolver\/disparaconrevolver",
         "link_text": "VER MÁS"
+      }
+    },
+    "4da0372a-6c57-49b4-9f9b-00d8fee61f2e": {
+      "type": "multi-column",
+      "disabled": true,
+      "blocks": {
+        "0f2ebb33-1b63-4cba-a9a3-f34df7633ebc": {
+          "type": "column",
+          "settings": {
+            "text": "<p>jsjkhjshgjhgjerhgker<\/p>"
+          }
+        },
+        "b102988d-9417-4d1a-922e-38052c289abd": {
+          "type": "column",
+          "settings": {
+            "text": "<p>jfhweaghwegjkhwkhjhew<\/p>"
+          }
+        },
+        "666dd8e1-a9c4-40cb-bafc-52b969f4c77c": {
+          "type": "column",
+          "settings": {
+            "text": "<p>jhjshjsdkhjshjskd<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0f2ebb33-1b63-4cba-a9a3-f34df7633ebc",
+        "b102988d-9417-4d1a-922e-38052c289abd",
+        "666dd8e1-a9c4-40cb-bafc-52b969f4c77c"
+      ],
+      "settings": {
+        "width": "standard",
+        "text_alignment": "tc",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "a8a452ac-b5c4-4370-be7c-274215bf3360": {
+      "type": "cover-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/KV_FAMILIA_ROSA_27Tth_OCT_2.jpg",
+        "text_color": "",
+        "title": "JHDHJSAHJSAHGJAHG",
+        "text_max_width": 30,
+        "text_scale": 2,
+        "horizontal_text_position": "center",
+        "vertical_text_position": "middle"
       }
     }
   },
@@ -478,14 +547,19 @@
     "16530024512ab5fa1d",
     "6c338124-b1a7-4f98-a501-f566c7a28e4e",
     "4878b368-17ed-42c7-8a2c-d54fd6891e10",
+    "bed07ab5-0ad1-45b7-9f25-e96b8b4d2f58",
     "bd90adb9-ad93-4077-8250-0007adf5c0c0",
     "a99c2204-2541-498c-9a1a-f03e2e117dbd",
     "1e6ccdb7-7fc2-42af-902c-0f6f157254bb",
     "16530044549f72c30c",
     "16530046199f26e11c",
     "22f5bdf6-d245-4a1e-a42e-1c00f13a8e9d",
+    "b450dd35-2a13-4850-abcb-2a2723721da7",
     "4297d667-c77e-4651-97c9-5dc3f16b8536",
+    "6acc058c-e06a-4ac1-88df-35dd46da4c1c",
     "1a063d01-a382-4eef-b272-37ec9363b7f5",
-    "f87dfb45-8f9e-409d-9fda-e4580b7f743c"
+    "f87dfb45-8f9e-409d-9fda-e4580b7f743c",
+    "4da0372a-6c57-49b4-9f9b-00d8fee61f2e",
+    "a8a452ac-b5c4-4370-be7c-274215bf3360"
   ]
 }
